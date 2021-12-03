@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/painting.dart';
 import 'package:flutterdogtagapp/screens/appColors.dart';
+import 'package:flutterdogtagapp/screens/blogPage.dart';
 import 'package:flutterdogtagapp/screens/dogInfo.dart';
 import 'package:flutterdogtagapp/screens/registerDog_1.dart';
 import 'package:flutterdogtagapp/stylingWidgets/drawer.dart';
@@ -274,7 +275,8 @@ class _HomeState extends State<Home> {
                           child: Column(
                             children: [
                               Text(
-                                'Add your lost dog \n report',
+                                'Our Latest Dog \n Blog',
+// /                                'Our Latest Blog about the Dog',
                                 style: GoogleFonts.poppins(
                                   color: themeColor,
                                   fontSize: screen.width / 14,
@@ -288,10 +290,10 @@ class _HomeState extends State<Home> {
                                       context,
                                       MaterialPageRoute(
                                           builder: (context) =>
-                                              registerDog_1()));
+                                              BlogPage()));
                                 },
                                 child: Text(
-                                  'ADD YOUR DOG ->',
+                                  '  Read Blogs ->  ',
                                   style: GoogleFonts.poppins(),
                                 ),
                                 style: ButtonStyle(
@@ -582,7 +584,7 @@ class _HomeState extends State<Home> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Seen a dog that looks lost?',
+                                'Register your Dog with Us',
                                 style: GoogleFonts.poppins(
                                   color: themeColor,
                                   fontSize: screen.width / 14,
@@ -593,7 +595,7 @@ class _HomeState extends State<Home> {
                               Container(
                                 width: screen.width / 1.8,
                                 child: Text(
-                                  'Report it and help get them home',
+                                  'Tag your beloved dog with the App Register',
                                   style: GoogleFonts.poppins(
                                     fontSize: screen.width / 24.0,
                                   ),
@@ -610,7 +612,7 @@ class _HomeState extends State<Home> {
                                                 registerDog_1()));
                                   },
                                   child: Text(
-                                    'ADD REPORT     ->',
+                                    'ADD DOG     ->',
                                     style: GoogleFonts.poppins(),
                                   ),
                                   style: ButtonStyle(

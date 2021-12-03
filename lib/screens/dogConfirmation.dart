@@ -417,10 +417,12 @@ class _dogConfirmationState extends State<dogConfirmation> {
                       child: button_design(screen, "Register"),
                       onPressed: () {
                         uploadFile();
-                        Navigator.push(
+                        Navigator.pushAndRemoveUntil(
+                        //     context, newRoute, (route) => false)
+                        // Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => GreatJob()));
+                                builder: (context) => GreatJob()), (route) => false);
                       },
                     ),
                     // ElevatedButton(
@@ -524,6 +526,7 @@ class _dogConfirmationState extends State<dogConfirmation> {
     });
     // User missingDogs = FirebaseAuth.instance.currentUser;
     final snapshot = await task.whenComplete(() async {});
+    print(snapshot);
 
     final urlDownload = await snapshot.ref.getDownloadURL();
 

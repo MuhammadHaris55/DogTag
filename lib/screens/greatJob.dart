@@ -32,17 +32,19 @@ class GreatJob extends StatelessWidget {
                       ),
                       SizedBox(height: 10.0),
                       Text(
-                        'Your report has been sent to all members!',
+                        'You Have Successfully Created Your Dog\'s Profile',
+                        textAlign: TextAlign.center,
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: screen.width / 20,
+
                         ),
                       ),
                       SizedBox(height: 20.0),
-                      Text(
-                        'You can share this app with your friends and family members to help find the missing dogs.',
-                        textAlign: TextAlign.center,
-                      ),
+                      // Text(
+                      //   'You can share this app with your friends and family members to help find the missing dogs.',
+                      //   textAlign: TextAlign.center,
+                      // ),
                       SizedBox(height: 10.0),
                       // TextButton(
                       //   onPressed: () {},
