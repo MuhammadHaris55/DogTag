@@ -1,0 +1,4 @@
+#Fri Dec 03 16:35:30 PKT 2021
+base.0=/Users/mac/Desktop/dogTagApp/DogTag/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

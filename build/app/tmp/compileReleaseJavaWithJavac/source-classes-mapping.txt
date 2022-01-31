@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/flutterdogtagapp/flutterdogtagapp/BuildConfig.java
+ com.flutterdogtagapp.flutterdogtagapp.BuildConfig

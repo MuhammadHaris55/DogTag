@@ -229,6 +229,7 @@ class _InboxState extends State<Inbox> with WidgetsBindingObserver {
           // ),
           radius: 28,
         ),
+        centerTitle: false,
         actions: [
           isLoading
               ? Center(

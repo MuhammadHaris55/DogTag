@@ -61,7 +61,7 @@ class _MainDrawerState extends State<MainDrawer> {
                   ),
                   SizedBox(width: 10),
                   Container(
-                    width: MediaQuery.of(context).size.width / 2.6,
+                    width: MediaQuery.of(context).size.width / 2.8,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -90,7 +90,7 @@ class _MainDrawerState extends State<MainDrawer> {
                   ),
                   Spacer(),
                   IconButton(
-                    iconSize: 50,
+                    iconSize: 45,
                     icon: Icon(
                       Icons.cancel_sharp,
                       color: Colors.black,

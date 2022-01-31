@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/mac/Desktop/dogTagApp/DogTag/build/cloud_firestore/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/c81f97a3c3710bfa81224069679eb465/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/dogTagApp/DogTag/build/cloud_firestore/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/c81f97a3c3710bfa81224069679eb465/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/mac/Desktop/dogTagApp/DogTag/build/cloud_firestore/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/c81f97a3c3710bfa81224069679eb465/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_tint.xml"
+    }
+]
