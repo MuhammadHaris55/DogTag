@@ -31,18 +31,21 @@ class DogTagMission extends StatelessWidget {
           padding: EdgeInsets.symmetric(horizontal: 15, vertical: 15),
           child: Column(
             children: [
+              SizedBox(height: 30.0,),
               Text(
                 'Dog Tag Mission',
                 style: GoogleFonts.poppins(
                     fontWeight: FontWeight.bold, fontSize: 30),
               ),
-              SizedBox(
-                height: 5,
-              ),
-              Text(
-                'is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum',
-                style: GoogleFonts.poppins(
-                    fontWeight: FontWeight.normal, fontSize: 15),
+                SizedBox(height: 30.0,),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                child: Text(
+                  'To safely recover missing, endangered, or abducted dogs through the coordinated efforts of people in your zip code and to inform dog owners about the latest health research to ensure your furry loved ones a long, happy and healthy life.',
+                  style: GoogleFonts.poppins(
+                      fontWeight: FontWeight.normal, fontSize: 20.0),
+                  textAlign: TextAlign.center,
+                ),
               ),
             ],
           ),

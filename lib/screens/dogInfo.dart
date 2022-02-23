@@ -1,24 +1,40 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'dart:io';
+
+import 'package:flutter/material.dart';
 import 'package:flutterdogtagapp/controller/firebase_product_controller.dart';
 import 'package:flutterdogtagapp/screens/appColors.dart';
-import 'package:flutterdogtagapp/screens/inbox.dart';
 import 'package:flutterdogtagapp/stylingWidgets/drawer.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:get/get.dart';
 
 class dogInfo extends StatelessWidget {
   // const dogInfo({Key key}) : super(key: key);
 
   Future<void> _launched;
-
+//TO MAKE CALL
   Future<void> _makePhoneCall(String url) async {
     if (await canLaunch(url)) {
       await launch(url);
     } else {
       throw 'Could not launch $url';
+    }
+  }
+
+  //TO TEXT
+  Future<void> _textMe(String uri) async {
+    // Android
+    // const uri = 'sms:+39 348 060 888?body=hello%20there';
+    // if (await canLaunch(uri)) {
+    if (Platform.isAndroid) {
+      await launch(uri);
+    } else
+    // iOS
+    // const uri = 'sms:0039-222-060-888?body=hello%20there';
+    if (Platform.isIOS) {
+      await launch(uri);
+    } else {
+      throw 'Could not launch $uri';
     }
   }
 
@@ -376,38 +392,88 @@ class dogInfo extends StatelessWidget {
                           ),
                         ),
                         SizedBox(height: 20),
-                        Center(
-                          child: TextButton(
-                            onPressed: () async {
-                              // setState(() {
-                              //   _launched =
-                              _makePhoneCall('tel:' +
-                                  (productController.products[index].phoneno));
-                              // });
-                            },
-                            child: Text(
-                              'Contact owner',
-                            ),
-                            style: ButtonStyle(
-                              padding: MaterialStateProperty.all<EdgeInsets>(
-                                EdgeInsets.symmetric(
-                                  horizontal: 25.0,
-                                  vertical: 10.0,
-                                ),
-                              ),
-                              foregroundColor: MaterialStateProperty.all<Color>(
-                                  Colors.black),
-                              shape: MaterialStateProperty.all<
-                                  RoundedRectangleBorder>(
-                                RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(20.0),
-                                  side: BorderSide(
-                                    color: themeColor,
-                                    width: 2,
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 30.0),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Center(
+                                child: TextButton(
+                                  onPressed: () async {
+                                    // setState(() {
+                                    //   _launched =
+                                    _textMe('sms:' +
+                                        (productController
+                                            .products[index].phoneno));
+                                    // });
+                                  },
+                                  child: Text(
+                                    'Text owner',
+                                  ),
+                                  style: ButtonStyle(
+                                    padding:
+                                        MaterialStateProperty.all<EdgeInsets>(
+                                      EdgeInsets.symmetric(
+                                        horizontal: 20.0,
+                                        vertical: 10.0,
+                                      ),
+                                    ),
+                                    foregroundColor:
+                                        MaterialStateProperty.all<Color>(
+                                            Colors.black),
+                                    shape: MaterialStateProperty.all<
+                                        RoundedRectangleBorder>(
+                                      RoundedRectangleBorder(
+                                        borderRadius:
+                                            BorderRadius.circular(20.0),
+                                        side: BorderSide(
+                                          color: themeColor,
+                                          width: 2,
+                                        ),
+                                      ),
+                                    ),
                                   ),
                                 ),
                               ),
-                            ),
+                              Center(
+                                child: TextButton(
+                                  onPressed: () async {
+                                    // setState(() {
+                                    //   _launched =
+                                    _makePhoneCall('tel:' +
+                                        (productController
+                                            .products[index].phoneno));
+                                    // });
+                                  },
+                                  child: Text(
+                                    'Call owner',
+                                  ),
+                                  style: ButtonStyle(
+                                    padding:
+                                        MaterialStateProperty.all<EdgeInsets>(
+                                      EdgeInsets.symmetric(
+                                        horizontal: 20.0,
+                                        vertical: 10.0,
+                                      ),
+                                    ),
+                                    foregroundColor:
+                                        MaterialStateProperty.all<Color>(
+                                            Colors.black),
+                                    shape: MaterialStateProperty.all<
+                                        RoundedRectangleBorder>(
+                                      RoundedRectangleBorder(
+                                        borderRadius:
+                                            BorderRadius.circular(20.0),
+                                        side: BorderSide(
+                                          color: themeColor,
+                                          width: 2,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                         // Center(

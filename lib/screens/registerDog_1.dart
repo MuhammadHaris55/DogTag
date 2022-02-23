@@ -1,8 +1,8 @@
+import 'package:flutter/material.dart';
 import 'package:flutterdogtagapp/screens/appColors.dart';
 import 'package:flutterdogtagapp/screens/home.dart';
 import 'package:flutterdogtagapp/screens/registerDog_2.dart';
 import 'package:flutterdogtagapp/stylingWidgets/button.dart';
-import 'package:flutter/material.dart';
 
 class registerDog_1 extends StatefulWidget {
   @override
@@ -42,7 +42,7 @@ class _registerDog_1State extends State<registerDog_1> {
   String dogName;
   String dogGender = 'Boy';
   String dogColor;
-    String dogDescription;
+  String dogDescription;
 
   final formKey = GlobalKey<FormState>();
   String validator(text) {
@@ -91,7 +91,12 @@ class _registerDog_1State extends State<registerDog_1> {
                         ),
                       ],
                     ),
-                    IconButton(icon: Icon(Icons.help), onPressed: () {})
+                    IconButton(
+                        icon: Icon(
+                          Icons.help,
+                          color: Colors.white,
+                        ),
+                        onPressed: () {})
                   ],
                 ),
               ),

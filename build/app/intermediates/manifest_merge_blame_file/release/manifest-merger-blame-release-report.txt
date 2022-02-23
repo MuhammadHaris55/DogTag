@@ -6,75 +6,75 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml
+8-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml
+9-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:7:5-67
-11-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:7:22-64
+11-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:7:5-67
+11-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:7:22-64
 12    <uses-permission android:name="android.permission.WAKE_LOCK" />
-12-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:8:5-68
-12-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:8:22-65
+12-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:8:5-68
+12-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:8:22-65
 13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:9:5-79
-13-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:9:22-76
+13-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:9:5-79
+13-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:9:22-76
 14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-14-->[:file_picker] /Users/mac/Desktop/dogTagApp/DogTag/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:7:5-80
-14-->[:file_picker] /Users/mac/Desktop/dogTagApp/DogTag/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:7:22-77
+14-->[:file_picker] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:7:5-80
+14-->[:file_picker] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:7:22-77
 15
 16    <queries>
-16-->[:file_picker] /Users/mac/Desktop/dogTagApp/DogTag/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:9:5-15:15
+16-->[:file_picker] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:9:5-15:15
 17        <intent>
-17-->[:file_picker] /Users/mac/Desktop/dogTagApp/DogTag/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:10:9-14:18
+17-->[:file_picker] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:10:9-14:18
 18            <action android:name="android.intent.action.GET_CONTENT" />
-18-->[:file_picker] /Users/mac/Desktop/dogTagApp/DogTag/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:11:13-72
-18-->[:file_picker] /Users/mac/Desktop/dogTagApp/DogTag/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:11:21-69
+18-->[:file_picker] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:13-72
+18-->[:file_picker] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:21-69
 19
 20            <data android:mimeType="*/*" />
-20-->[:file_picker] /Users/mac/Desktop/dogTagApp/DogTag/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:13-44
-20-->[:file_picker] /Users/mac/Desktop/dogTagApp/DogTag/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:19-41
+20-->[:file_picker] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-44
+20-->[:file_picker] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:19-41
 21        </intent>
 22    </queries>
 23
 24    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-24-->[:flutter_local_notifications] /Users/mac/Desktop/dogTagApp/DogTag/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:7:5-81
-24-->[:flutter_local_notifications] /Users/mac/Desktop/dogTagApp/DogTag/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:7:22-78
+24-->[:flutter_local_notifications] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:7:5-81
+24-->[:flutter_local_notifications] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:7:22-78
 25    <uses-permission android:name="android.permission.VIBRATE" />
-25-->[:flutter_local_notifications] /Users/mac/Desktop/dogTagApp/DogTag/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:8:5-66
-25-->[:flutter_local_notifications] /Users/mac/Desktop/dogTagApp/DogTag/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:8:22-63
+25-->[:flutter_local_notifications] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:8:5-66
+25-->[:flutter_local_notifications] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:8:22-63
 26    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-26-->[:flutter_local_notifications] /Users/mac/Desktop/dogTagApp/DogTag/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:9:5-81
-26-->[:flutter_local_notifications] /Users/mac/Desktop/dogTagApp/DogTag/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:9:22-78
+26-->[:flutter_local_notifications] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:9:5-81
+26-->[:flutter_local_notifications] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:9:22-78
 27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-27-->[com.google.firebase:firebase-messaging:22.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f4048cfa4150c6e561f81c0cabe6faac/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
-27-->[com.google.firebase:firebase-messaging:22.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f4048cfa4150c6e561f81c0cabe6faac/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
+27-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\f4048cfa4150c6e561f81c0cabe6faac\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:5-82
+27-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\f4048cfa4150c6e561f81c0cabe6faac\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:22-79
 28    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-28-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/ee769a3332188976de55397280a874f4/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:26:5-110
-28-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/ee769a3332188976de55397280a874f4/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:26:22-107
+28-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\ee769a3332188976de55397280a874f4\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:26:5-110
+28-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\ee769a3332188976de55397280a874f4\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:26:22-107
 29
 30    <application
-30-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:3:4-46:19
+30-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:3:4-46:19
 31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-31-->[androidx.core:core:1.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/78c0f62fce1af2b920035db69d6f2281/core-1.3.0/AndroidManifest.xml:24:18-86
+31-->[androidx.core:core:1.6.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\f4bea62e654082ad54f433ebc0ccad55\core-1.6.0\AndroidManifest.xml:24:18-86
 32        android:icon="@mipmap/ic_launcher"
-32-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:5:9-43
+32-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:5:9-43
 33        android:label="flutterdogtagapp" >
-33-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:4:9-41
+33-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:4:9-41
 34        <activity
-34-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:6:9-40:20
+34-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:6:9-40:20
 35            android:name="com.flutterdogtagapp.flutterdogtagapp.MainActivity"
-35-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:7:13-41
+35-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:7:13-41
 36            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-36-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:10:13-163
+36-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:10:13-163
 37            android:hardwareAccelerated="true"
-37-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:11:13-47
+37-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:11:13-47
 38            android:launchMode="singleTop"
-38-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:8:13-43
+38-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:8:13-43
 39            android:theme="@style/LaunchTheme"
-39-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:9:13-47
+39-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:9:13-47
 40            android:windowSoftInputMode="adjustResize" >
-40-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:12:13-55
+40-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:12:13-55
 41
 42            <!--
 43                 Specifies an Android theme to apply to this Activity as soon as
@@ -83,11 +83,11 @@
 46                 to determine the Window background behind the Flutter UI.
 47            -->
 48            <meta-data
-48-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:17:13-20:17
+48-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:17:13-20:17
 49                android:name="io.flutter.embedding.android.NormalTheme"
-49-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:18:15-70
+49-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:18:15-70
 50                android:resource="@style/NormalTheme" />
-50-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:19:15-52
+50-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:19:15-52
 51            <!--
 52                 Displays an Android View that continues showing the launch screen
 53                 Drawable until Flutter paints its first frame, then this splash
@@ -96,31 +96,31 @@
 56                 Flutter's first frame.
 57            -->
 58            <meta-data
-58-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:26:13-29:17
+58-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:26:13-29:17
 59                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-59-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:27:15-79
+59-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:27:15-79
 60                android:resource="@drawable/launch_background" />
-60-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:28:15-61
+60-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:28:15-61
 61
 62            <intent-filter>
-62-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:30:13-33:29
+62-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:30:13-33:29
 63                <action android:name="android.intent.action.MAIN" />
-63-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:31:17-68
-63-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:31:25-66
+63-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:31:17-68
+63-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:31:25-66
 64
 65                <category android:name="android.intent.category.LAUNCHER" />
-65-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:32:17-76
-65-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:32:27-74
+65-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:32:17-76
+65-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:32:27-74
 66            </intent-filter>
 67            <intent-filter>
-67-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:34:13-37:29
+67-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:34:13-37:29
 68                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
-68-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:35:17-69
-68-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:35:25-66
+68-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:35:17-69
+68-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:35:25-66
 69
 70                <category android:name="android.intent.category.DEFAULT" />
-70-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:36:17-76
-70-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:36:27-73
+70-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:36:17-76
+70-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:36:27-73
 71            </intent-filter>
 72        </activity>
 73        <!--
@@ -128,204 +128,204 @@
 75             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 76        -->
 77        <meta-data
-77-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:43:9-45:33
+77-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:43:9-45:33
 78            android:name="flutterEmbedding"
-78-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:44:13-44
+78-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:44:13-44
 79            android:value="2" />
-79-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:45:13-30
+79-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:45:13-30
 80
 81        <service
-81-->[:cloud_firestore] /Users/mac/Desktop/dogTagApp/DogTag/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+81-->[:cloud_firestore] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
 82            android:name="com.google.firebase.components.ComponentDiscoveryService"
-82-->[:cloud_firestore] /Users/mac/Desktop/dogTagApp/DogTag/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:8:18-89
+82-->[:cloud_firestore] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:8:18-89
 83            android:directBootAware="true"
-83-->[com.google.firebase:firebase-common:20.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/66154a7c311b49bfed22772d6215f9bc/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+83-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\66154a7c311b49bfed22772d6215f9bc\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
 84            android:exported="false" >
-84-->[com.google.firebase:firebase-messaging:22.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f4048cfa4150c6e561f81c0cabe6faac/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:51:13-37
+84-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\f4048cfa4150c6e561f81c0cabe6faac\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:51:13-37
 85            <meta-data
-85-->[:cloud_firestore] /Users/mac/Desktop/dogTagApp/DogTag/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+85-->[:cloud_firestore] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
 86                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-86-->[:cloud_firestore] /Users/mac/Desktop/dogTagApp/DogTag/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:10:17-134
+86-->[:cloud_firestore] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:10:17-134
 87                android:value="com.google.firebase.components.ComponentRegistrar" />
-87-->[:cloud_firestore] /Users/mac/Desktop/dogTagApp/DogTag/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+87-->[:cloud_firestore] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
 88            <meta-data
-88-->[:firebase_auth] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+88-->[:firebase_auth] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
 89                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-89-->[:firebase_auth] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+89-->[:firebase_auth] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
 90                android:value="com.google.firebase.components.ComponentRegistrar" />
-90-->[:firebase_auth] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+90-->[:firebase_auth] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
 91            <meta-data
-91-->[:firebase_storage] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+91-->[:firebase_storage] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
 92                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
-92-->[:firebase_storage] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:10:17-126
+92-->[:firebase_storage] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:10:17-126
 93                android:value="com.google.firebase.components.ComponentRegistrar" />
-93-->[:firebase_storage] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_storage/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+93-->[:firebase_storage] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
 94            <meta-data
-94-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:34:13-36:85
+94-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:34:13-36:85
 95                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
-95-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:35:17-128
+95-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:35:17-128
 96                android:value="com.google.firebase.components.ComponentRegistrar" />
-96-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:36:17-82
+96-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:36:17-82
 97            <meta-data
-97-->[:firebase_core] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+97-->[:firebase_core] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
 98                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-98-->[:firebase_core] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+98-->[:firebase_core] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
 99                android:value="com.google.firebase.components.ComponentRegistrar" />
-99-->[:firebase_core] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+99-->[:firebase_core] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
 100            <meta-data
-100-->[com.google.firebase:firebase-messaging:22.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f4048cfa4150c6e561f81c0cabe6faac/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+100-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\f4048cfa4150c6e561f81c0cabe6faac\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:52:13-54:85
 101                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-101-->[com.google.firebase:firebase-messaging:22.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f4048cfa4150c6e561f81c0cabe6faac/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+101-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\f4048cfa4150c6e561f81c0cabe6faac\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:53:17-119
 102                android:value="com.google.firebase.components.ComponentRegistrar" />
-102-->[com.google.firebase:firebase-messaging:22.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f4048cfa4150c6e561f81c0cabe6faac/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+102-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\f4048cfa4150c6e561f81c0cabe6faac\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:54:17-82
 103            <meta-data
-103-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/38474f3213577056006a0216ad8ed662/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+103-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\38474f3213577056006a0216ad8ed662\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
 104                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-104-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/38474f3213577056006a0216ad8ed662/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+104-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\38474f3213577056006a0216ad8ed662\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
 105                android:value="com.google.firebase.components.ComponentRegistrar" />
-105-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/38474f3213577056006a0216ad8ed662/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+105-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\38474f3213577056006a0216ad8ed662\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
 106            <meta-data
-106-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+106-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
 107                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-107-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+107-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
 108                android:value="com.google.firebase.components.ComponentRegistrar" />
-108-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+108-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
 109            <meta-data
-109-->[com.google.firebase:firebase-firestore:23.0.3] /Users/mac/.gradle/caches/transforms-2/files-2.1/8cdcffa3d12c34283c594464ffe2f500/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:20:13-22:85
+109-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\8cdcffa3d12c34283c594464ffe2f500\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:20:13-22:85
 110                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-110-->[com.google.firebase:firebase-firestore:23.0.3] /Users/mac/.gradle/caches/transforms-2/files-2.1/8cdcffa3d12c34283c594464ffe2f500/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:21:17-111
+110-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\8cdcffa3d12c34283c594464ffe2f500\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:21:17-111
 111                android:value="com.google.firebase.components.ComponentRegistrar" />
-111-->[com.google.firebase:firebase-firestore:23.0.3] /Users/mac/.gradle/caches/transforms-2/files-2.1/8cdcffa3d12c34283c594464ffe2f500/jetified-firebase-firestore-23.0.3/AndroidManifest.xml:22:17-82
+111-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\8cdcffa3d12c34283c594464ffe2f500\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:22:17-82
 112            <meta-data
-112-->[com.google.firebase:firebase-storage:20.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7db60d7b1428396c66a8bccf61443bed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+112-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\7db60d7b1428396c66a8bccf61443bed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
 113                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-113-->[com.google.firebase:firebase-storage:20.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7db60d7b1428396c66a8bccf61443bed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+113-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\7db60d7b1428396c66a8bccf61443bed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
 114                android:value="com.google.firebase.components.ComponentRegistrar" />
-114-->[com.google.firebase:firebase-storage:20.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/7db60d7b1428396c66a8bccf61443bed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+114-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\7db60d7b1428396c66a8bccf61443bed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
 115            <meta-data
-115-->[com.google.android.gms:play-services-measurement-api:19.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/91e30a39086af4a71109871d96505c37/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:30:13-32:85
+115-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\91e30a39086af4a71109871d96505c37\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:30:13-32:85
 116                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-116-->[com.google.android.gms:play-services-measurement-api:19.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/91e30a39086af4a71109871d96505c37/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:31:17-139
+116-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\91e30a39086af4a71109871d96505c37\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:31:17-139
 117                android:value="com.google.firebase.components.ComponentRegistrar" />
-117-->[com.google.android.gms:play-services-measurement-api:19.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/91e30a39086af4a71109871d96505c37/jetified-play-services-measurement-api-19.0.1/AndroidManifest.xml:32:17-82
+117-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\91e30a39086af4a71109871d96505c37\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:32:17-82
 118            <meta-data
-118-->[com.google.firebase:firebase-installations:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/39727911726b7dd588510fcef7440ed8/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+118-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\39727911726b7dd588510fcef7440ed8\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
 119                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-119-->[com.google.firebase:firebase-installations:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/39727911726b7dd588510fcef7440ed8/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+119-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\39727911726b7dd588510fcef7440ed8\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
 120                android:value="com.google.firebase.components.ComponentRegistrar" />
-120-->[com.google.firebase:firebase-installations:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/39727911726b7dd588510fcef7440ed8/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+120-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\39727911726b7dd588510fcef7440ed8\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
 121        </service>
 122        <service
-122-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:12:9-15:72
+122-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:12:9-15:72
 123            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
-123-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:13:13-107
+123-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:13:13-107
 124            android:exported="false"
-124-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+124-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:14:13-37
 125            android:permission="android.permission.BIND_JOB_SERVICE" />
-125-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:15:13-69
+125-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:15:13-69
 126        <service
-126-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:16:9-22:19
+126-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:16:9-22:19
 127            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
-127-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:17:13-97
+127-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:17:13-97
 128            android:exported="false" >
-128-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:18:13-37
+128-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:18:13-37
 129            <intent-filter>
-129-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:19:13-21:29
+129-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:19:13-21:29
 130                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-130-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:20:17-78
-130-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:20:25-75
+130-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:20:17-78
+130-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:20:25-75
 131            </intent-filter>
 132        </service>
 133
 134        <receiver
-134-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:24:9-31:20
+134-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:24:9-31:20
 135            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
-135-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:25:13-98
+135-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:25:13-98
 136            android:exported="true"
-136-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:26:13-36
+136-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:26:13-36
 137            android:permission="com.google.android.c2dm.permission.SEND" >
-137-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:27:13-73
+137-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:27:13-73
 138            <intent-filter>
-138-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:28:13-30:29
+138-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:28:13-30:29
 139                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-139-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:17-81
-139-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:25-78
+139-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:29:17-81
+139-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:29:25-78
 140            </intent-filter>
 141        </receiver>
 142
 143        <provider
-143-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:39:9-43:38
+143-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:39:9-43:38
 144            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
-144-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:40:13-102
+144-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:40:13-102
 145            android:authorities="com.flutterdogtagapp.flutterdogtagapp.flutterfirebasemessaginginitprovider"
-145-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:41:13-88
+145-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:41:13-88
 146            android:exported="false"
-146-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:42:13-37
+146-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:42:13-37
 147            android:initOrder="99" />
-147-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:43:13-35
+147-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:43:13-35
 148        <provider
-148-->[:image_picker] /Users/mac/Desktop/dogTagApp/DogTag/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:8:9-16:20
+148-->[:image_picker] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:8:9-16:20
 149            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-149-->[:image_picker] /Users/mac/Desktop/dogTagApp/DogTag/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:9:13-82
+149-->[:image_picker] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:9:13-82
 150            android:authorities="com.flutterdogtagapp.flutterdogtagapp.flutter.image_provider"
-150-->[:image_picker] /Users/mac/Desktop/dogTagApp/DogTag/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:10:13-74
+150-->[:image_picker] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:10:13-74
 151            android:exported="false"
-151-->[:image_picker] /Users/mac/Desktop/dogTagApp/DogTag/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:11:13-37
+151-->[:image_picker] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:13-37
 152            android:grantUriPermissions="true" >
-152-->[:image_picker] /Users/mac/Desktop/dogTagApp/DogTag/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:12:13-47
+152-->[:image_picker] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:12:13-47
 153            <meta-data
-153-->[:image_picker] /Users/mac/Desktop/dogTagApp/DogTag/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:75
+153-->[:image_picker] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:75
 154                android:name="android.support.FILE_PROVIDER_PATHS"
-154-->[:image_picker] /Users/mac/Desktop/dogTagApp/DogTag/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:14:17-67
+154-->[:image_picker] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:14:17-67
 155                android:resource="@xml/flutter_image_picker_file_paths" />
-155-->[:image_picker] /Users/mac/Desktop/dogTagApp/DogTag/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:15:17-72
+155-->[:image_picker] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:15:17-72
 156        </provider>
 157
 158        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
-158-->[:flutter_local_notifications] /Users/mac/Desktop/dogTagApp/DogTag/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:12:9-106
-158-->[:flutter_local_notifications] /Users/mac/Desktop/dogTagApp/DogTag/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:12:19-103
+158-->[:flutter_local_notifications] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:12:9-106
+158-->[:flutter_local_notifications] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:12:19-103
 159        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver" >
-159-->[:flutter_local_notifications] /Users/mac/Desktop/dogTagApp/DogTag/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:13:9-20:20
-159-->[:flutter_local_notifications] /Users/mac/Desktop/dogTagApp/DogTag/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:13:19-107
+159-->[:flutter_local_notifications] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:13:9-20:20
+159-->[:flutter_local_notifications] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:13:19-107
 160            <intent-filter>
-160-->[:flutter_local_notifications] /Users/mac/Desktop/dogTagApp/DogTag/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:14:13-19:29
+160-->[:flutter_local_notifications] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:14:13-19:29
 161                <action android:name="android.intent.action.BOOT_COMPLETED" />
-161-->[:flutter_local_notifications] /Users/mac/Desktop/dogTagApp/DogTag/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:15:17-79
-161-->[:flutter_local_notifications] /Users/mac/Desktop/dogTagApp/DogTag/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:15:25-76
+161-->[:flutter_local_notifications] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:15:17-79
+161-->[:flutter_local_notifications] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:15:25-76
 162                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-162-->[:flutter_local_notifications] /Users/mac/Desktop/dogTagApp/DogTag/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:16:17-84
-162-->[:flutter_local_notifications] /Users/mac/Desktop/dogTagApp/DogTag/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:16:25-81
+162-->[:flutter_local_notifications] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:16:17-84
+162-->[:flutter_local_notifications] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:16:25-81
 163                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-163-->[:flutter_local_notifications] /Users/mac/Desktop/dogTagApp/DogTag/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:17:17-82
-163-->[:flutter_local_notifications] /Users/mac/Desktop/dogTagApp/DogTag/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:17:25-79
+163-->[:flutter_local_notifications] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:17:17-82
+163-->[:flutter_local_notifications] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:17:25-79
 164                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
-164-->[:flutter_local_notifications] /Users/mac/Desktop/dogTagApp/DogTag/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:18:17-82
-164-->[:flutter_local_notifications] /Users/mac/Desktop/dogTagApp/DogTag/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:18:25-79
+164-->[:flutter_local_notifications] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:18:17-82
+164-->[:flutter_local_notifications] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\flutter_local_notifications\intermediates\library_manifest\release\AndroidManifest.xml:18:25-79
 165            </intent-filter>
 166        </receiver>
 167
 168        <activity
-168-->[:url_launcher] /Users/mac/Desktop/dogTagApp/DogTag/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:8:9-11:74
+168-->[:url_launcher] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
 169            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-169-->[:url_launcher] /Users/mac/Desktop/dogTagApp/DogTag/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:9:13-74
+169-->[:url_launcher] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
 170            android:exported="false"
-170-->[:url_launcher] /Users/mac/Desktop/dogTagApp/DogTag/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:10:13-37
+170-->[:url_launcher] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
 171            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-171-->[:url_launcher] /Users/mac/Desktop/dogTagApp/DogTag/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:11:13-71
+171-->[:url_launcher] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
 172
 173        <receiver
-173-->[com.google.firebase:firebase-messaging:22.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f4048cfa4150c6e561f81c0cabe6faac/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+173-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\f4048cfa4150c6e561f81c0cabe6faac\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:28:9-35:20
 174            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-174-->[com.google.firebase:firebase-messaging:22.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f4048cfa4150c6e561f81c0cabe6faac/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+174-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\f4048cfa4150c6e561f81c0cabe6faac\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:29:13-78
 175            android:exported="true"
-175-->[com.google.firebase:firebase-messaging:22.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f4048cfa4150c6e561f81c0cabe6faac/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+175-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\f4048cfa4150c6e561f81c0cabe6faac\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:30:13-36
 176            android:permission="com.google.android.c2dm.permission.SEND" >
-176-->[com.google.firebase:firebase-messaging:22.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f4048cfa4150c6e561f81c0cabe6faac/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+176-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\f4048cfa4150c6e561f81c0cabe6faac\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:31:13-73
 177            <intent-filter>
-177-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:28:13-30:29
+177-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:28:13-30:29
 178                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-178-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:17-81
-178-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:25-78
+178-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:29:17-81
+178-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:29:25-78
 179            </intent-filter>
 180        </receiver>
 181        <!--
@@ -333,93 +333,93 @@
 183             but set to not exported to explicitly avoid allowing another app to call it.
 184        -->
 185        <service
-185-->[com.google.firebase:firebase-messaging:22.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f4048cfa4150c6e561f81c0cabe6faac/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+185-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\f4048cfa4150c6e561f81c0cabe6faac\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:41:9-48:19
 186            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-186-->[com.google.firebase:firebase-messaging:22.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f4048cfa4150c6e561f81c0cabe6faac/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+186-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\f4048cfa4150c6e561f81c0cabe6faac\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:42:13-82
 187            android:directBootAware="true"
-187-->[com.google.firebase:firebase-messaging:22.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f4048cfa4150c6e561f81c0cabe6faac/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+187-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\f4048cfa4150c6e561f81c0cabe6faac\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:43:13-43
 188            android:exported="false" >
-188-->[com.google.firebase:firebase-messaging:22.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f4048cfa4150c6e561f81c0cabe6faac/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+188-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\f4048cfa4150c6e561f81c0cabe6faac\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:44:13-37
 189            <intent-filter android:priority="-500" >
-189-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:19:13-21:29
+189-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:19:13-21:29
 190                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-190-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:20:17-78
-190-->[:firebase_messaging] /Users/mac/Desktop/dogTagApp/DogTag/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:20:25-75
+190-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:20:17-78
+190-->[:firebase_messaging] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\firebase_messaging\intermediates\library_manifest\release\AndroidManifest.xml:20:25-75
 191            </intent-filter>
 192        </service>
 193        <service
-193-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/46cff8aeabd69dfc49ca4c367e52652b/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+193-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\46cff8aeabd69dfc49ca4c367e52652b\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
 194            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-194-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/46cff8aeabd69dfc49ca4c367e52652b/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+194-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\46cff8aeabd69dfc49ca4c367e52652b\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
 195            android:exported="false" >
-195-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/46cff8aeabd69dfc49ca4c367e52652b/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+195-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\46cff8aeabd69dfc49ca4c367e52652b\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
 196            <meta-data
-196-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/46cff8aeabd69dfc49ca4c367e52652b/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+196-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\46cff8aeabd69dfc49ca4c367e52652b\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
 197                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-197-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/46cff8aeabd69dfc49ca4c367e52652b/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+197-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\46cff8aeabd69dfc49ca4c367e52652b\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
 198                android:value="cct" />
-198-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/46cff8aeabd69dfc49ca4c367e52652b/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+198-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\46cff8aeabd69dfc49ca4c367e52652b\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
 199        </service>
 200
 201        <activity
-201-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+201-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
 202            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-202-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+202-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
 203            android:excludeFromRecents="true"
-203-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+203-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
 204            android:exported="true"
-204-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+204-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
 205            android:launchMode="singleTask"
-205-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+205-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
 206            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-206-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+206-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
 207            <intent-filter>
-207-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+207-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
 208                <action android:name="android.intent.action.VIEW" />
-208-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
-208-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+208-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+208-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
 209
 210                <category android:name="android.intent.category.DEFAULT" />
-210-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:36:17-76
-210-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:36:27-73
+210-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:36:17-76
+210-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:36:27-73
 211                <category android:name="android.intent.category.BROWSABLE" />
-211-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
-211-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+211-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+211-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
 212
 213                <data
-213-->[:file_picker] /Users/mac/Desktop/dogTagApp/DogTag/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:13-44
+213-->[:file_picker] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-44
 214                    android:host="firebase.auth"
 215                    android:path="/"
 216                    android:scheme="genericidp" />
 217            </intent-filter>
 218        </activity>
 219        <activity
-219-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+219-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
 220            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-220-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+220-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
 221            android:excludeFromRecents="true"
-221-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+221-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
 222            android:exported="true"
-222-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+222-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
 223            android:launchMode="singleTask"
-223-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+223-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
 224            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-224-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+224-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
 225            <intent-filter>
-225-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+225-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
 226                <action android:name="android.intent.action.VIEW" />
-226-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:17-69
-226-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:34:25-66
+226-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+226-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
 227
 228                <category android:name="android.intent.category.DEFAULT" />
-228-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:36:17-76
-228-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:36:27-73
+228-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:36:17-76
+228-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:36:27-73
 229                <category android:name="android.intent.category.BROWSABLE" />
-229-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:17-78
-229-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:37:27-75
+229-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+229-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
 230
 231                <data
-231-->[:file_picker] /Users/mac/Desktop/dogTagApp/DogTag/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:13-44
+231-->[:file_picker] C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\build\file_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-44
 232                    android:host="firebase.auth"
 233                    android:path="/"
 234                    android:scheme="recaptcha" />
@@ -427,99 +427,99 @@
 236        </activity>
 237
 238        <service
-238-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+238-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
 239            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-239-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+239-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
 240            android:enabled="true"
-240-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+240-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
 241            android:exported="false" >
-241-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+241-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
 242            <intent-filter>
-242-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+242-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
 243                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-243-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
-243-->[com.google.firebase:firebase-auth:21.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/d3a9ffc888adf9d6aedecaa852ef174a/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+243-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+243-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\d3a9ffc888adf9d6aedecaa852ef174a\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
 244
 245                <category android:name="android.intent.category.DEFAULT" />
-245-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:36:17-76
-245-->/Users/mac/Desktop/dogTagApp/DogTag/android/app/src/main/AndroidManifest.xml:36:27-73
+245-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:36:17-76
+245-->C:\Users\Admin PC\Desktop\Final Changes Dog Tag\DogTag\android\app\src\main\AndroidManifest.xml:36:27-73
 246            </intent-filter>
 247        </service>
 248
 249        <provider
-249-->[com.google.firebase:firebase-common:20.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/66154a7c311b49bfed22772d6215f9bc/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+249-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\66154a7c311b49bfed22772d6215f9bc\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
 250            android:name="com.google.firebase.provider.FirebaseInitProvider"
-250-->[com.google.firebase:firebase-common:20.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/66154a7c311b49bfed22772d6215f9bc/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+250-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\66154a7c311b49bfed22772d6215f9bc\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
 251            android:authorities="com.flutterdogtagapp.flutterdogtagapp.firebaseinitprovider"
-251-->[com.google.firebase:firebase-common:20.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/66154a7c311b49bfed22772d6215f9bc/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+251-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\66154a7c311b49bfed22772d6215f9bc\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
 252            android:directBootAware="true"
-252-->[com.google.firebase:firebase-common:20.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/66154a7c311b49bfed22772d6215f9bc/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+252-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\66154a7c311b49bfed22772d6215f9bc\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
 253            android:exported="false"
-253-->[com.google.firebase:firebase-common:20.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/66154a7c311b49bfed22772d6215f9bc/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+253-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\66154a7c311b49bfed22772d6215f9bc\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
 254            android:initOrder="100" />
-254-->[com.google.firebase:firebase-common:20.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/66154a7c311b49bfed22772d6215f9bc/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+254-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\66154a7c311b49bfed22772d6215f9bc\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
 255
-256        <activity
-256-->[com.google.android.gms:play-services-base:17.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b48eb12e4a1386bfe3aa0e9022526428/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-257            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-257-->[com.google.android.gms:play-services-base:17.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b48eb12e4a1386bfe3aa0e9022526428/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
-258            android:exported="false"
-258-->[com.google.android.gms:play-services-base:17.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b48eb12e4a1386bfe3aa0e9022526428/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-259            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-259-->[com.google.android.gms:play-services-base:17.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b48eb12e4a1386bfe3aa0e9022526428/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
-260
-261        <receiver
-261-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/ee769a3332188976de55397280a874f4/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:29:9-33:20
-262            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-262-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/ee769a3332188976de55397280a874f4/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:30:13-85
-263            android:enabled="true"
-263-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/ee769a3332188976de55397280a874f4/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:31:13-35
-264            android:exported="false" >
-264-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/ee769a3332188976de55397280a874f4/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:32:13-37
-265        </receiver>
-266
-267        <service
-267-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/ee769a3332188976de55397280a874f4/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:35:9-38:40
-268            android:name="com.google.android.gms.measurement.AppMeasurementService"
-268-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/ee769a3332188976de55397280a874f4/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:36:13-84
-269            android:enabled="true"
-269-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/ee769a3332188976de55397280a874f4/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:37:13-35
-270            android:exported="false" />
-270-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/ee769a3332188976de55397280a874f4/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:38:13-37
-271        <service
-271-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/ee769a3332188976de55397280a874f4/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:39:9-43:72
-272            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-272-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/ee769a3332188976de55397280a874f4/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:40:13-87
-273            android:enabled="true"
-273-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/ee769a3332188976de55397280a874f4/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:41:13-35
+256        <receiver
+256-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\ee769a3332188976de55397280a874f4\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:29:9-33:20
+257            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+257-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\ee769a3332188976de55397280a874f4\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:30:13-85
+258            android:enabled="true"
+258-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\ee769a3332188976de55397280a874f4\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:31:13-35
+259            android:exported="false" >
+259-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\ee769a3332188976de55397280a874f4\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:32:13-37
+260        </receiver>
+261
+262        <service
+262-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\ee769a3332188976de55397280a874f4\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:35:9-38:40
+263            android:name="com.google.android.gms.measurement.AppMeasurementService"
+263-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\ee769a3332188976de55397280a874f4\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:36:13-84
+264            android:enabled="true"
+264-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\ee769a3332188976de55397280a874f4\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:37:13-35
+265            android:exported="false" />
+265-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\ee769a3332188976de55397280a874f4\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:38:13-37
+266        <service
+266-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\ee769a3332188976de55397280a874f4\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:39:9-43:72
+267            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+267-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\ee769a3332188976de55397280a874f4\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:40:13-87
+268            android:enabled="true"
+268-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\ee769a3332188976de55397280a874f4\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:41:13-35
+269            android:exported="false"
+269-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\ee769a3332188976de55397280a874f4\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:42:13-37
+270            android:permission="android.permission.BIND_JOB_SERVICE" />
+270-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\ee769a3332188976de55397280a874f4\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:43:13-69
+271
+272        <activity
+272-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\b48eb12e4a1386bfe3aa0e9022526428\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+273            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+273-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\b48eb12e4a1386bfe3aa0e9022526428\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
 274            android:exported="false"
-274-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/ee769a3332188976de55397280a874f4/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:42:13-37
-275            android:permission="android.permission.BIND_JOB_SERVICE" />
-275-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/ee769a3332188976de55397280a874f4/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:43:13-69
+274-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\b48eb12e4a1386bfe3aa0e9022526428\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+275            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+275-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\b48eb12e4a1386bfe3aa0e9022526428\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
 276
 277        <meta-data
-277-->[com.google.android.gms:play-services-basement:17.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/6a5d59657a9f2c819d7857b26ddbdec6/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+277-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\6a5d59657a9f2c819d7857b26ddbdec6\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
 278            android:name="com.google.android.gms.version"
-278-->[com.google.android.gms:play-services-basement:17.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/6a5d59657a9f2c819d7857b26ddbdec6/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
+278-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\6a5d59657a9f2c819d7857b26ddbdec6\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
 279            android:value="@integer/google_play_services_version" />
-279-->[com.google.android.gms:play-services-basement:17.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/6a5d59657a9f2c819d7857b26ddbdec6/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
+279-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\6a5d59657a9f2c819d7857b26ddbdec6\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
 280
 281        <service
-281-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c7636b6fe71f62cd04b01081714dfd4d/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+281-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\c7636b6fe71f62cd04b01081714dfd4d\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
 282            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-282-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c7636b6fe71f62cd04b01081714dfd4d/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+282-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\c7636b6fe71f62cd04b01081714dfd4d\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
 283            android:exported="false"
-283-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c7636b6fe71f62cd04b01081714dfd4d/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+283-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\c7636b6fe71f62cd04b01081714dfd4d\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
 284            android:permission="android.permission.BIND_JOB_SERVICE" >
-284-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c7636b6fe71f62cd04b01081714dfd4d/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+284-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\c7636b6fe71f62cd04b01081714dfd4d\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
 285        </service>
 286
 287        <receiver
-287-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c7636b6fe71f62cd04b01081714dfd4d/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+287-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\c7636b6fe71f62cd04b01081714dfd4d\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
 288            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-288-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c7636b6fe71f62cd04b01081714dfd4d/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+288-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\c7636b6fe71f62cd04b01081714dfd4d\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
 289            android:exported="false" />
-289-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c7636b6fe71f62cd04b01081714dfd4d/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+289-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Admin PC\.gradle\caches\transforms-2\files-2.1\c7636b6fe71f62cd04b01081714dfd4d\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
 290    </application>
 291
 292</manifest>

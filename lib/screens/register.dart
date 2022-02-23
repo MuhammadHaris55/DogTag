@@ -1,13 +1,13 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:email_validator/email_validator.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:flutterdogtagapp/screens/appColors.dart';
 import 'package:flutterdogtagapp/screens/registerDog_1.dart';
 import 'package:flutterdogtagapp/stylingWidgets/button.dart';
 import 'package:flutterdogtagapp/stylingWidgets/progressIndicator.dart';
-import 'package:email_validator/email_validator.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class Register extends StatefulWidget {
@@ -288,11 +288,26 @@ class _RegisterState extends State<Register> {
                                     print(wordArray);
                                   }
                                   wordArray.add(combine);
-
                                   print(wordArray);
+
+                                  List seprateWord =
+                                      name.toLowerCase().split(" ");
+                                  print('before combine -----> ${wordArray}');
+
+                                  for (var j = 1; j < seprateWord.length; j++) {
+                                    combine = "";
+                                    for (var k = 0;
+                                        k < seprateWord[j].length;
+                                        k++) {
+                                      combine = combine + seprateWord[j][k];
+                                      wordArray.add(combine);
+                                    }
+                                  }
+                                  print('combine all -----> ${wordArray}');
 
                                   final String _name =
                                       _firstnameController.text.trim() +
+                                          " " +
                                           _lastnameController.text.trim();
 
                                   final String _firstname =
@@ -325,8 +340,9 @@ class _RegisterState extends State<Register> {
                                           .collection("tokens")
                                           .doc(user.uid)
                                           .set({
-                                            'token': usr_token,
-                                          });
+                                        'token': usr_token,
+                                        'zipcode': _zipcode,
+                                      });
                                       await FirebaseFirestore.instance
                                           .collection("users")
                                           .doc(user.uid)

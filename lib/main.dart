@@ -1,18 +1,15 @@
 import 'dart:async';
 import 'dart:io';
-// import 'package:dog_tag/services/notification.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutterdogtagapp/screens/appColors.dart';
-import 'package:flutterdogtagapp/screens/helloworld.dart';
 import 'package:flutterdogtagapp/screens/home.dart';
 import 'package:flutterdogtagapp/screens/welcome.dart';
 import 'package:flutterdogtagapp/services/local_notification_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:provider/provider.dart';
 
 Future<void> backgroundHandler(RemoteMessage message) async {
   print("backgroundhandler");

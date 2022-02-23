@@ -1,22 +1,22 @@
 [
     {
-        "merged": "/Users/mac/Desktop/dogTagApp/DogTag/build/firebase_core/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_low_pressed.9.png",
-        "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/867d687cf59dafa098f18bfd31a2bfbb/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+        "merged": "C:\\Users\\Admin PC\\Desktop\\Final Changes Dog Tag\\DogTag\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\Admin PC\\.gradle\\caches\\transforms-2\\files-2.1\\f4bea62e654082ad54f433ebc0ccad55\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
-        "merged": "/Users/mac/Desktop/dogTagApp/DogTag/build/firebase_core/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_low_normal.9.png",
-        "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/867d687cf59dafa098f18bfd31a2bfbb/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+        "merged": "C:\\Users\\Admin PC\\Desktop\\Final Changes Dog Tag\\DogTag\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\Admin PC\\.gradle\\caches\\transforms-2\\files-2.1\\f4bea62e654082ad54f433ebc0ccad55\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
     },
     {
-        "merged": "/Users/mac/Desktop/dogTagApp/DogTag/build/firebase_core/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png",
-        "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/867d687cf59dafa098f18bfd31a2bfbb/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+        "merged": "C:\\Users\\Admin PC\\Desktop\\Final Changes Dog Tag\\DogTag\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\Admin PC\\.gradle\\caches\\transforms-2\\files-2.1\\f4bea62e654082ad54f433ebc0ccad55\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
-        "merged": "/Users/mac/Desktop/dogTagApp/DogTag/build/firebase_core/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_normal.9.png",
-        "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/867d687cf59dafa098f18bfd31a2bfbb/core-1.1.0/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+        "merged": "C:\\Users\\Admin PC\\Desktop\\Final Changes Dog Tag\\DogTag\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\Admin PC\\.gradle\\caches\\transforms-2\\files-2.1\\f4bea62e654082ad54f433ebc0ccad55\\core-1.6.0\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "/Users/mac/Desktop/dogTagApp/DogTag/build/firebase_core/intermediates/res/merged/release/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png",
-        "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/867d687cf59dafa098f18bfd31a2bfbb/core-1.1.0/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+        "merged": "C:\\Users\\Admin PC\\Desktop\\Final Changes Dog Tag\\DogTag\\build\\firebase_core\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\Admin PC\\.gradle\\caches\\transforms-2\\files-2.1\\f4bea62e654082ad54f433ebc0ccad55\\core-1.6.0\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
     }
 ]

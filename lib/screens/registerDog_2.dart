@@ -1,7 +1,7 @@
+import 'package:flutter/material.dart';
 import 'package:flutterdogtagapp/screens/appColors.dart';
 import 'package:flutterdogtagapp/screens/registerDog_3.dart';
 import 'package:flutterdogtagapp/stylingWidgets/button.dart';
-import 'package:flutter/material.dart';
 
 class registerDog_2 extends StatefulWidget {
   final String dogName;
@@ -85,7 +85,12 @@ class _registerDog_2State extends State<registerDog_2> {
                         ),
                       ],
                     ),
-                    IconButton(icon: Icon(Icons.help), onPressed: () {})
+                    IconButton(
+                        icon: Icon(
+                          Icons.help,
+                          color: Colors.white,
+                        ),
+                        onPressed: () {})
                   ],
                 ),
               ),

@@ -2,14 +2,12 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/painting.dart';
 import 'package:flutterdogtagapp/screens/appColors.dart';
 import 'package:flutterdogtagapp/screens/blogPage.dart';
-import 'package:flutterdogtagapp/screens/dogInfo.dart';
 import 'package:flutterdogtagapp/screens/registerDog_1.dart';
 import 'package:flutterdogtagapp/stylingWidgets/drawer.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutterdogtagapp/widget/catalog_product.dart';
-import 'package:get/get_connect/http/src/utils/utils.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 final userRef = FirebaseFirestore.instance.collection('users');
@@ -113,7 +111,6 @@ Container dataContainer(screen, documentSnapshot) {
             documentSnapshot['DogDescription'] != null
                 ? documentSnapshot['DogDescription']
                 : 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod',
-            // 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod',
             maxLines: 4,
             overflow: TextOverflow.ellipsis,
             style: GoogleFonts.poppins(
@@ -173,33 +170,14 @@ class _HomeState extends State<Home> {
         print('New data');
         dogsDetail =
             FirebaseFirestore.instance.collection('users').doc(user.uid);
-        // dogsDetail = FirebaseFirestore.instance.collection('users').doc(doc.id);
 
         FirebaseFirestore.instance
             .collection('users')
             .doc(doc.id)
-            // .doc('815WrH1wLAbFeiNWx5oRkxvQXUV2')
             .get()
             .then((value) {
-          // // userdata = value as List<Object>
-          // setState(() {
-          //   // first add the data to the Offset object
-          //   List.from(value.data['user']).forEach((element) {
-          //     Offset data = new Offset(element);
-          //
-          //     //then add the data to the List<Offset>, now we have a type Offset
-          //     pointList.add(data);
-          //   });
-          // });
-          // print("Fetched ==>>>" + value.data()["address"])
         });
 
-        // FirebaseFirestore.instance
-        //     .collection('users')
-        //     .doc(doc.id)
-        //     // .doc('815WrH1wLAbFeiNWx5oRkxvQXUV2')
-        //     .get()
-        //     .then((value) => print("Fetched ==>>>" + value.data()["address"]));
       });
     });
   }

@@ -409,6 +409,7 @@ class _MyProfileState extends State<MyProfile> {
       "lastname": owner['lastname'],
       "email": owner['email'],
       "phoneno": owner['phoneno'],
+      "zipcode": owner['zipcode'],
     });
     });
 

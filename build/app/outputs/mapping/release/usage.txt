@@ -1,6 +1,8 @@
+androidx.core.widget.TextViewOnReceiveContentListener
 kotlin.jvm.functions.Function0
 com.google.type.Money$1
 com.google.common.collect.Maps$AsMapView
+androidx.core.view.accessibility.AccessibilityEventCompat$ContentChangeType
 com.google.protobuf.DescriptorProtos$EnumDescriptorProto$EnumReservedRange
 kotlin.collections.EmptyIterator
 com.flutterdogtagapp.flutterdogtagapp.R
@@ -36,7 +38,6 @@ com.google.firebase.firestore.local.EncodedPath:
     private static final char ENCODED_NUL
     private static final char ENCODED_ESCAPE
 androidx.core.view.accessibility.AccessibilityViewCommand$MoveHtmlArguments
-androidx.core.provider.FontsContractCompat$4$2
 io.grpc.android.AndroidChannelBuilder:
     public static io.grpc.android.AndroidChannelBuilder forTarget(java.lang.String)
     public static io.grpc.android.AndroidChannelBuilder forAddress(java.lang.String,int)
@@ -193,7 +194,6 @@ org.threeten.bp.temporal.TemporalQueries:
     private void <init>()
 io.flutter.plugins.firebase.firestore.R$style
 com.google.android.gms.common.api.internal.zaba
-androidx.core.provider.FontsContractCompat$TypefaceResult
 com.google.android.gms.common.server.converter.zab
 androidx.drawerlayout.R$string
 kotlin.jvm.internal.ArrayIntIterator
@@ -273,6 +273,7 @@ com.google.firestore.v1.StructuredQuery$Order:
     public boolean hasField()
     public int getDirectionValue()
 android.support.v4.media.RatingCompat$Style
+androidx.core.view.WindowInsetsAnimationCompat$Callback
 androidx.core.hardware.fingerprint.FingerprintManagerCompat$AuthenticationCallback
 androidx.core.view.accessibility.AccessibilityViewCommand$MoveWindowArguments
 com.google.android.datatransport.runtime.dagger.internal.MapProviderFactory$1
@@ -293,6 +294,7 @@ org.threeten.bp.chrono.ChronoZonedDateTime:
     public synthetic bridge org.threeten.bp.temporal.Temporal plus(org.threeten.bp.temporal.TemporalAmount)
 com.google.protobuf.DescriptorProtos$EnumValueOptions$Builder
 com.google.android.gms.common.server.response.zaa
+androidx.core.view.DisplayCompat$Api23Impl
 com.google.gson.JsonSerializationContext:
     public abstract com.google.gson.JsonElement serialize(java.lang.Object)
     public abstract com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type)
@@ -383,6 +385,7 @@ com.google.firebase.firestore.util.AsyncQueue$DelayedTask:
     void skipDelay()
 com.google.firebase.firestore.core.IndexRange$1
 com.google.rpc.DebugInfo
+androidx.core.os.ProcessCompat$Api24Impl
 androidx.lifecycle.R
 com.google.common.cache.LocalCache$2
 com.google.common.collect.IndexedImmutableSet
@@ -408,6 +411,7 @@ com.google.common.collect.TreeMultiset$Aggregate
 androidx.fragment.R$style
 androidx.core.database.CursorWindowCompat
 com.google.common.collect.MapMakerInternalMap$StrongKeyStrongValueEntry$Helper
+androidx.core.widget.CheckedTextViewCompat$Api16Impl
 androidx.fragment.app.FragmentStatePagerAdapter
 okio.Options
 com.google.protobuf.UnknownFieldSetLite:
@@ -495,8 +499,8 @@ com.google.android.gms.base.R$drawable:
     public static final int common_google_signin_btn_text_light_normal_background
     public static final int googleg_disabled_color_18
     public static final int googleg_standard_color_18
-com.google.android.gms.common.internal.service.zam
 android.support.v4.media.MediaBrowserCompat$ConnectionCallback$ConnectionCallbackInternal
+com.google.android.gms.common.internal.service.zam
 com.google.android.gms.common.images.zab
 io.flutter.plugins.pathprovider.BuildConfig
 org.checkerframework.checker.nullness.compatqual.PolyNullType
@@ -565,6 +569,8 @@ com.google.firestore.v1.TargetChange$TargetChangeType:
     public static final int RESET_VALUE
 com.google.common.collect.RegularImmutableList:
     boolean isPartialView()
+io.flutter.view.TextureRegistry:
+    public abstract io.flutter.view.TextureRegistry$SurfaceTextureEntry registerSurfaceTexture(android.graphics.SurfaceTexture)
 com.google.protobuf.DoubleValue
 com.google.android.gms.auth.api.signin.internal.Storage:
     private final void zaa(java.lang.String,java.lang.String)
@@ -590,19 +596,39 @@ androidx.core.app.NotificationCompat:
     public static androidx.core.app.NotificationCompat$BubbleMetadata getBubbleMetadata(android.app.Notification)
     static androidx.core.app.NotificationCompat$Action getActionCompatFromAction(android.app.Notification$Action)
     public static java.util.List getInvisibleActions(android.app.Notification)
+    public static java.util.List getPeople(android.app.Notification)
     public static java.lang.CharSequence getContentTitle(android.app.Notification)
+    public static java.lang.CharSequence getContentText(android.app.Notification)
+    public static java.lang.CharSequence getContentInfo(android.app.Notification)
+    public static java.lang.CharSequence getSubText(android.app.Notification)
     public static java.lang.String getCategory(android.app.Notification)
     public static boolean getLocalOnly(android.app.Notification)
     public static java.lang.String getGroup(android.app.Notification)
+    public static boolean getShowWhen(android.app.Notification)
+    public static boolean getUsesChronometer(android.app.Notification)
+    public static boolean getOnlyAlertOnce(android.app.Notification)
+    public static boolean getAutoCancel(android.app.Notification)
+    public static boolean getOngoing(android.app.Notification)
+    public static int getColor(android.app.Notification)
+    public static int getVisibility(android.app.Notification)
+    public static android.app.Notification getPublicVersion(android.app.Notification)
+    static boolean getHighPriority(android.app.Notification)
     public static boolean isGroupSummary(android.app.Notification)
     public static java.lang.String getSortKey(android.app.Notification)
     public static java.lang.String getChannelId(android.app.Notification)
     public static long getTimeoutAfter(android.app.Notification)
     public static int getBadgeIconType(android.app.Notification)
     public static java.lang.String getShortcutId(android.app.Notification)
+    public static java.lang.CharSequence getSettingsText(android.app.Notification)
+    public static androidx.core.content.LocusIdCompat getLocusId(android.app.Notification)
     public static int getGroupAlertBehavior(android.app.Notification)
     public static boolean getAllowSystemGeneratedContextualActions(android.app.Notification)
     public void <init>()
+    public static final java.lang.String INTENT_CATEGORY_NOTIFICATION_PREFERENCES
+    public static final java.lang.String EXTRA_CHANNEL_ID
+    public static final java.lang.String EXTRA_CHANNEL_GROUP_ID
+    public static final java.lang.String EXTRA_NOTIFICATION_TAG
+    public static final java.lang.String EXTRA_NOTIFICATION_ID
     public static final int DEFAULT_ALL
     public static final int DEFAULT_SOUND
     public static final int DEFAULT_VIBRATE
@@ -640,11 +666,14 @@ androidx.core.app.NotificationCompat:
     public static final java.lang.String EXTRA_PROGRESS_INDETERMINATE
     public static final java.lang.String EXTRA_SHOW_CHRONOMETER
     public static final java.lang.String EXTRA_CHRONOMETER_COUNT_DOWN
+    public static final java.lang.String EXTRA_COLORIZED
     public static final java.lang.String EXTRA_SHOW_WHEN
     public static final java.lang.String EXTRA_PICTURE
     public static final java.lang.String EXTRA_TEXT_LINES
     public static final java.lang.String EXTRA_TEMPLATE
+    public static final java.lang.String EXTRA_COMPAT_TEMPLATE
     public static final java.lang.String EXTRA_PEOPLE
+    public static final java.lang.String EXTRA_PEOPLE_LIST
     public static final java.lang.String EXTRA_BACKGROUND_IMAGE_URI
     public static final java.lang.String EXTRA_MEDIA_SESSION
     public static final java.lang.String EXTRA_COMPACT_ACTIONS
@@ -652,6 +681,7 @@ androidx.core.app.NotificationCompat:
     public static final java.lang.String EXTRA_MESSAGING_STYLE_USER
     public static final java.lang.String EXTRA_CONVERSATION_TITLE
     public static final java.lang.String EXTRA_MESSAGES
+    public static final java.lang.String EXTRA_HISTORIC_MESSAGES
     public static final java.lang.String EXTRA_IS_GROUP_CONVERSATION
     public static final java.lang.String EXTRA_HIDDEN_CONVERSATION_TITLE
     public static final java.lang.String EXTRA_AUDIO_CONTENTS_URI
@@ -675,6 +705,10 @@ androidx.core.app.NotificationCompat:
     public static final java.lang.String CATEGORY_REMINDER
     public static final java.lang.String CATEGORY_RECOMMENDATION
     public static final java.lang.String CATEGORY_STATUS
+    public static final java.lang.String CATEGORY_WORKOUT
+    public static final java.lang.String CATEGORY_LOCATION_SHARING
+    public static final java.lang.String CATEGORY_STOPWATCH
+    public static final java.lang.String CATEGORY_MISSED_CALL
     public static final int BADGE_ICON_NONE
     public static final int BADGE_ICON_SMALL
     public static final int BADGE_ICON_LARGE
@@ -747,6 +781,7 @@ com.google.common.collect.ImmutableAsList$SerializedForm
 com.google.common.util.concurrent.JdkFutureAdapters$ListenableFutureAdapter$1
 androidx.core.view.NestedScrollingChild2
 androidx.core.view.ViewCompat$Api23Impl
+androidx.core.view.WindowInsetsCompat$Impl30
 com.google.common.collect.Serialization$1
 com.google.common.collect.SortedLists$KeyPresentBehavior
 androidx.core.app.RemoteInput:
@@ -758,6 +793,7 @@ androidx.core.app.RemoteInput:
     public static void setResultsSource(android.content.Intent,int)
     public static int getResultsSource(android.content.Intent)
     private static java.lang.String getExtraResultsKeyForData(java.lang.String)
+    static androidx.core.app.RemoteInput fromPlatform(android.app.RemoteInput)
     private static android.content.Intent getClipDataIntentFromIntent(android.content.Intent)
     public boolean isDataOnly()
     private final java.lang.String mResultKey
@@ -1002,6 +1038,10 @@ com.google.firebase.firestore.core.TransactionRunner:
 com.google.common.collect.ImmutableSortedSet$SerializedForm
 androidx.core.app.NotificationCompat$BigPictureStyle:
     public void <init>(androidx.core.app.NotificationCompat$Builder)
+    private static androidx.core.graphics.drawable.IconCompat asIconCompat(android.os.Parcelable)
+    protected void restoreFromCompatExtras(android.os.Bundle)
+    protected void clearCompatExtraKeys(android.os.Bundle)
+    private static final java.lang.String TEMPLATE_CLASS_NAME
 androidx.core.content.pm.ShortcutInfoCompatSaver$NoopImpl
 org.threeten.bp.zone.ZoneRulesException:
     private static final long serialVersionUID
@@ -1118,6 +1158,7 @@ com.google.common.collect.LexicographicalOrdering
 kotlin.jvm.internal.CallableReference
 com.google.protobuf.InvalidProtocolBufferException$InvalidWireTypeException:
     private static final long serialVersionUID
+androidx.core.location.LocationManagerCompat$Api30Impl
 com.google.common.collect.MultimapBuilder$MultimapBuilderWithKeys$1
 com.google.common.cache.CacheBuilderSpec$DurationParser
 kotlin.collections.ArraysKt___ArraysKt$asIterable$$inlined$Iterable$2
@@ -1191,8 +1232,10 @@ io.grpc.internal.ExponentialBackoffPolicy:
     io.grpc.internal.ExponentialBackoffPolicy setMaxBackoffNanos(long)
     io.grpc.internal.ExponentialBackoffPolicy setMultiplier(double)
     io.grpc.internal.ExponentialBackoffPolicy setJitter(double)
+androidx.core.location.LocationManagerCompat$PreRGnssStatusTransport
 kotlin.coroutines.ContinuationInterceptor$Key
 com.google.common.cache.CacheBuilderSpec$ValueStrengthParser
+androidx.core.location.LocationManagerCompat$CancellableLocationListener
 com.google.common.cache.LocalCache$LoadingValueReference$1
 com.google.common.collect.Lists:
     private void <init>()
@@ -1222,12 +1265,12 @@ com.google.common.collect.Lists:
     static java.util.List subListImpl(java.util.List,int,int)
     static java.util.List cast(java.lang.Iterable)
 kotlin.text.StringsKt__StringsKt$splitToSequence$2
-com.google.android.gms.internal.firebase-auth-api.zzaam:
-    private void <init>()
 com.google.firebase.storage.FileDownloadTask:
     long getDownloadedSizeInBytes()
     static final int PREFERRED_CHUNK_SIZE
     private static final java.lang.String TAG
+com.google.android.gms.internal.firebase-auth-api.zzaam:
+    private void <init>()
 com.google.android.gms.stats.WakeLock:
     public boolean isHeld()
 com.google.android.datatransport.runtime.TransportRuntime:
@@ -1364,7 +1407,6 @@ io.flutter.plugin.editing.FlutterTextUtils:
     public static final int ZERO_WIDTH_JOINER
 com.google.api.Quota
 com.google.common.base.CharMatcher$JavaUpperCase
-androidx.core.provider.FontsContractCompat$4$3
 androidx.media.MediaBrowserServiceCompat$3
 com.google.android.gms.common.api.internal.zacc
 com.google.common.primitives.Chars$CharArrayAsList
@@ -1383,6 +1425,7 @@ com.google.common.html.package-info
 com.google.firestore.v1.ListDocumentsRequest$1
 androidx.annotation.UiThread
 com.google.firebase.encoders.annotations.Encodable
+androidx.annotation.OptIn
 kotlin.text.MatcherMatchResult$groups$1$iterator$1
 com.google.common.collect.ImmutableMap$1
 com.google.common.util.concurrent.MoreExecutors$4
@@ -1443,6 +1486,7 @@ com.google.protobuf.Type$1
 com.google.type.QuaternionOrBuilder
 com.google.common.collect.FilteredEntryMultimap$AsMap$1KeySetImpl
 com.google.android.gms.common.api.internal.zabq
+androidx.core.view.ViewCompat$CompatImplApi28
 androidx.core.widget.ListViewAutoScrollHelper
 com.google.common.util.concurrent.Partially$GwtIncompatible
 androidx.media.R$styleable
@@ -1523,7 +1567,6 @@ io.grpc.internal.RetriableStream:
     public final void setMessageCompression(boolean)
     public final io.grpc.Attributes getAttributes()
 kotlin.jvm.internal.LongSpreadBuilder
-androidx.core.widget.ContentLoadingProgressBar$2
 com.google.android.gms.dynamic.LifecycleDelegate
 io.grpc.util.TransmitStatusRuntimeExceptionInterceptor$SerializingServerCall$10
 com.google.common.reflect.MutableTypeToInstanceMap$UnmodifiableEntry$1
@@ -1575,6 +1618,7 @@ kotlin.text.StringsKt___StringsKt$windowedSequence$1
 androidx.core.app.JobIntentService$CompatWorkItem
 com.squareup.okhttp.TlsVersion
 com.google.android.datatransport.backend.cct.R
+androidx.core.telephony.SubscriptionManagerCompat$Api29Impl
 androidx.core.text.TextDirectionHeuristicsCompat:
     private void <init>()
     private static final int STATE_TRUE
@@ -1689,6 +1733,7 @@ com.google.android.gms.cloudmessaging.IMessengerCompat$Impl
 com.google.common.util.concurrent.SimpleTimeLimiter$1$1
 kotlin.collections.SetsKt__SetsKt
 com.google.rpc.context.AttributeContext$ResponseOrBuilder
+androidx.core.view.WindowInsetsAnimationCompat$BoundsCompat
 com.squareup.okhttp.Headers:
     private void <init>(java.lang.String[])
     private static java.lang.String get(java.lang.String[],java.lang.String)
@@ -1800,6 +1845,16 @@ com.google.android.gms.internal.firebase-auth-api.zzel:
 com.google.api.PageOrBuilder
 io.flutter.plugins.firebase.auth.R$integer
 com.google.api.Property$PropertyType$PropertyTypeVerifier
+io.flutter.plugin.editing.TextEditingDelta:
+    public java.lang.CharSequence getOldText()
+    public java.lang.CharSequence getDeltaText()
+    public int getDeltaStart()
+    public int getDeltaEnd()
+    public int getNewSelectionStart()
+    public int getNewSelectionEnd()
+    public int getNewComposingStart()
+    public int getNewComposingEnd()
+    private static final java.lang.String TAG
 kotlin.UShort
 com.google.android.gms.common.internal.service.zak
 com.google.android.gms.internal.firebase-auth-api.zzra
@@ -2031,6 +2086,16 @@ androidx.coordinatorlayout.R$color
 com.google.api.Distribution$Range$Builder
 com.google.common.primitives.Longs
 com.google.protobuf.Mixin$1
+androidx.core.view.WindowInsetsControllerCompat$Impl30:
+    void show(int)
+    void hide(int)
+    public boolean isAppearanceLightStatusBars()
+    public boolean isAppearanceLightNavigationBars()
+    void controlWindowInsetsAnimation(int,long,android.view.animation.Interpolator,android.os.CancellationSignal,androidx.core.view.WindowInsetsAnimationControlListenerCompat)
+    void setSystemBarsBehavior(int)
+    int getSystemBarsBehavior()
+    void addOnControllableInsetsChangedListener(androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener)
+    void removeOnControllableInsetsChangedListener(androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener)
 com.google.common.graph.MapRetrievalCache
 kotlin.sequences.SequencesKt___SequencesKt$filterIsInstance$1
 com.google.api.MonitoredResourceDescriptorOrBuilder
@@ -2261,15 +2326,17 @@ com.google.common.util.concurrent.MoreExecutors$Application
 io.grpc.ServerStreamTracer$ServerCallInfo
 com.squareup.okhttp.internal.DiskLruCache$1
 androidx.core.app.NotificationCompat$BubbleMetadata:
-    private void <init>(android.app.PendingIntent,android.app.PendingIntent,androidx.core.graphics.drawable.IconCompat,int,int,int)
+    private void <init>(android.app.PendingIntent,android.app.PendingIntent,androidx.core.graphics.drawable.IconCompat,int,int,int,java.lang.String)
     public static androidx.core.app.NotificationCompat$BubbleMetadata fromPlatform(android.app.Notification$BubbleMetadata)
-    synthetic void <init>(android.app.PendingIntent,android.app.PendingIntent,androidx.core.graphics.drawable.IconCompat,int,int,int,androidx.core.app.NotificationCompat$1)
+    synthetic void <init>(android.app.PendingIntent,android.app.PendingIntent,androidx.core.graphics.drawable.IconCompat,int,int,int,java.lang.String,androidx.core.app.NotificationCompat$1)
+    public void setFlags(int)
     private android.app.PendingIntent mPendingIntent
     private android.app.PendingIntent mDeleteIntent
     private androidx.core.graphics.drawable.IconCompat mIcon
     private int mDesiredHeight
     private int mDesiredHeightResId
     private int mFlags
+    private java.lang.String mShortcutId
     private static final int FLAG_AUTO_EXPAND_BUBBLE
     private static final int FLAG_SUPPRESS_NOTIFICATION
 com.google.firebase.firestore.core.UserData$ParseContext:
@@ -2441,6 +2508,7 @@ com.google.protobuf.Field$Cardinality$CardinalityVerifier
 androidx.coordinatorlayout.widget.CoordinatorLayout$HierarchyChangeListener
 com.google.android.gms.common.api.internal.zaam
 androidx.legacy.app.ActionBarDrawerToggle$Delegate
+androidx.annotation.RequiresOptIn$Level
 com.google.common.collect.Iterators$10
 kotlin.jvm.functions.Function2
 com.google.api.HttpBody$1
@@ -2455,6 +2523,7 @@ com.google.firebase.storage.network.ResumableNetworkRequest:
     static final java.lang.String OFFSET
 kotlin.collections.SetsKt__SetsJVMKt
 com.google.api.Distribution$BucketOptions$Linear$Builder
+androidx.core.location.GnssStatusCompat$ConstellationType
 com.google.common.collect.MultimapBuilder$EnumSetSupplier
 kotlin.time.TestClock
 com.google.firestore.v1.TargetChangeOrBuilder
@@ -2493,6 +2562,7 @@ androidx.core.app.ActivityCompat:
     public static boolean shouldShowRequestPermissionRationale(android.app.Activity,java.lang.String)
     public static androidx.core.view.DragAndDropPermissionsCompat requestDragAndDropPermissions(android.app.Activity,android.view.DragEvent)
     public static void recreate(android.app.Activity)
+    public static void setLocusContext(android.app.Activity,androidx.core.content.LocusIdCompat,android.os.Bundle)
 com.google.common.primitives.Longs$LongArrayAsList
 kotlin.coroutines.CoroutineContext
 com.google.rpc.Code$CodeVerifier
@@ -2501,7 +2571,6 @@ io.grpc.LoadBalancer$ResolvedAddresses:
     public io.grpc.LoadBalancer$ResolvedAddresses$Builder toBuilder()
 com.google.common.collect.RegularImmutableBiMap
 kotlin.collections.unsigned.UArraysKt___UArraysJvmKt
-androidx.core.widget.ContentLoadingProgressBar$1
 com.google.protobuf.DescriptorProtos$MethodOptions$Builder
 androidx.annotation.WorkerThread
 com.google.common.graph.GraphBuilder
@@ -2515,6 +2584,7 @@ io.grpc.Metadata$1:
 com.google.android.gms.internal.auth-api-phone.zzg
 io.grpc.util.TransmitStatusRuntimeExceptionInterceptor$SerializingServerCall$4
 androidx.lifecycle.ViewModelProvider$AndroidViewModelFactory
+io.flutter.embedding.android.FlutterPlayStoreSplitApplication
 com.google.common.util.concurrent.Striped$6
 kotlin.internal.NoInfer
 com.google.firestore.v1.TransactionOptions$ReadOnly$ConsistencySelectorCase
@@ -2566,7 +2636,6 @@ com.google.cloud.datastore.core.number.NumberParts
 io.flutter.embedding.engine.FlutterEngineConnectionRegistry:
     public void add(java.util.Set)
     public io.flutter.embedding.engine.plugins.FlutterPlugin get(java.lang.Class)
-    public void attachToActivity(android.app.Activity,androidx.lifecycle.Lifecycle)
     public void attachToService(android.app.Service,androidx.lifecycle.Lifecycle,boolean)
     public void onMoveToForeground()
     public void onMoveToBackground()
@@ -2673,8 +2742,19 @@ com.google.protobuf.MessageLiteToString:
     private static final java.lang.String BYTES_SUFFIX
 com.google.common.collect.Multimaps$UnmodifiableSetMultimap
 com.google.android.datatransport.runtime.dagger.internal.SetBuilder
+androidx.core.view.WindowInsetsControllerCompat$Impl:
+    void show(int)
+    void hide(int)
+    void controlWindowInsetsAnimation(int,long,android.view.animation.Interpolator,android.os.CancellationSignal,androidx.core.view.WindowInsetsAnimationControlListenerCompat)
+    void setSystemBarsBehavior(int)
+    int getSystemBarsBehavior()
+    public boolean isAppearanceLightStatusBars()
+    public boolean isAppearanceLightNavigationBars()
+    void addOnControllableInsetsChangedListener(androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener)
+    void removeOnControllableInsetsChangedListener(androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener)
 kotlin.reflect.KDeclarationContainer
 com.google.common.base.FinalizableReferenceQueue$DirectLoader
+androidx.core.os.ProcessCompat$Api16Impl
 com.google.common.reflect.Types$WildcardTypeImpl
 kotlin.collections.AbstractMap$values$1
 io.flutter.plugins.firebase.auth.R
@@ -2824,6 +2904,8 @@ io.grpc.internal.DnsNameResolver:
     static final java.lang.String NETWORKADDRESS_CACHE_TTL_PROPERTY
     static final long DEFAULT_NETWORK_CACHE_TTL_SECONDS
 com.google.rpc.QuotaFailure
+androidx.core.app.NotificationCompat$BigPictureStyle$Api23Impl:
+    private void <init>()
 kotlin.collections.MapsKt___MapsKt
 com.google.common.eventbus.Dispatcher$1
 com.google.common.math.DoubleMath
@@ -3003,6 +3085,8 @@ com.google.android.gms.measurement.api.AppMeasurementSdk$OnEventListener
 org.intellij.lang.annotations.JdkConstants$HorizontalAlignment
 com.flutterdogtagapp.flutterdogtagapp.R$styleable
 com.google.protobuf.DescriptorProtos$GeneratedCodeInfo$Builder
+androidx.core.view.OnReceiveContentViewBehavior:
+    public abstract androidx.core.view.ContentInfoCompat onReceiveContent(androidx.core.view.ContentInfoCompat)
 androidx.annotation.RequiresFeature
 com.google.common.collect.AbstractMultimap$Entries
 com.google.android.gms.internal.firebase-auth-api.zzfp:
@@ -3183,8 +3267,6 @@ org.threeten.bp.chrono.HijrahEra:
     public java.lang.String getDisplayName(org.threeten.bp.format.TextStyle,java.util.Locale)
 com.google.android.gms.tasks.TaskExecutors:
     private void <init>()
-com.google.firestore.v1.Document$FieldsDefaultEntryHolder:
-    private void <init>()
 com.google.firestore.v1.WriteResult:
     private void setUpdateTime(com.google.protobuf.Timestamp)
     private void mergeUpdateTime(com.google.protobuf.Timestamp)
@@ -3225,6 +3307,8 @@ com.google.firestore.v1.WriteResult:
     public java.util.List getTransformResultsList()
     public java.util.List getTransformResultsOrBuilderList()
     public com.google.firestore.v1.ValueOrBuilder getTransformResultsOrBuilder(int)
+com.google.firestore.v1.Document$FieldsDefaultEntryHolder:
+    private void <init>()
 com.squareup.okhttp.internal.http.HttpEngine$2
 androidx.slidingpanelayout.widget.SlidingPaneLayout$PanelSlideListener
 com.google.common.graph.DirectedGraphConnections$1
@@ -3320,6 +3404,7 @@ com.google.protobuf.AbstractMessageLite$Builder:
     public synthetic bridge com.google.protobuf.MessageLite$Builder mergeFrom(com.google.protobuf.CodedInputStream,com.google.protobuf.ExtensionRegistryLite)
     public synthetic bridge com.google.protobuf.MessageLite$Builder mergeFrom(com.google.protobuf.CodedInputStream)
     public synthetic bridge com.google.protobuf.MessageLite$Builder clone()
+androidx.annotation.experimental.Experimental
 io.grpc.okhttp.internal.Platform:
     public java.lang.String getPrefix()
     public void logW(java.lang.String)
@@ -3374,13 +3459,13 @@ com.google.common.collect.ImmutableRangeMap$SerializedForm
 androidx.viewpager.R$styleable
 com.google.common.cache.LocalCache$AbstractCacheSet
 io.flutter.embedding.engine.loader.FlutterLoader:
-    public static io.flutter.embedding.engine.loader.FlutterLoader getInstance()
     public boolean initialized()
     public java.lang.String getLookupKeyForAsset(java.lang.String,java.lang.String)
     private static final java.lang.String TAG
     private static final java.lang.String OLD_GEN_HEAP_SIZE_META_DATA_KEY
     private static final java.lang.String ENABLE_SKPARAGRAPH_META_DATA_KEY
     static final java.lang.String AOT_SHARED_LIBRARY_NAME
+    static final java.lang.String AOT_VMSERVICE_SHARED_LIBRARY_NAME
     static final java.lang.String SNAPSHOT_ASSET_PATH_KEY
     static final java.lang.String VM_SNAPSHOT_DATA_KEY
     static final java.lang.String ISOLATE_SNAPSHOT_DATA_KEY
@@ -3388,6 +3473,7 @@ io.flutter.embedding.engine.loader.FlutterLoader:
     static final java.lang.String AUTOMATICALLY_REGISTER_PLUGINS_KEY
     private static final java.lang.String DEFAULT_LIBRARY
     private static final java.lang.String DEFAULT_KERNEL_BLOB
+    private static final java.lang.String VMSERVICE_SNAPSHOT_LIBRARY
     private static io.flutter.embedding.engine.loader.FlutterLoader instance
 javax.annotation.CheckForNull
 com.google.firebase.firestore.DocumentSnapshot:
@@ -3453,6 +3539,7 @@ com.google.android.gms.common.internal.BaseGmsClient:
     public static final int CONNECT_STATE_DISCONNECTING
     public static final java.lang.String KEY_PENDING_INTENT
     public static final java.lang.String DEFAULT_ACCOUNT
+androidx.core.net.ParseException
 androidx.asynclayoutinflater.R$dimen
 androidx.media.MediaSessionManagerImplBase
 androidx.browser.customtabs.CustomTabsIntent:
@@ -3602,7 +3689,9 @@ com.google.common.graph.NetworkBuilder
 com.google.android.gms.internal.safetynet.zzk$zzj
 com.google.android.datatransport.runtime.dagger.internal.MapFactory$Builder
 com.google.common.collect.Synchronized$SynchronizedAsMapValues
+androidx.core.location.LocationManagerCompat$PreRGnssStatusTransport$1
 com.google.longrunning.Operation
+androidx.core.view.ContentInfoCompat$Source
 io.grpc.ClientInterceptors$2:
     public void cancel(java.lang.String,java.lang.Throwable)
     public boolean isReady()
@@ -3614,7 +3703,6 @@ io.grpc.util.RoundRobinLoadBalancer$ReadyPicker:
 com.google.geo.type.Viewport$1
 com.google.protobuf.MethodOrBuilder
 com.google.firebase.auth.zzu
-androidx.core.provider.FontsContractCompat$4$4
 kotlin.comparisons.ComparisonsKt__ComparisonsKt$nullsLast$1
 com.google.common.util.concurrent.AggregateFuture$RunningState
 com.google.common.collect.AbstractBiMap$KeySet
@@ -3815,6 +3903,7 @@ androidx.customview.widget.ExploreByTouchHelper$2
 com.google.android.gms.common.server.response.FastParser
 kotlin.reflect.KProperty2$Getter
 com.google.api.MetricRule
+androidx.core.widget.TextViewOnReceiveContentListener$Api16Impl
 com.google.rpc.context.AttributeContext$Response$HeadersDefaultEntryHolder
 com.squareup.okhttp.internal.http.HttpMethod
 okio.ForwardingSource
@@ -3848,6 +3937,7 @@ com.google.common.collect.Maps$FilteredEntryMap$EntrySet$1
 com.google.common.collect.Cut$AboveAll
 kotlin.jvm.internal.FloatCompanionObject
 androidx.core.view.ViewPropertyAnimatorListenerAdapter
+androidx.core.widget.TintableCheckedTextView
 com.google.android.gms.common.util.DefaultClock:
     public long currentThreadTimeMillis()
 androidx.core.graphics.BlendModeUtils
@@ -3919,6 +4009,8 @@ com.google.android.gms.internal.safetynet.zzj:
     public final void zzd(com.google.android.gms.internal.safetynet.zzg)
     public final void zza(com.google.android.gms.internal.safetynet.zzg,java.lang.String)
 com.google.protobuf.DescriptorProtos$MethodDescriptorProto
+androidx.core.app.NotificationCompat$BigPictureStyle$Api16Impl:
+    private void <init>()
 androidx.browser.R$drawable
 com.google.common.collect.ImmutableSetMultimap
 com.google.common.util.concurrent.AbstractService$IsStoppedGuard
@@ -3933,7 +4025,7 @@ com.google.cloud.audit.AuditLog$Builder
 io.flutter.embedding.engine.FlutterEngine:
     public void <init>(android.content.Context,java.lang.String[],boolean)
     public void <init>(android.content.Context,io.flutter.embedding.engine.loader.FlutterLoader,io.flutter.embedding.engine.FlutterJNI)
-    io.flutter.embedding.engine.FlutterEngine spawn(android.content.Context,io.flutter.embedding.engine.dart.DartExecutor$DartEntrypoint)
+    io.flutter.embedding.engine.FlutterEngine spawn(android.content.Context,io.flutter.embedding.engine.dart.DartExecutor$DartEntrypoint,java.lang.String)
     public void addEngineLifecycleListener(io.flutter.embedding.engine.FlutterEngine$EngineLifecycleListener)
     public void removeEngineLifecycleListener(io.flutter.embedding.engine.FlutterEngine$EngineLifecycleListener)
     public io.flutter.embedding.engine.systemchannels.LocalizationChannel getLocalizationChannel()
@@ -4023,6 +4115,7 @@ com.google.android.gms.common.api.internal.ListenerHolder$Notifier
 com.google.android.gms.common.SignInButton$ButtonSize
 androidx.loader.R
 com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher$Event
+androidx.core.view.WindowInsetsCompat$BuilderImpl30
 com.google.common.io.Closeables
 com.google.protobuf.WireFormat$FieldType:
     public boolean isPackable()
@@ -4078,6 +4171,7 @@ androidx.core.app.AppOpsManagerCompat:
 androidx.core.app.Person$Builder:
     void <init>(androidx.core.app.Person)
 androidx.multidex.R
+androidx.core.view.WindowCompat$Impl30
 androidx.core.os.ParcelableCompat$ParcelableCompatCreatorHoneycombMR2
 com.google.common.io.Files
 com.google.firestore.v1.CommitResponse$Builder:
@@ -4099,6 +4193,7 @@ com.google.firestore.v1.CommitResponse$Builder:
     public com.google.firestore.v1.CommitResponse$Builder setCommitTime(com.google.protobuf.Timestamp$Builder)
     public com.google.firestore.v1.CommitResponse$Builder mergeCommitTime(com.google.protobuf.Timestamp)
     public com.google.firestore.v1.CommitResponse$Builder clearCommitTime()
+androidx.core.app.ActivityCompat$2
 com.google.common.hash.Crc32cHashFunction
 com.google.android.gms.common.api.internal.ListenerHolder$ListenerKey:
     void <init>(java.lang.Object,java.lang.String)
@@ -4240,6 +4335,7 @@ com.google.common.cache.LocalCache$EntryFactory
 androidx.core.internal.view.SupportMenu
 com.google.common.collect.Multimaps
 com.google.rpc.context.AttributeContext$Api
+androidx.core.os.HandlerCompat$Api29Impl
 kotlin.io.ConsoleKt$decoder$2
 kotlin.Pair
 com.mr.flutter.plugin.filepicker.FilePickerPlugin:
@@ -4254,6 +4350,7 @@ io.flutter.FlutterInjector$Builder:
     public io.flutter.FlutterInjector$Builder setFlutterLoader(io.flutter.embedding.engine.loader.FlutterLoader)
     public io.flutter.FlutterInjector$Builder setDeferredComponentManager(io.flutter.embedding.engine.deferredcomponents.DeferredComponentManager)
     public io.flutter.FlutterInjector$Builder setFlutterJNIFactory(io.flutter.embedding.engine.FlutterJNI$Factory)
+    public io.flutter.FlutterInjector$Builder setExecutorService(java.util.concurrent.ExecutorService)
 kotlin.sequences.FlatteningSequence$iterator$1
 kotlin.collections.ArraysKt___ArraysJvmKt$asList$3
 io.flutter.plugins.sharedpreferences.R$dimen
@@ -4476,7 +4573,6 @@ androidx.core.graphics.drawable.IconCompat:
     public static androidx.core.graphics.drawable.IconCompat createFromIcon(android.content.Context,android.graphics.drawable.Icon)
     public static androidx.core.graphics.drawable.IconCompat createFromIcon(android.graphics.drawable.Icon)
     public static androidx.core.graphics.drawable.IconCompat createFromIconOrNullIfZeroResId(android.graphics.drawable.Icon)
-    public android.graphics.Bitmap getBitmap()
     public androidx.core.graphics.drawable.IconCompat setTint(int)
     public androidx.core.graphics.drawable.IconCompat setTintList(android.content.res.ColorStateList)
     public androidx.core.graphics.drawable.IconCompat setTintMode(android.graphics.PorterDuff$Mode)
@@ -4496,12 +4592,13 @@ androidx.core.graphics.drawable.IconCompat:
     private static final float KEY_SHADOW_OFFSET_FACTOR
     private static final int KEY_SHADOW_ALPHA
     private static final int AMBIENT_SHADOW_ALPHA
-    private static final java.lang.String EXTRA_TYPE
-    private static final java.lang.String EXTRA_OBJ
-    private static final java.lang.String EXTRA_INT1
-    private static final java.lang.String EXTRA_INT2
-    private static final java.lang.String EXTRA_TINT_LIST
-    private static final java.lang.String EXTRA_TINT_MODE
+    static final java.lang.String EXTRA_TYPE
+    static final java.lang.String EXTRA_OBJ
+    static final java.lang.String EXTRA_INT1
+    static final java.lang.String EXTRA_INT2
+    static final java.lang.String EXTRA_TINT_LIST
+    static final java.lang.String EXTRA_TINT_MODE
+    static final java.lang.String EXTRA_STRING1
 com.google.common.util.concurrent.TrustedListenableFutureTask$TrustedFutureInterruptibleAsyncTask
 com.google.android.gms.internal.safetynet.zzk:
     public static varargs com.google.android.gms.common.api.PendingResult zza(com.google.android.gms.common.api.GoogleApiClient,java.lang.String,int,java.lang.String,int[])
@@ -4638,6 +4735,7 @@ io.flutter.embedding.android.FlutterActivity:
     public static io.flutter.embedding.android.FlutterActivity$NewEngineIntentBuilder withNewEngine()
     public static io.flutter.embedding.android.FlutterActivity$CachedEngineIntentBuilder withCachedEngine(java.lang.String)
     void setDelegate(io.flutter.embedding.android.FlutterActivityAndFragmentDelegate)
+    public void updateSystemUiOverlays()
     private static final java.lang.String TAG
 com.google.common.collect.LinkedHashMultimap$ValueEntry
 io.grpc.internal.ServerImpl$JumpToApplicationThreadServerStreamListener$1OnReady
@@ -4663,6 +4761,7 @@ com.google.firebase.analytics.FirebaseAnalytics:
     public void setUserProperty(java.lang.String,java.lang.String)
     private java.util.concurrent.ExecutorService zzc
 androidx.interpolator.view.animation.FastOutLinearInInterpolator
+androidx.core.graphics.TypefaceCompat$ResourcesCallbackAdapter
 com.google.common.base.Optional
 com.google.common.primitives.ImmutableIntArray$AsList
 com.google.common.collect.ArrayListMultimap
@@ -4674,6 +4773,7 @@ com.google.android.gms.common.api.PendingResult:
     public abstract void setResultCallback(com.google.android.gms.common.api.ResultCallback,long,java.util.concurrent.TimeUnit)
     public com.google.android.gms.common.api.TransformedResult then(com.google.android.gms.common.api.ResultTransform)
     public java.lang.Integer zal()
+androidx.core.provider.CallbackWithHandler$2
 com.google.firebase.storage.DeleteStorageTask:
     private static final java.lang.String TAG
 kotlin.text.ScreenFloatValueRegEx
@@ -4913,6 +5013,23 @@ com.google.android.gms.internal.safetynet.zzk$zzi
 androidx.core.app.NotificationCompat$StreamType
 io.grpc.ServerInterceptors$2$1
 com.google.common.io.ByteSink$AsCharSink
+androidx.tracing.Trace:
+    public static boolean isEnabled()
+    public static void beginAsyncSection(java.lang.String,int)
+    public static void endAsyncSection(java.lang.String,int)
+    public static void setCounter(java.lang.String,int)
+    private static boolean isEnabledFallback()
+    private static void beginAsyncSectionFallback(java.lang.String,int)
+    private static void endAsyncSectionFallback(java.lang.String,int)
+    private static void setCounterFallback(java.lang.String,int)
+    private static void handleException(java.lang.String,java.lang.Exception)
+    private void <init>()
+    static final java.lang.String TAG
+    private static long sTraceTagApp
+    private static java.lang.reflect.Method sIsTagEnabledMethod
+    private static java.lang.reflect.Method sAsyncTraceBeginMethod
+    private static java.lang.reflect.Method sAsyncTraceEndMethod
+    private static java.lang.reflect.Method sTraceCounterMethod
 androidx.core.app.JobIntentService$CompatJobEngine
 androidx.core.view.NestedScrollingChildHelper
 com.google.common.util.concurrent.MoreExecutors$1
@@ -4926,7 +5043,6 @@ com.google.common.math.Stats
 com.google.common.util.concurrent.AggregateFutureState$1
 io.grpc.NameResolver$ResolutionResult:
     public io.grpc.NameResolver$ResolutionResult$Builder toBuilder()
-androidx.core.provider.FontsContractCompat$4$5
 androidx.asynclayoutinflater.R$style
 com.google.common.collect.RowSortedTable
 io.grpc.inprocess.InProcessTransport
@@ -5021,6 +5137,7 @@ com.google.common.eventbus.AsyncEventBus
 com.google.protobuf.Empty$1
 com.google.common.graph.AbstractBaseGraph$IncidentEdgeSet$Directed
 com.google.android.gms.common.server.response.zan
+androidx.core.provider.FontRequestWorker$2
 com.google.android.datatransport.runtime.dagger.Module
 com.google.android.gms.tasks.Task:
     public abstract com.google.android.gms.tasks.Task addOnSuccessListener(android.app.Activity,com.google.android.gms.tasks.OnSuccessListener)
@@ -5051,6 +5168,7 @@ com.squareup.okhttp.internal.framed.Spdy3$Reader
 com.squareup.okhttp.CertificatePinner
 com.google.common.io.Flushables
 com.google.common.cache.Striped64$Cell
+androidx.core.view.ContentInfoCompat
 kotlin.sequences.DropTakeSequence
 com.google.common.collect.Iterators$4
 com.google.rpc.context.AttributeContext$AuthOrBuilder
@@ -5063,6 +5181,7 @@ com.google.gson.internal.LinkedHashTreeMap$LinkedTreeMapIterator
 com.google.common.cache.LocalCache$EntryFactory$3
 kotlin.comparisons.ComparisonsKt__ComparisonsKt$thenDescending$1
 androidx.asynclayoutinflater.view.AsyncLayoutInflater$1
+androidx.core.content.pm.PackageInfoCompat$Api28Impl
 io.grpc.stub.ServerCalls$ServerStreamingMethod
 com.google.common.collect.ImmutableSortedSet$Builder
 com.google.type.TimeZone$Builder
@@ -5126,7 +5245,6 @@ com.google.firebase.messaging.FirebaseMessaging:
     public static final java.lang.String INSTANCE_ID_SCOPE
 io.flutter.plugin.platform.SingleViewPresentation$WindowManagerHandler:
     private static final java.lang.String TAG
-androidx.swiperefreshlayout.widget.SwipeRefreshLayout$1
 com.google.firestore.v1.StructuredQuery$UnaryFilter:
     private void clearOperandType()
     private void setOpValue(int)
@@ -5155,6 +5273,7 @@ com.google.firestore.v1.StructuredQuery$UnaryFilter:
     public com.google.firestore.v1.StructuredQuery$UnaryFilter$OperandTypeCase getOperandTypeCase()
     public int getOpValue()
     public boolean hasField()
+androidx.swiperefreshlayout.widget.SwipeRefreshLayout$1
 androidx.core.graphics.PathParser
 com.google.protobuf.GeneratedMessageLite$ExtendableMessage$ExtensionWriter
 io.grpc.InternalChannelz$SocketOptions$Builder
@@ -5598,6 +5717,7 @@ com.google.android.gms.measurement.internal.zzdx:
     public final void zzl(com.google.android.gms.measurement.internal.zzat,java.lang.String,java.lang.String)
     public final void zzo(com.google.android.gms.measurement.internal.zzab)
 kotlin.io.ConsoleKt
+androidx.core.content.LocusIdCompat$Api29Impl
 kotlin.coroutines.experimental.CoroutineContext$plus$1
 io.grpc.internal.ServiceConfigUtil:
     private void <init>()
@@ -5708,6 +5828,7 @@ com.google.protobuf.DoubleArrayList:
     public static com.google.protobuf.DoubleArrayList emptyList()
 com.google.firebase.encoders.DataEncoder:
     public abstract java.lang.String encode(java.lang.Object)
+androidx.core.view.WindowInsetsCompat$Type$InsetsType
 com.google.common.base.Converter
 com.google.errorprone.annotations.FormatMethod
 com.google.common.collect.TreeRangeSet$RangesByUpperBound
@@ -5717,6 +5838,8 @@ com.google.common.hash.Funnels
 com.google.common.hash.Funnels$UnencodedCharsFunnel
 com.squareup.okhttp.internal.http.HttpStream
 com.google.common.collect.ImmutableSetMultimap$EntrySet
+androidx.core.content.ContextCompat$Api16Impl:
+    private void <init>()
 com.google.longrunning.OperationOrBuilder
 com.google.firestore.v1.TransactionOptions$Builder:
     public com.google.firestore.v1.TransactionOptions$ModeCase getModeCase()
@@ -5777,6 +5900,7 @@ androidx.core.view.NestedScrollingParentHelper
 com.google.common.cache.RemovalListener
 com.google.api.MetricDescriptor$MetricDescriptorMetadataOrBuilder
 kotlin.jvm.internal.ByteSpreadBuilder
+androidx.core.location.LocationManagerCompat$PreRGnssStatusTransport$3
 androidx.core.view.accessibility.AccessibilityWindowInfoCompat
 com.google.common.collect.ImmutableTable$SerializedForm
 androidx.core.location.LocationManagerCompat
@@ -5870,9 +5994,10 @@ androidx.media.AudioAttributesImplApi26$Builder:
     public androidx.media.AudioAttributesImplApi26$Builder setUsage(int)
     public synthetic bridge androidx.media.AudioAttributesImplApi21$Builder setUsage(int)
     public synthetic bridge androidx.media.AudioAttributesImpl$Builder setUsage(int)
+androidx.core.location.LocationManagerCompat$GpsStatusTransport$1
 kotlin.jvm.internal.LocalVariableReference
-io.grpc.stub.InternalClientCalls
 androidx.core.app.NotificationCompat$DecoratedCustomViewStyle
+io.grpc.stub.InternalClientCalls
 com.google.common.collect.CollectPreconditions
 com.google.api.Monitoring$MonitoringDestination$Builder
 com.google.protobuf.DescriptorProtos$EnumDescriptorProto$EnumReservedRange$Builder
@@ -5905,7 +6030,6 @@ com.google.firebase.messaging.RemoteMessage$Builder:
     public com.google.firebase.messaging.RemoteMessage$Builder addData(java.lang.String,java.lang.String)
     public com.google.firebase.messaging.RemoteMessage$Builder clearData()
     public com.google.firebase.messaging.RemoteMessage$Builder setRawData(byte[])
-androidx.core.content.ContextCompat$MainHandlerExecutor
 androidx.core.view.accessibility.AccessibilityViewCommand$SetTextArguments
 okio.SegmentedByteString:
     private java.lang.Object writeReplace()
@@ -5923,6 +6047,7 @@ okio.SegmentedByteString:
     public int indexOf(byte[],int)
     public int lastIndexOf(byte[],int)
     byte[] internalArray()
+androidx.core.view.inputmethod.EditorInfoCompat$Impl30
 com.google.common.escape.Escapers$2
 androidx.core.view.ViewConfigurationCompat
 com.google.android.datatransport.runtime.dagger.internal.MapBuilder
@@ -5942,7 +6067,7 @@ com.google.android.gms.common.AccountPicker$AccountChooserOptions
 com.google.common.collect.MapMakerInternalMap$EntryIterator
 androidx.fragment.R$layout
 androidx.core.app.NotificationCompat$MessagingStyle:
-    private void <init>()
+    void <init>()
     public void <init>(java.lang.CharSequence)
     public static androidx.core.app.NotificationCompat$MessagingStyle extractMessagingStyleFromNotification(android.app.Notification)
     public java.lang.CharSequence getUserDisplayName()
@@ -5950,8 +6075,12 @@ androidx.core.app.NotificationCompat$MessagingStyle:
     public java.lang.CharSequence getConversationTitle()
     public androidx.core.app.NotificationCompat$MessagingStyle addMessage(java.lang.CharSequence,long,java.lang.CharSequence)
     public androidx.core.app.NotificationCompat$MessagingStyle addMessage(java.lang.CharSequence,long,androidx.core.app.Person)
+    public androidx.core.app.NotificationCompat$MessagingStyle addHistoricMessage(androidx.core.app.NotificationCompat$MessagingStyle$Message)
     public java.util.List getMessages()
+    public java.util.List getHistoricMessages()
     protected void restoreFromCompatExtras(android.os.Bundle)
+    protected void clearCompatExtraKeys(android.os.Bundle)
+    private static final java.lang.String TEMPLATE_CLASS_NAME
     public static final int MAXIMUM_RETAINED_MESSAGES
 com.google.android.gms.common.internal.GoogleApiAvailabilityCache:
     public void <init>()
@@ -6045,19 +6174,21 @@ com.google.firebase.storage.StreamDownloadTask$TaskSnapshot:
     public java.io.InputStream getStream()
 com.google.android.datatransport.runtime.dagger.internal.AbstractMapFactory
 com.google.common.collect.FilteredKeySetMultimap$EntrySet
+androidx.core.provider.RequestExecutor$DefaultThreadFactory
 com.google.android.gms.common.config.zzd
 com.google.firestore.v1.RunQueryRequestOrBuilder
 com.google.firestore.v1.RunQueryRequest$1
-androidx.core.provider.FontsContractCompat$2
 com.google.common.collect.Iterators$5
 androidx.core.view.WindowInsetsCompat$Impl
 io.flutter.plugins.firebase.core.R$style
 com.google.firebase.storage.network.package-info
 com.google.common.base.Functions
+androidx.core.provider.FontRequestWorker$1
 com.google.protobuf.StructOrBuilder
 io.flutter.embedding.android.FlutterImageView:
     public void <init>(android.content.Context)
     public void <init>(android.content.Context,android.util.AttributeSet)
+    private static final java.lang.String TAG
 com.google.firestore.v1.Precondition$ConditionTypeCase:
     public static com.google.firestore.v1.Precondition$ConditionTypeCase valueOf(int)
     public int getNumber()
@@ -6208,7 +6339,6 @@ io.grpc.internal.AbstractManagedChannelImplBuilder$DirectAddressNameResolverFact
 com.google.android.gms.common.util.NumberUtils
 com.google.common.collect.MapMakerInternalMap$WeakValueEntry
 com.google.api.Billing
-io.flutter.embedding.android.FlutterView$TransparencyMode
 com.google.android.datatransport.runtime.scheduling.SchedulingConfigModule:
     public void <init>()
 androidx.core.view.ScaleGestureDetectorCompat
@@ -6309,6 +6439,7 @@ com.google.common.cache.LocalCache$LocalLoadingCache
 com.google.api.ResourceReference$Builder
 com.google.common.util.concurrent.Striped$5
 com.google.protobuf.Option$Builder
+androidx.core.view.WindowInsetsControllerCompat$Impl20$1
 androidx.annotation.GuardedBy
 io.grpc.Context$LazyStorage:
     private void <init>()
@@ -6319,6 +6450,7 @@ io.grpc.ServerInterceptors$1
 com.google.android.gms.base.R$id
 kotlin.jvm.JvmSuppressWildcards
 com.google.common.collect.Synchronized$SynchronizedSortedSetMultimap
+androidx.core.view.ViewCompat$Api21Impl$1
 com.google.common.util.concurrent.ForwardingBlockingQueue
 com.google.common.collect.ArrayTable$Column
 io.flutter.plugins.imagepicker.ImagePickerUtils:
@@ -6488,6 +6620,7 @@ com.google.android.gms.internal.measurement.zzey:
 com.google.api.Documentation$1
 com.google.longrunning.DeleteOperationRequestOrBuilder
 io.grpc.LoadBalancer$CreateSubchannelArgs$Key
+androidx.core.location.LocationManagerCompat$GpsStatusTransport
 io.flutter.embedding.engine.plugins.contentprovider.ContentProviderControlSurface
 com.google.protobuf.ExtensionSchemaLite:
     void setExtensions(java.lang.Object,com.google.protobuf.FieldSet)
@@ -6696,6 +6829,9 @@ com.google.firestore.v1.ListCollectionIdsRequest$Builder
 kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt
 androidx.core.app.RemoteInput$EditChoicesBeforeSending
 com.google.common.util.concurrent.AbstractCatchingFuture
+androidx.core.app.NotificationCompat$BubbleMetadata$Api30Impl:
+    private void <init>()
+    static androidx.core.app.NotificationCompat$BubbleMetadata fromPlatform(android.app.Notification$BubbleMetadata)
 com.squareup.okhttp.internal.framed.Spdy3
 org.threeten.bp.format.DateTimeFormatStyleProvider
 androidx.core.hardware.fingerprint.FingerprintManagerCompat$1
@@ -6708,6 +6844,7 @@ androidx.core.graphics.PathUtils
 io.grpc.internal.AutoConfiguredLoadBalancerFactory$PolicyException:
     private static final long serialVersionUID
 com.google.common.util.concurrent.AbstractScheduledService$ServiceDelegate$3
+androidx.core.view.WindowInsetsAnimationCompat$Callback$DispatchMode
 io.flutter.plugins.firebase.storage.R$string
 kotlin.NumbersKt__NumbersKt
 io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl
@@ -6733,6 +6870,7 @@ com.google.protobuf.OneofInfo:
     private final int id
     private final java.lang.reflect.Field caseField
     private final java.lang.reflect.Field valueField
+androidx.core.telephony.TelephonyManagerCompat$Api26Impl
 android.support.v4.media.session.PlaybackStateCompat$CustomAction$Builder
 com.google.protobuf.BoolValueOrBuilder
 com.google.common.cache.LocalCache$WriteQueue
@@ -6780,14 +6918,25 @@ androidx.core.app.NotificationManagerCompat:
     public boolean areNotificationsEnabled()
     public int getImportance()
     public void createNotificationChannel(android.app.NotificationChannel)
+    public void createNotificationChannel(androidx.core.app.NotificationChannelCompat)
     public void createNotificationChannelGroup(android.app.NotificationChannelGroup)
+    public void createNotificationChannelGroup(androidx.core.app.NotificationChannelGroupCompat)
     public void createNotificationChannels(java.util.List)
+    public void createNotificationChannelsCompat(java.util.List)
     public void createNotificationChannelGroups(java.util.List)
+    public void createNotificationChannelGroupsCompat(java.util.List)
     public void deleteNotificationChannel(java.lang.String)
     public void deleteNotificationChannelGroup(java.lang.String)
+    public void deleteUnlistedNotificationChannels(java.util.Collection)
     public android.app.NotificationChannel getNotificationChannel(java.lang.String)
+    public androidx.core.app.NotificationChannelCompat getNotificationChannelCompat(java.lang.String)
+    public android.app.NotificationChannel getNotificationChannel(java.lang.String,java.lang.String)
+    public androidx.core.app.NotificationChannelCompat getNotificationChannelCompat(java.lang.String,java.lang.String)
     public android.app.NotificationChannelGroup getNotificationChannelGroup(java.lang.String)
+    public androidx.core.app.NotificationChannelGroupCompat getNotificationChannelGroupCompat(java.lang.String)
+    public java.util.List getNotificationChannelsCompat()
     public java.util.List getNotificationChannelGroups()
+    public java.util.List getNotificationChannelGroupsCompat()
     private static final java.lang.String TAG
     private static final java.lang.String CHECK_OP_NO_THROW
     private static final java.lang.String OP_POST_NOTIFICATION
@@ -6807,6 +6956,7 @@ androidx.core.app.NotificationManagerCompat:
 com.google.common.base.FunctionalEquivalence
 android.support.customtabs.IPostMessageService
 com.google.protobuf.DescriptorProtos$OneofDescriptorProto
+androidx.core.view.WindowInsetsAnimationControllerCompat
 androidx.collection.ArraySet:
     public void <init>(androidx.collection.ArraySet)
     public void <init>(java.util.Collection)
@@ -7154,6 +7304,7 @@ androidx.activity.OnBackPressedDispatcher:
     public boolean hasEnabledCallbacks()
 com.google.common.graph.MutableNetwork
 com.google.android.gms.cloudmessaging.R
+androidx.annotation.experimental.Experimental$Level
 com.google.common.hash.AbstractNonStreamingHashFunction
 kotlin.ranges.URangesKt
 com.google.common.collect.Sets$SetView
@@ -7229,6 +7380,7 @@ org.threeten.bp.DayOfWeek:
     public java.lang.String getDisplayName(org.threeten.bp.format.TextStyle,java.util.Locale)
     public org.threeten.bp.DayOfWeek plus(long)
     public org.threeten.bp.DayOfWeek minus(long)
+androidx.core.app.NotificationChannelCompat
 com.google.firestore.v1.DocumentMask$Builder:
     public java.util.List getFieldPathsList()
     public int getFieldPathsCount()
@@ -7328,7 +7480,6 @@ com.google.firebase.auth.OAuthProvider:
     public final void zzb(android.app.Activity)
     public final void zzc(android.app.Activity)
     private final android.os.Bundle zza
-androidx.core.provider.FontsContractCompat$1
 com.google.common.primitives.Ints$IntConverter
 com.google.android.gms.safetynet.zzl
 com.google.common.collect.ForwardingListMultimap
@@ -7356,6 +7507,7 @@ com.flutterdogtagapp.flutterdogtagapp.BuildConfig
 com.google.protobuf.DescriptorProtos$FieldDescriptorProto$Label$LabelVerifier
 io.flutter.plugins.flutter_plugin_android_lifecycle.R
 com.google.longrunning.ListOperationsResponse
+androidx.core.location.LocationManagerCompat$PreRGnssStatusTransport$2
 com.google.protobuf.Api$1
 com.google.rpc.ErrorDetailsProto
 com.google.firebase.firestore.core.UserData$ParseAccumulator:
@@ -7531,6 +7683,7 @@ com.google.protobuf.LazyStringArrayList:
     public void mergeFrom(com.google.protobuf.LazyStringList)
     public java.util.List asByteArrayList()
     public java.util.List asByteStringList()
+androidx.core.location.LocationManagerCompat$GpsStatusTransport$4
 com.google.android.gms.safetynet.VerifyAppsConstants
 com.google.common.collect.SparseImmutableTable
 androidx.core.view.MarginLayoutParamsCompat
@@ -7606,6 +7759,7 @@ com.google.android.gms.internal.measurement.zzjv:
     public final synthetic bridge com.google.android.gms.internal.measurement.zzig zzaq()
 kotlin.collections.FloatIterator
 com.google.firebase.firestore.proto.NoDocumentOrBuilder
+com.google.firebase.datatransport.BuildConfig
 com.google.firebase.storage.StorageException:
     public int getHttpResultCode()
     public boolean getIsRecoverableException()
@@ -7621,7 +7775,6 @@ com.google.firebase.storage.StorageException:
     public static final int ERROR_INVALID_CHECKSUM
     public static final int ERROR_CANCELED
     private static final int NETWORK_UNAVAILABLE
-com.google.firebase.datatransport.BuildConfig
 io.grpc.internal.SubchannelChannel$1
 com.google.android.gms.common.internal.safeparcel.SafeParcelable$Class
 com.google.common.hash.AbstractNonStreamingHashFunction$ExposedByteArrayOutputStream
@@ -7702,11 +7855,14 @@ androidx.core.view.accessibility.AccessibilityViewCommand
 com.google.common.collect.MapMakerInternalMap$WeakKeyWeakValueSegment
 com.google.common.collect.MapMakerInternalMap$HashIterator
 io.flutter.plugins.firebase.messaging.R$drawable
+androidx.core.provider.FontRequestWorker$4
 com.google.android.gms.common.api.internal.BasePendingResult$CallbackHandler:
     public void <init>()
 com.google.common.reflect.TypeToInstanceMap
 com.google.common.util.concurrent.CycleDetectingLockFactory$Policy
 com.google.firestore.v1.TransactionOptions$ReadOnlyOrBuilder
+androidx.core.view.WindowInsetsControllerCompat$Impl26:
+    public boolean isAppearanceLightNavigationBars()
 com.google.android.gms.common.data.AbstractDataBuffer
 com.google.android.gms.tasks.zza:
     public final boolean isCancellationRequested()
@@ -7799,6 +7955,7 @@ io.grpc.internal.OobChannel:
     private final io.grpc.internal.ChannelTracer channelTracer
     private final io.grpc.internal.TimeProvider timeProvider
 com.google.common.util.concurrent.Callables$2
+androidx.core.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderApi26
 io.flutter.view.FlutterRunArguments
 kotlin.jvm.JvmWildcard
 com.google.firestore.v1.DocumentTransform$FieldTransform:
@@ -7882,6 +8039,7 @@ com.google.common.graph.GraphConstants$Presence
 com.google.android.gms.common.api.internal.zaai
 androidx.core.app.ServiceCompat
 com.squareup.okhttp.CacheControl
+androidx.core.app.NotificationChannelGroupCompat
 com.google.android.gms.internal.safetynet.zzx:
     public final void zza(com.google.android.gms.internal.safetynet.zzg,java.util.List,int,java.lang.String,java.lang.String)
 com.google.common.collect.Multisets$2$1
@@ -7988,11 +8146,11 @@ com.google.common.util.concurrent.AggregateFutureState
 kotlin.ranges.IntRange
 android.support.v4.media.session.MediaSessionCompat$2
 com.google.errorprone.annotations.MustBeClosed
-androidx.loader.content.Loader$OnLoadCompleteListener:
-    public abstract void onLoadComplete(androidx.loader.content.Loader,java.lang.Object)
 com.google.firestore.v1.ArrayValueOrBuilder:
     public abstract com.google.firestore.v1.Value getValues(int)
     public abstract int getValuesCount()
+androidx.loader.content.Loader$OnLoadCompleteListener:
+    public abstract void onLoadComplete(androidx.loader.content.Loader,java.lang.Object)
 com.google.common.util.concurrent.Striped$PowerOfTwoStriped
 androidx.core.view.GestureDetectorCompat$GestureDetectorCompatImplBase
 com.dexterous.flutterlocalnotifications.R$drawable
@@ -8240,8 +8398,8 @@ com.google.common.collect.MinMaxPriorityQueue
 com.google.common.util.concurrent.Atomics
 com.google.android.gms.common.api.internal.GoogleServices
 kotlin.ResultKt
-com.google.firestore.v1.CreateDocumentRequest$Builder
 androidx.legacy.app.ActionBarDrawerToggle$SlideDrawable
+com.google.firestore.v1.CreateDocumentRequest$Builder
 com.google.common.collect.Hashing:
     private void <init>()
     static int closedTableSize(int,double)
@@ -8359,6 +8517,9 @@ io.grpc.inprocess.InProcessTransport$InProcessStream$InProcessServerStream
 kotlin.text.RegexKt$fromInt$$inlined$apply$lambda$1
 androidx.core.app.NotificationCompat$InboxStyle:
     public void <init>(androidx.core.app.NotificationCompat$Builder)
+    protected void restoreFromCompatExtras(android.os.Bundle)
+    protected void clearCompatExtraKeys(android.os.Bundle)
+    private static final java.lang.String TEMPLATE_CLASS_NAME
 com.google.common.collect.FluentIterable$FromIterableFunction
 com.google.rpc.Help$1
 io.flutter.plugins.firebase.auth.Constants
@@ -8457,6 +8618,7 @@ com.google.firestore.v1.DocumentMaskOrBuilder
 com.google.common.collect.Tables$TransformedTable$2
 com.google.common.collect.AbstractMapBasedMultiset$Itr
 com.google.common.util.concurrent.AggregateFutureState$SynchronizedAtomicHelper
+androidx.core.telephony.TelephonyManagerCompat$Api30Impl
 androidx.browser.browseractions.BrowserActionsFallbackMenuAdapter
 com.google.common.collect.Maps$3
 io.grpc.ForwardingClientCallListener
@@ -8487,6 +8649,7 @@ com.google.api.Documentation
 io.grpc.ServerCall$Listener
 com.google.firebase.appcheck.interop.R$attr
 com.google.rpc.Code
+androidx.core.os.ExecutorCompat
 com.google.common.cache.ForwardingCache$SimpleForwardingCache
 com.squareup.okhttp.internal.framed.Hpack
 io.grpc.InternalChannelz$Security:
@@ -8544,6 +8707,7 @@ com.google.firebase.analytics.FirebaseAnalytics$UserProperty
 io.flutter.plugins.firebase.firestore.R$color
 androidx.core.app.DialogCompat
 com.google.type.TimeZone
+androidx.core.content.pm.ShortcutManagerCompat$ShortcutMatchFlags
 androidx.media.R$color
 com.mr.flutter.plugin.filepicker.R
 com.google.common.collect.Ordering
@@ -8580,6 +8744,8 @@ com.google.protobuf.FloatArrayList:
     public static com.google.protobuf.FloatArrayList emptyList()
 com.google.common.primitives.ImmutableIntArray$1
 com.google.common.reflect.Element
+androidx.core.location.LocationManagerCompat$GpsStatusTransport$3
+androidx.core.provider.RequestExecutor$ReplyRunnable
 kotlin.sequences.TakeWhileSequence$iterator$1
 com.google.longrunning.CancelOperationRequest$1
 kotlin.jvm.internal.CollectionToArray
@@ -8647,6 +8813,7 @@ com.flutterdogtagapp.flutterdogtagapp.R$integer
 androidx.swiperefreshlayout.widget.SwipeRefreshLayout$2
 com.google.common.collect.ForwardingTable
 androidx.swiperefreshlayout.widget.CircularProgressDrawable$ProgressDrawableSize
+androidx.core.os.HandlerCompat$Api28Impl
 kotlin.coroutines.experimental.CoroutineContext$Element
 com.google.android.gms.measurement.internal.zzjj:
     protected final void zzx(java.util.concurrent.atomic.AtomicReference,boolean)
@@ -8656,7 +8823,18 @@ io.flutter.plugin.common.MethodCall:
     public boolean hasArgument(java.lang.String)
 com.google.common.util.concurrent.ExecutionSequencer
 com.google.common.graph.EndpointPairIterator$1
+androidx.core.view.ContentInfoCompat$Flags
 com.google.android.gms.tasks.R
+androidx.core.content.LocusIdCompat:
+    public void <init>(java.lang.String)
+    public static androidx.core.content.LocusIdCompat toLocusIdCompat(android.content.LocusId)
+    private java.lang.String getSanitizedId()
+    public java.lang.String getId()
+    public int hashCode()
+    public boolean equals(java.lang.Object)
+    public java.lang.String toString()
+    private final java.lang.String mId
+    private final android.content.LocusId mWrapped
 io.grpc.okhttp.OkHttpReadableBuffer:
     public void skipBytes(int)
     public void readBytes(java.nio.ByteBuffer)
@@ -8763,6 +8941,7 @@ com.google.common.collect.Tables$TransformedTable$1
 com.google.android.gms.internal.firebase-auth-api.zzyd:
     public abstract com.google.android.gms.internal.firebase-auth-api.zzyd zzf()
     public synthetic bridge java.lang.Object clone()
+androidx.core.provider.FontRequestWorker$3
 com.google.firebase.encoders.json.JsonValueObjectEncoderContext:
     private void <init>(com.google.firebase.encoders.json.JsonValueObjectEncoderContext)
     public com.google.firebase.encoders.json.JsonValueObjectEncoderContext add(java.lang.String,double)
@@ -8871,7 +9050,6 @@ androidx.browser.R$dimen:
     public static final int notification_top_pad
     public static final int notification_top_pad_large_text
 kotlin.io.FileAlreadyExistsException
-androidx.core.provider.FontsContractCompat$4$1
 com.google.common.graph.ConfigurableMutableValueGraph
 kotlin.io.NoSuchFileException
 io.flutter.embedding.engine.plugins.lifecycle.FlutterLifecycleAdapter:
@@ -8890,6 +9068,7 @@ org.intellij.lang.annotations.JdkConstants$TitledBorderJustification
 com.google.common.base.Predicates$CompositionPredicate
 com.google.android.gms.tasks.zzq:
     public abstract void cancel()
+androidx.core.view.WindowInsetsCompat$Api21ReflectionHolder
 com.google.firebase.components.Preconditions:
     public void <init>()
 kotlin.jvm.JvmOverloads
@@ -8926,6 +9105,7 @@ androidx.viewpager.R$id
 kotlin.collections.ArraysKt___ArraysJvmKt$asList$8
 kotlin.collections.UArraysKt
 com.google.firebase.annotations.DeferredApi
+androidx.annotation.RequiresOptIn
 com.google.android.gms.common.api.Batch$Builder
 io.grpc.internal.ServerImpl$ServerTransportListenerImpl
 com.google.common.io.ByteArrayDataInput
@@ -9012,6 +9192,7 @@ com.google.common.collect.PeekingIterator
 com.google.android.gms.common.api.internal.TaskUtil:
     public void <init>()
     public static com.google.android.gms.tasks.Task toVoidTaskThatFailsOnFalse(com.google.android.gms.tasks.Task)
+androidx.core.view.DisplayCompat$Api17Impl
 com.google.common.base.Equivalence$Equals
 android.support.v4.media.MediaBrowserCompat
 okio.RealBufferedSink:
@@ -9077,8 +9258,10 @@ com.google.android.gms.signin.internal.zad:
 kotlin.UseExperimental
 com.google.common.collect.ImmutableClassToInstanceMap$1
 com.google.common.collect.Iterables$10
+androidx.core.content.ContextCompat$Api28Impl
 com.google.common.reflect.TypeResolver$TypeTable$1
 io.grpc.stub.MetadataUtils$MetadataCapturingClientInterceptor$MetadataCapturingClientCall
+androidx.core.view.WindowInsetsAnimationCompat$Impl30$ProxyCallback
 com.google.firebase.storage.internal.Util:
     public void <init>()
     public static final int NETWORK_UNAVAILABLE
@@ -9087,6 +9270,7 @@ com.google.firebase.storage.internal.Util:
     private static final int MAXIMUM_TOKEN_WAIT_TIME_MS
 com.google.api.ConsumerProto
 com.squareup.okhttp.internal.framed.FramedConnection$Builder
+androidx.core.provider.RequestExecutor
 com.google.android.gms.internal.firebase-auth-api.zzqm
 io.grpc.internal.CallCredentialsApplyingTransportFactory$CallCredentialsApplyingTransport$1:
     public io.grpc.MethodDescriptor getMethodDescriptor()
@@ -9201,9 +9385,15 @@ com.google.rpc.context.AttributeContext$Auth$Builder
 com.google.firebase.firestore.proto.MutationQueue$Builder
 com.google.common.collect.Multisets$EntrySet
 androidx.core.app.NotificationCompat$Builder:
+    public void <init>(android.content.Context,android.app.Notification)
+    private static android.os.Bundle getExtrasWithoutDuplicateData(android.app.Notification,androidx.core.app.NotificationCompat$Style)
+    private boolean useExistingRemoteView()
+    public androidx.core.app.NotificationCompat$Builder setSmallIcon(androidx.core.graphics.drawable.IconCompat)
     public androidx.core.app.NotificationCompat$Builder setChronometerCountDown(boolean)
     public androidx.core.app.NotificationCompat$Builder setSmallIcon(int,int)
     public androidx.core.app.NotificationCompat$Builder setNotificationSilent()
+    public androidx.core.app.NotificationCompat$Builder setSilent(boolean)
+    public androidx.core.app.NotificationCompat$Builder setSettingsText(java.lang.CharSequence)
     public androidx.core.app.NotificationCompat$Builder setRemoteInputHistory(java.lang.CharSequence[])
     public androidx.core.app.NotificationCompat$Builder setContentInfo(java.lang.CharSequence)
     public androidx.core.app.NotificationCompat$Builder setContent(android.widget.RemoteViews)
@@ -9211,16 +9401,25 @@ androidx.core.app.NotificationCompat$Builder:
     public androidx.core.app.NotificationCompat$Builder setSound(android.net.Uri,int)
     public androidx.core.app.NotificationCompat$Builder setColorized(boolean)
     public androidx.core.app.NotificationCompat$Builder addPerson(java.lang.String)
+    public androidx.core.app.NotificationCompat$Builder addPerson(androidx.core.app.Person)
+    public androidx.core.app.NotificationCompat$Builder clearPeople()
     public androidx.core.app.NotificationCompat$Builder setSortKey(java.lang.String)
     public androidx.core.app.NotificationCompat$Builder addExtras(android.os.Bundle)
     public androidx.core.app.NotificationCompat$Builder setExtras(android.os.Bundle)
     public androidx.core.app.NotificationCompat$Builder addAction(androidx.core.app.NotificationCompat$Action)
+    public androidx.core.app.NotificationCompat$Builder clearActions()
     public androidx.core.app.NotificationCompat$Builder addInvisibleAction(int,java.lang.CharSequence,android.app.PendingIntent)
     public androidx.core.app.NotificationCompat$Builder addInvisibleAction(androidx.core.app.NotificationCompat$Action)
+    public androidx.core.app.NotificationCompat$Builder clearInvisibleActions()
     public androidx.core.app.NotificationCompat$Builder setPublicVersion(android.app.Notification)
+    public android.widget.RemoteViews createContentView()
+    public android.widget.RemoteViews createBigContentView()
+    public android.widget.RemoteViews createHeadsUpContentView()
     public androidx.core.app.NotificationCompat$Builder setCustomContentView(android.widget.RemoteViews)
     public androidx.core.app.NotificationCompat$Builder setCustomBigContentView(android.widget.RemoteViews)
     public androidx.core.app.NotificationCompat$Builder setCustomHeadsUpContentView(android.widget.RemoteViews)
+    public androidx.core.app.NotificationCompat$Builder setShortcutInfo(androidx.core.content.pm.ShortcutInfoCompat)
+    public androidx.core.app.NotificationCompat$Builder setLocusId(androidx.core.content.LocusIdCompat)
     public androidx.core.app.NotificationCompat$Builder setBadgeIconType(int)
     public androidx.core.app.NotificationCompat$Builder setBubbleMetadata(androidx.core.app.NotificationCompat$BubbleMetadata)
     public androidx.core.app.NotificationCompat$Builder extend(androidx.core.app.NotificationCompat$Extender)
@@ -9232,6 +9431,8 @@ androidx.core.app.NotificationCompat$Builder:
     public androidx.core.app.NotificationCompat$BubbleMetadata getBubbleMetadata()
     private static final int MAX_CHARSEQUENCE_LENGTH
 com.google.android.gms.internal.measurement.zzfh:
+    private void <init>()
+androidx.core.content.ContextCompat$Api24Impl:
     private void <init>()
 com.google.firebase.firestore.remote.Stream
 kotlin.collections.AbstractList$ListIteratorImpl
@@ -9279,7 +9480,6 @@ com.squareup.okhttp.internal.framed.Http2
 io.flutter.plugins.firebase.storage.R$id
 com.google.common.collect.HashBiMap$View
 com.google.android.gms.common.api.internal.zabj
-androidx.core.app.NotificationCompat$BadgeIconType
 com.google.firebase.firestore.util.CustomClassMapper:
     public void <init>()
     private static void hardAssert(boolean)
@@ -9306,6 +9506,7 @@ com.google.firebase.firestore.util.CustomClassMapper:
     static synthetic java.lang.RuntimeException access$200(com.google.firebase.firestore.util.CustomClassMapper$ErrorPath,java.lang.String)
     static synthetic java.lang.Object access$300(java.lang.Object,java.lang.reflect.Type,com.google.firebase.firestore.util.CustomClassMapper$DeserializeContext)
     private static final int MAX_DEPTH
+androidx.core.app.NotificationCompat$BadgeIconType
 com.google.common.collect.Sets$4$1
 com.google.firebase.firestore.util.Logger:
     public void <init>()
@@ -9337,6 +9538,7 @@ com.google.common.util.concurrent.AbstractService$4
 android.support.v4.media.session.IMediaControllerCallback$Stub$Proxy
 androidx.coordinatorlayout.widget.CoordinatorLayout$DefaultBehavior
 io.flutter.embedding.engine.dart.DartMessenger:
+    public io.flutter.plugin.common.BinaryMessenger$TaskQueue makeBackgroundTaskQueue()
     public int getPendingChannelResponseCount()
     private static final java.lang.String TAG
 com.google.firestore.v1.StructuredQuery$FieldFilter$Operator$OperatorVerifier
@@ -9345,6 +9547,7 @@ com.google.common.util.concurrent.ServiceManager$1
 com.google.firestore.bundle.BundleProto
 com.google.type.TimeZone$1
 com.google.api.MonitoredResourceDescriptor
+androidx.core.provider.FontProvider$1
 androidx.loader.R$string
 com.google.common.cache.ForwardingLoadingCache$SimpleForwardingLoadingCache
 com.google.protobuf.DescriptorProtos$FileOptionsOrBuilder
@@ -9426,12 +9629,18 @@ androidx.core.content.res.ResourcesCompat:
     public static android.graphics.drawable.Drawable getDrawableForDensity(android.content.res.Resources,int,int,android.content.res.Resources$Theme)
     public static int getColor(android.content.res.Resources,int,android.content.res.Resources$Theme)
     public static android.content.res.ColorStateList getColorStateList(android.content.res.Resources,int,android.content.res.Resources$Theme)
+    private static android.content.res.ColorStateList inflateColorStateList(android.content.res.Resources,int,android.content.res.Resources$Theme)
+    private static android.content.res.ColorStateList getCachedColorStateList(androidx.core.content.res.ResourcesCompat$ColorStateListCacheKey,int)
+    private static void addColorStateListToCache(androidx.core.content.res.ResourcesCompat$ColorStateListCacheKey,int,android.content.res.ColorStateList)
+    private static boolean isColorInt(android.content.res.Resources,int)
+    private static android.util.TypedValue getTypedValue()
     public static float getFloat(android.content.res.Resources,int)
     public static android.graphics.Typeface getFont(android.content.Context,int)
+    public static android.graphics.Typeface getCachedFont(android.content.Context,int)
     public static void getFont(android.content.Context,int,androidx.core.content.res.ResourcesCompat$FontCallback,android.os.Handler)
     public static android.graphics.Typeface getFont(android.content.Context,int,android.util.TypedValue,int,androidx.core.content.res.ResourcesCompat$FontCallback)
-    private static android.graphics.Typeface loadFont(android.content.Context,int,android.util.TypedValue,int,androidx.core.content.res.ResourcesCompat$FontCallback,android.os.Handler,boolean)
-    private static android.graphics.Typeface loadFont(android.content.Context,android.content.res.Resources,android.util.TypedValue,int,int,androidx.core.content.res.ResourcesCompat$FontCallback,android.os.Handler,boolean)
+    private static android.graphics.Typeface loadFont(android.content.Context,int,android.util.TypedValue,int,androidx.core.content.res.ResourcesCompat$FontCallback,android.os.Handler,boolean,boolean)
+    private static android.graphics.Typeface loadFont(android.content.Context,android.content.res.Resources,android.util.TypedValue,int,int,androidx.core.content.res.ResourcesCompat$FontCallback,android.os.Handler,boolean,boolean)
     private void <init>()
     private static final java.lang.String TAG
     public static final int ID_NULL
@@ -9461,6 +9670,7 @@ kotlin.SafePublicationLazyImpl
 kotlin.time.DurationUnitKt__DurationUnitJvmKt
 com.google.common.io.ByteProcessor
 kotlin.coroutines.jvm.internal.RestrictedSuspendLambda
+androidx.core.location.LocationManagerCompat$PreRGnssStatusTransport$4
 okio.package-info
 com.google.common.collect.Tables$TransposeTable
 io.flutter.plugins.flutter_plugin_android_lifecycle.R$attr
@@ -9513,7 +9723,6 @@ kotlin.coroutines.experimental.CoroutineContext
 org.checkerframework.checker.nullness.compatqual.KeyForType
 com.google.common.collect.AbstractMultiset$EntrySet
 com.google.protobuf.Int64Value$1
-io.flutter.embedding.android.FlutterView$RenderMode
 com.google.common.collect.Lists$ReverseList$1
 com.google.firestore.v1.ListCollectionIdsResponse
 androidx.core.view.WindowInsetsCompat$BuilderImpl
@@ -9530,6 +9739,7 @@ io.grpc.internal.ReadableBuffer:
 io.flutter.embedding.android.AndroidTouchProcessor$PointerSignalKind
 com.google.common.hash.LittleEndianByteArray$UnsafeByteArray$1
 kotlin.ranges.LongRange$Companion
+androidx.core.location.LocationManagerCompat$GpsStatusTransport$2
 com.squareup.okhttp.internal.http.OkHeaders
 com.google.android.gms.common.api.PendingResults
 kotlin.ranges.IntProgression$Companion
@@ -9558,6 +9768,7 @@ com.google.cloud.audit.RequestMetadata$Builder
 com.google.common.collect.AbstractMapBasedMultimap
 com.google.protobuf.DescriptorProtos$FieldOptions$CType
 kotlin.text.StringsKt__StringsKt
+androidx.core.telephony.TelephonyManagerCompat
 com.google.common.reflect.ClassPath$ClassInfo
 com.google.common.collect.FluentIterable$3$1
 androidx.swiperefreshlayout.widget.SwipeRefreshLayout$OnChildScrollUpCallback
@@ -9573,7 +9784,7 @@ io.flutter.view.FlutterNativeView:
     public void <init>(android.content.Context)
     public void <init>(android.content.Context,boolean)
     public static java.lang.String getObservatoryUri()
-    private void attach(io.flutter.view.FlutterNativeView,boolean)
+    private void attach(io.flutter.view.FlutterNativeView)
     static synthetic io.flutter.view.FlutterView access$000(io.flutter.view.FlutterNativeView)
     static synthetic io.flutter.app.FlutterPluginRegistry access$200(io.flutter.view.FlutterNativeView)
     public void detachFromFlutterView()
@@ -9585,9 +9796,11 @@ io.flutter.view.FlutterNativeView:
     public void assertAttached()
     public void runFromBundle(io.flutter.view.FlutterRunArguments)
     public boolean isApplicationRunning()
+    public io.flutter.plugin.common.BinaryMessenger$TaskQueue makeBackgroundTaskQueue()
     public void send(java.lang.String,java.nio.ByteBuffer)
     public void send(java.lang.String,java.nio.ByteBuffer,io.flutter.plugin.common.BinaryMessenger$BinaryReply)
     public void setMessageHandler(java.lang.String,io.flutter.plugin.common.BinaryMessenger$BinaryMessageHandler)
+    public void setMessageHandler(java.lang.String,io.flutter.plugin.common.BinaryMessenger$BinaryMessageHandler,io.flutter.plugin.common.BinaryMessenger$TaskQueue)
     io.flutter.embedding.engine.FlutterJNI getFlutterJNI()
     private final io.flutter.app.FlutterPluginRegistry mPluginRegistry
     private final io.flutter.embedding.engine.dart.DartExecutor dartExecutor
@@ -9678,6 +9891,7 @@ io.grpc.okhttp.OkHttpClientTransport$ClientFrameHandler:
     public void alternateService(int,java.lang.String,okio.ByteString,java.lang.String,int,long)
 com.google.common.reflect.Types$ClassOwnership$1LocalClass
 kotlin.jvm.internal.TypeReference$asString$args$1
+io.flutter.embedding.engine.dart.DartMessenger$TaskQueueToken
 com.google.firebase.auth.PhoneMultiFactorGenerator
 com.squareup.okhttp.internal.http.HttpDate$1
 androidx.media.R$drawable
@@ -9760,6 +9974,7 @@ com.google.android.gms.common.internal.GmsClientSupervisor:
     public void unbindService(android.content.ComponentName,android.content.ServiceConnection,java.lang.String)
 com.google.firestore.v1.CursorOrBuilder
 com.google.common.math.LongMath$MillerRabinTester$1
+androidx.core.location.LocationManagerCompat$GnssStatusTransport
 com.google.common.math.DoubleMath$1
 androidx.core.accessibilityservice.AccessibilityServiceInfoCompat
 com.google.protobuf.Type$Builder
@@ -9960,6 +10175,7 @@ kotlin.collections.AbstractCollection$toString$1
 androidx.media.R$style
 com.google.android.gms.common.util.DataUtils
 com.google.common.collect.AbstractBiMap$BiMapEntry
+io.flutter.embedding.engine.dart.DartMessenger$DefaultTaskQueue
 android.support.v4.media.session.MediaSessionCompat$MediaSessionImplApi19
 kotlin.sequences.DropWhileSequence$iterator$1
 io.grpc.ClientInterceptors$1$1
@@ -10102,11 +10318,18 @@ androidx.core.view.inputmethod.InputConnectionCompat
 androidx.slidingpanelayout.R$dimen
 com.google.type.Color$Builder
 androidx.core.app.NotificationCompat$Style:
+    public static androidx.core.app.NotificationCompat$Style extractStyleFromNotification(android.app.Notification)
+    private static androidx.core.app.NotificationCompat$Style constructCompatStyleByPlatformName(java.lang.String)
+    static androidx.core.app.NotificationCompat$Style constructCompatStyleByName(java.lang.String)
+    static androidx.core.app.NotificationCompat$Style constructCompatStyleForBundle(android.os.Bundle)
+    static androidx.core.app.NotificationCompat$Style constructStyleForExtras(android.os.Bundle)
     private void hideNormalContent(android.widget.RemoteViews)
     private int calculateTopPadding()
     private static float constrain(float,float,float)
     public android.app.Notification build()
+    public boolean displayCustomViewInline()
     protected void restoreFromCompatExtras(android.os.Bundle)
+    protected void clearCompatExtraKeys(android.os.Bundle)
     android.graphics.Bitmap createColoredBitmap(androidx.core.graphics.drawable.IconCompat,int)
     public void buildIntoRemoteViews(android.widget.RemoteViews,android.widget.RemoteViews)
 com.google.android.gms.internal.firebase-auth-api.zzabi:
@@ -10180,6 +10403,7 @@ androidx.legacy.app.ActionBarDrawerToggle$SetIndicatorInfo
 io.flutter.embedding.engine.systemchannels.NavigationChannel:
     public void setMethodCallHandler(io.flutter.plugin.common.MethodChannel$MethodCallHandler)
     private static final java.lang.String TAG
+androidx.core.os.ProcessCompat
 com.google.protobuf.ValueOrBuilder
 com.google.api.JwtLocationOrBuilder
 kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$1
@@ -10393,6 +10617,7 @@ com.google.android.datatransport.runtime.scheduling.persistence.EventStoreConfig
     private static final int LOCK_TIME_OUT_MS
     private static final long DURATION_ONE_WEEK_MS
     private static final int MAX_BLOB_BYTE_SIZE_PER_ROW
+androidx.core.provider.RequestExecutor$HandlerExecutor
 com.google.rpc.ErrorInfoOrBuilder
 com.google.android.gms.common.api.internal.zabz
 com.google.common.graph.Traverser$GraphTraverser$1
@@ -10521,6 +10746,9 @@ com.google.firebase.datatransport.R$styleable
 com.google.common.graph.AbstractBaseGraph$IncidentEdgeSet$Directed$2
 androidx.core.app.NotificationCompat$BigTextStyle:
     public void <init>(androidx.core.app.NotificationCompat$Builder)
+    protected void restoreFromCompatExtras(android.os.Bundle)
+    protected void clearCompatExtraKeys(android.os.Bundle)
+    private static final java.lang.String TEMPLATE_CLASS_NAME
 kotlin.jvm.internal.CharSpreadBuilder
 com.google.common.collect.ImmutableMap$Builder
 com.google.common.reflect.TypeToken$2
@@ -10685,6 +10913,7 @@ com.squareup.okhttp.RequestBody$3
 com.google.api.AnnotationsProto
 com.google.android.gms.common.internal.service.zac
 com.google.common.cache.LocalCache$EntryFactory$6
+androidx.annotation.experimental.UseExperimental
 com.google.firebase.measurement.R
 androidx.core.view.ViewCompat$ScrollAxis
 com.google.common.collect.Multimaps$TransformedEntriesMultimap
@@ -10867,6 +11096,7 @@ kotlin.jvm.internal.markers.KMutableSet
 com.google.protobuf.DescriptorProtos$ExtensionRangeOptionsOrBuilder
 com.google.common.primitives.SignedBytes
 com.google.api.BackendRule$AuthenticationCase
+androidx.core.app.NotificationChannelGroupCompat$Builder
 io.grpc.internal.BaseDnsNameResolverProvider:
     private static final java.lang.String SCHEME
     public static final java.lang.String ENABLE_GRPCLB_PROPERTY_NAME
@@ -10889,6 +11119,7 @@ com.google.common.math.LongMath$MillerRabinTester$2
 com.google.common.collect.MapMakerInternalMap$StrongValueEntry
 kotlin.collections.ArraysKt___ArraysKt$withIndex$3
 com.squareup.okhttp.Response
+androidx.core.content.res.ResourcesCompat$ColorStateListCacheEntry
 androidx.annotation.InspectableProperty
 kotlin.io.OnErrorAction
 com.google.firebase.components.Component:
@@ -10975,6 +11206,7 @@ org.threeten.bp.temporal.TemporalAmount:
     public abstract long get(org.threeten.bp.temporal.TemporalUnit)
     public abstract org.threeten.bp.temporal.Temporal subtractFrom(org.threeten.bp.temporal.Temporal)
 kotlin.jvm.internal.ClassReference
+androidx.core.widget.CheckedTextViewCompat$Api21Impl
 com.google.common.collect.ImmutableSet$Builder
 com.google.api.Logging$Builder
 com.google.api.Property$PropertyType$1
@@ -11089,6 +11321,7 @@ com.google.firestore.v1.DocumentDelete:
     public boolean hasReadTime()
 okio.Pipe$PipeSink
 com.google.android.gms.common.api.BooleanResult
+androidx.core.os.UserHandleCompat$Api24Impl
 kotlin.collections.IndexedValue
 com.google.common.util.concurrent.ExecutionList$RunnableExecutorPair
 com.google.android.gms.internal.firebase-auth-api.zzjs:
@@ -11330,7 +11563,6 @@ io.grpc.inprocess.InProcessTransport$5
 com.google.common.graph.ConfigurableMutableGraph
 com.google.protobuf.DescriptorProtos$FieldOptions$CType$1
 com.google.protobuf.ByteString$Output
-androidx.core.provider.FontsContractCompat$5
 com.google.api.Control
 com.google.protobuf.DescriptorProtos$ServiceOptions$Builder
 com.google.common.collect.CartesianList
@@ -11491,6 +11723,7 @@ com.google.firebase.storage.StorageTask:
 com.google.android.gms.common.stats.LoggingConstants:
     private void <init>()
     public static final java.lang.String EXTRA_WAKE_LOCK_KEY
+androidx.core.telephony.TelephonyManagerCompat$Api23Impl
 com.google.android.gms.safetynet.SafeBrowsingThreat
 com.google.common.collect.ImmutableSet:
     public static com.google.common.collect.ImmutableSet of(java.lang.Object,java.lang.Object)
@@ -11833,6 +12066,7 @@ com.google.common.reflect.Invokable$ConstructorInvokable
 com.squareup.okhttp.internal.framed.FramedStream$StreamTimeout
 com.google.common.graph.Traverser$TreeTraverser$1
 javax.annotation.concurrent.ThreadSafe
+androidx.core.os.UserHandleCompat
 com.google.firebase.firestore.local.MemoryMutationQueue:
     long getByteSize(com.google.firebase.firestore.local.LocalSerializer)
 com.google.firebase.auth.TwitterAuthProvider:
@@ -11840,6 +12074,7 @@ com.google.firebase.auth.TwitterAuthProvider:
     public static final java.lang.String PROVIDER_ID
     public static final java.lang.String TWITTER_SIGN_IN_METHOD
 com.google.api.MetricDescriptor$MetricDescriptorMetadata$Builder
+androidx.core.app.ActivityCompat$Api30Impl
 com.google.common.util.concurrent.WrappingExecutorService
 com.google.logging.type.HttpRequestOrBuilder
 kotlin.coroutines.intrinsics.IntrinsicsKt
@@ -11889,6 +12124,7 @@ com.google.common.reflect.TypeResolver
 com.google.android.gms.common.api.internal.IStatusCallback
 com.google.common.collect.MultimapBuilder$LinkedHashSetSupplier
 com.google.common.collect.ArrayTable$ArrayMap$1
+androidx.core.location.GnssStatusCompat
 androidx.lifecycle.ComputableLiveData$3
 com.google.common.eventbus.Subscribe
 androidx.core.graphics.drawable.RoundedBitmapDrawable21
@@ -12248,6 +12484,8 @@ com.google.android.gms.internal.firebase-auth-api.zzfy:
     static void <clinit>()
     static final synthetic int[] zza
 com.google.common.collect.ImmutableCollection$Builder
+androidx.core.content.ContextCompat$Api21Impl:
+    private void <init>()
 com.google.longrunning.ListOperationsResponseOrBuilder
 com.google.android.gms.common.server.converter.StringToIntConverter$zaa
 com.google.common.graph.ForwardingValueGraph
@@ -12268,6 +12506,7 @@ org.checkerframework.checker.nullness.compatqual.NullableType
 androidx.core.content.res.ResourcesCompat$FontCallback$2
 com.google.common.collect.Iterators$MergingIterator$1
 kotlin.js.JsName
+androidx.core.content.res.ResourcesCompat$ColorStateListCacheKey
 com.google.common.graph.MultiEdgesConnecting$1
 com.google.firebase.installations.R$dimen
 com.google.common.cache.LongAddables$PureJavaLongAddable
@@ -12478,6 +12717,7 @@ org.threeten.bp.temporal.IsoFields$Field$2:
     public org.threeten.bp.temporal.TemporalUnit getBaseUnit()
     public org.threeten.bp.temporal.TemporalUnit getRangeUnit()
 com.google.common.cache.LocalCache$LocalManualCache
+androidx.core.location.LocationManagerCompat$3
 com.google.android.datatransport.runtime.scheduling.jobscheduling.Uploader:
     private static final java.lang.String LOG_TAG
 com.google.android.gms.common.util.JsonUtils
@@ -12574,6 +12814,7 @@ com.google.common.collect.Synchronized$SynchronizedAsMapValues$1
 com.google.android.gms.common.api.internal.GoogleApiManager$zaa:
     public final void zaa(com.google.android.gms.common.ConnectionResult,com.google.android.gms.common.api.Api,boolean)
     final com.google.android.gms.signin.zac zabo()
+androidx.core.location.LocationCompat$Api18Impl
 androidx.core.app.SharedElementCallback$OnSharedElementsReadyListener
 androidx.core.view.MenuCompat
 com.google.android.gms.tasks.zzm:
@@ -12613,6 +12854,7 @@ com.google.common.base.Joiner$MapJoiner
 org.threeten.bp.format.DateTimeFormatterBuilder$DefaultingParser
 com.google.firebase.R$integer
 androidx.coordinatorlayout.widget.CoordinatorLayout$ViewElevationComparator
+androidx.core.content.ContextCompat$Api30Impl
 com.google.common.util.concurrent.AbstractScheduledService$ServiceDelegate
 com.google.api.ResourceDescriptor
 com.google.firebase.auth.MultiFactor:
@@ -12632,6 +12874,7 @@ com.google.android.gms.safetynet.SafetyNetClient:
     public com.google.android.gms.tasks.Task initSafeBrowsing()
     public com.google.android.gms.tasks.Task shutdownSafeBrowsing()
 com.google.android.gms.common.api.internal.zabg
+androidx.core.view.WindowInsetsCompat$TypeImpl30
 androidx.interpolator.view.animation.FastOutSlowInInterpolator
 com.google.common.base.Splitter$MapSplitter
 io.flutter.plugins.pathprovider.R$drawable
@@ -12753,7 +12996,12 @@ androidx.core.R$id:
     public static final int tag_accessibility_actions
     public static final int tag_accessibility_clickable_spans
     public static final int tag_accessibility_heading
+    public static final int tag_on_apply_window_listener
+    public static final int tag_on_receive_content_listener
+    public static final int tag_on_receive_content_mime_types
     public static final int tag_screen_reader_focusable
+    public static final int tag_state_description
+    public static final int tag_window_insets_animation_callback
 com.google.android.gms.internal.auth-api-phone.zzp
 com.google.common.collect.ForwardingSortedMap
 io.grpc.ForwardingServerCall$SimpleForwardingServerCall
@@ -12761,6 +13009,7 @@ com.google.gson.LongSerializationPolicy$2:
     public com.google.gson.JsonElement serialize(java.lang.Long)
 com.google.android.gms.common.internal.SignInButtonCreator
 com.google.common.collect.LinkedListMultimap$1ValuesImpl
+androidx.core.location.LocationManagerCompat$Api30Impl$1
 com.google.protobuf.MessageLite:
     public abstract void writeDelimitedTo(java.io.OutputStream)
 com.google.common.base.CharMatcher$FastMatcher:
@@ -12807,6 +13056,7 @@ com.google.android.gms.common.SignInButton$ColorScheme
 com.google.protobuf.Value
 com.google.j2objc.annotations.ReflectionSupport
 com.google.common.util.concurrent.ImmediateFuture
+androidx.core.provider.CallbackWithHandler
 com.google.common.cache.ForwardingCache
 com.google.android.gms.common.GooglePlayServicesUtil:
     private void <init>()
@@ -12864,6 +13114,8 @@ com.google.protobuf.LazyFieldLite:
 com.google.firestore.v1.StructuredQuery$Filter$FilterTypeCase:
     public static com.google.firestore.v1.StructuredQuery$Filter$FilterTypeCase valueOf(int)
     public int getNumber()
+io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$Host:
+    public abstract void updateSystemUiOverlays()
 io.flutter.embedding.android.AndroidTouchProcessor:
     private static final int POINTER_DATA_FIELD_COUNT
     private static final int BYTES_PER_FIELD
@@ -12906,7 +13158,6 @@ androidx.activity.ComponentActivity:
 com.google.android.datatransport.runtime.dagger.internal.SetFactory
 com.google.common.primitives.ImmutableDoubleArray$AsList
 kotlin.UShortKt
-androidx.core.provider.FontsContractCompat$4
 com.mr.flutter.plugin.filepicker.R$integer
 com.google.rpc.context.AttributeContextProto
 com.google.common.collect.ImmutableEnumMap
@@ -13042,6 +13293,7 @@ com.google.firebase.messaging.SendException:
     public static final int ERROR_SIZE
     public static final int ERROR_TTL_EXCEEDED
     public static final int ERROR_TOO_MANY_MESSAGES
+androidx.core.view.WindowInsetsAnimationCompat$Impl
 androidx.browser.customtabs.CustomTabsService$1$1
 android.support.v4.os.IResultReceiver$Default
 com.google.common.collect.FilteredSetMultimap
@@ -13098,6 +13350,8 @@ androidx.core.app.NotificationCompat$Action:
 io.flutter.plugins.firebase.storage.R
 com.google.common.hash.LittleEndianByteArray
 io.flutter.embedding.android.FlutterEngineConfigurator
+androidx.core.view.WindowInsetsControllerCompat$Impl23:
+    public boolean isAppearanceLightStatusBars()
 com.google.common.util.concurrent.AbstractExecutionThreadService$1
 androidx.media.MediaBrowserServiceCompat$MediaBrowserServiceImplApi21$1
 com.google.common.base.CharMatcher$Is:
@@ -13112,6 +13366,8 @@ com.google.common.collect.MapMakerInternalMap$SafeToArraySet
 com.google.android.gms.common.server.response.FastParser$zaa
 com.google.common.util.concurrent.TimeoutFuture$TimeoutFutureException
 androidx.core.content.res.ConfigurationHelper
+androidx.core.content.ContextCompat$Api23Impl:
+    private void <init>()
 kotlin.internal.OnlyInputTypes
 com.google.firebase.encoders.config.EncoderConfig:
     public abstract com.google.firebase.encoders.config.EncoderConfig registerEncoder(java.lang.Class,com.google.firebase.encoders.ValueEncoder)
@@ -13196,8 +13452,10 @@ org.threeten.bp.chrono.HijrahDate:
     private static final int HIJRAH_JAN_1_1_GREGORIAN_DAY
 com.google.common.graph.AbstractBaseGraph$1
 com.google.rpc.BadRequest$FieldViolationOrBuilder
+androidx.core.location.LocationManagerCompat$2
 com.google.protobuf.SmallSortedMap$EmptySet:
     private void <init>()
+androidx.core.view.WindowInsetsAnimationCompat$Impl30
 com.google.common.util.concurrent.ForwardingBlockingDeque
 androidx.cursoradapter.widget.CursorFilter$CursorFilterClient
 com.google.api.FieldBehaviorProto
@@ -13575,8 +13833,8 @@ org.threeten.bp.temporal.IsoFields$Field$3:
 com.google.common.collect.DiscreteDomain$IntegerDomain
 com.google.android.datatransport.runtime.dagger.internal.DoubleCheck:
     public static com.google.android.datatransport.runtime.dagger.Lazy lazy(javax.inject.Provider)
-io.grpc.util.TransmitStatusRuntimeExceptionInterceptor$SerializingServerCall
 com.google.firebase.messaging.Constants$MessageNotificationKeys
+io.grpc.util.TransmitStatusRuntimeExceptionInterceptor$SerializingServerCall
 com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl:
     private static final long serialVersionUID
 kotlin.jvm.functions.Function17
@@ -13609,6 +13867,7 @@ com.google.android.gms.common.api.internal.LifecycleActivity:
     public boolean isChimera()
     public java.lang.Object asObject()
 com.google.logging.type.LogSeverity$1
+androidx.core.content.res.ResourcesCompat$ImplApi29
 com.google.common.collect.Synchronized$SynchronizedMultimap
 com.google.firestore.v1.FirestoreGrpc:
     public static io.grpc.MethodDescriptor getGetDocumentMethod()
@@ -13891,6 +14150,7 @@ com.google.common.collect.ImmutableEnumSet$EnumSerializedForm
 com.google.common.util.concurrent.Service
 androidx.browser.browseractions.BrowserActionsFallbackMenuDialog$1
 androidx.legacy.app.ActionBarDrawerToggle$DelegateProvider
+androidx.core.view.WindowInsetsAnimationCompat$Impl21$Impl21OnApplyWindowInsetsListener
 androidx.loader.app.LoaderManager:
     public static void enableDebugLogging(boolean)
     public abstract androidx.loader.content.Loader initLoader(int,android.os.Bundle,androidx.loader.app.LoaderManager$LoaderCallbacks)
@@ -13972,6 +14232,7 @@ com.google.android.gms.common.internal.safeparcel.SafeParcelableSerializer:
     public static java.util.ArrayList deserializeIterableFromIntentExtra(android.content.Intent,java.lang.String,android.os.Parcelable$Creator)
 kotlin.coroutines.CombinedContext$Serialized$Companion
 io.grpc.stub.MetadataUtils
+androidx.core.view.ContentInfoCompat$Builder
 androidx.swiperefreshlayout.widget.SwipeRefreshLayout$6
 com.google.common.hash.package-info
 com.google.common.primitives.Floats
@@ -14027,6 +14288,7 @@ com.google.firebase.firestore.remote.GrpcCallProvider:
     public static void overrideChannelBuilder(com.google.firebase.firestore.util.Supplier)
     private static final java.lang.String LOG_TAG
     private static final int CONNECTIVITY_ATTEMPT_TIMEOUT_MS
+androidx.core.provider.FontRequestWorker
 com.google.common.collect.Iterables$6
 com.google.android.gms.common.api.internal.zaa$zaa
 com.google.android.gms.internal.measurement.zzjy
@@ -14174,7 +14436,6 @@ androidx.versionedparcelable.VersionedParcel:
     private static final int TYPE_INTEGER
     private static final int TYPE_FLOAT
 com.google.common.collect.EmptyContiguousSet$SerializedForm
-androidx.core.provider.FontsContractCompat$3
 com.google.firestore.v1.BeginTransactionRequest$Builder
 com.google.firestore.v1.Cursor$Builder:
     public java.util.List getValuesList()
@@ -14237,10 +14498,10 @@ io.flutter.plugin.common.ErrorLogResult
 com.google.common.base.Converter$FunctionBasedConverter
 com.google.android.gms.common.internal.GmsClientEventManager
 androidx.media.VolumeProviderCompat$Callback
+androidx.multidex.MultiDexApplication
 io.flutter.embedding.engine.deferredcomponents.DeferredComponentManager:
     public abstract void loadAssets(int,java.lang.String)
     public abstract void loadDartLibrary(int,java.lang.String)
-androidx.multidex.MultiDexApplication
 com.google.common.base.CharMatcher$SingleWidth
 com.google.common.collect.ImmutableMultimap$Values
 androidx.customview.widget.FocusStrategy$BoundsAdapter
@@ -14378,9 +14639,12 @@ com.google.android.gms.internal.measurement.zzby:
     public void <init>()
 androidx.drawerlayout.R$attr
 android.support.v4.media.session.MediaSessionCompat$OnActiveChangeListener
+androidx.tracing.TraceApi29Impl
+androidx.core.view.WindowInsetsAnimationCompat$Impl21$Impl21OnApplyWindowInsetsListener$2
 io.grpc.internal.DelayedClientTransport:
     public final void ping(io.grpc.internal.ClientTransport$PingCallback,java.util.concurrent.Executor)
     public com.google.common.util.concurrent.ListenableFuture getStats()
+androidx.core.location.LocationManagerCompat$1
 com.google.common.io.Closer$LoggingSuppressor
 com.google.protobuf.GeneratedMessageLite$ExtendableMessageOrBuilder
 com.google.common.util.concurrent.ForwardingFuture$SimpleForwardingFuture
@@ -14427,6 +14691,7 @@ com.squareup.okhttp.HttpUrl$Builder:
     com.squareup.okhttp.HttpUrl$Builder reencodeForUri()
     com.squareup.okhttp.HttpUrl$Builder$ParseResult parse(com.squareup.okhttp.HttpUrl,java.lang.String)
 androidx.coordinatorlayout.R$string
+androidx.core.view.WindowInsetsAnimationControllerCompat$Impl30
 androidx.legacy.coreui.R$layout
 com.google.firebase.platforminfo.KotlinDetector:
     private void <init>()
@@ -14489,6 +14754,7 @@ io.grpc.okhttp.OkHttpClientTransport$2:
 com.google.android.gms.internal.auth-api-phone.zze
 com.google.firebase.firestore.core.ListenSequence:
     public static final long INVALID
+androidx.core.location.LocationManagerCompat$CancellableLocationListener$1
 android.support.v4.media.session.MediaSessionCompat$Callback$MediaSessionCallbackApi21
 com.google.common.collect.AbstractListMultimap
 com.google.common.util.concurrent.ExecutionSequencer$1
@@ -14502,6 +14768,7 @@ io.grpc.ForwardingClientCall:
 io.grpc.internal.AbstractServerImplBuilder$DefaultFallbackRegistry
 com.mr.flutter.plugin.filepicker.FilePickerDelegate:
     private static final java.lang.String TAG
+androidx.core.location.GnssStatusWrapper
 com.google.common.cache.RemovalNotification
 com.google.common.reflect.TypeToken$TypeCollector$4
 com.google.android.gms.internal.firebase-auth-api.zzik:
@@ -14539,9 +14806,11 @@ com.google.android.gms.safetynet.SafeBrowsingData:
     public void setBlacklists(byte[])
     public byte[] getBlacklists()
     public void setTempDir(java.io.File)
+androidx.core.view.WindowInsetsAnimationCompat
 kotlin.ranges.ClosedFloatRange
 androidx.core.view.accessibility.AccessibilityEventCompat
 com.google.protobuf.DescriptorProtos$SourceCodeInfo
+androidx.core.location.LocationCompat$Api17Impl
 com.google.protobuf.NullValue$NullValueVerifier
 androidx.core.content.res.FontResourcesParserCompat
 com.google.common.math.LongMath:
@@ -14582,6 +14851,7 @@ com.google.firestore.v1.TargetChange$TargetChangeType$TargetChangeTypeVerifier
 com.google.common.base.Converter$ReverseConverter
 com.google.common.hash.Funnels$ByteArrayFunnel
 com.google.protobuf.EnumValue$Builder
+androidx.core.location.LocationManagerCompat$Api28Impl
 com.google.type.MoneyProto
 org.threeten.bp.chrono.ChronoLocalDateTimeImpl:
     public boolean isSupported(org.threeten.bp.temporal.TemporalUnit)
@@ -14599,6 +14869,7 @@ org.threeten.bp.chrono.ChronoLocalDateTimeImpl:
     private static final long NANOS_PER_MINUTE
     private static final long NANOS_PER_HOUR
     private static final long NANOS_PER_DAY
+androidx.core.provider.RequestExecutor$ReplyRunnable$1
 org.intellij.lang.annotations.Flow
 androidx.core.app.FrameMetricsAggregator$MetricType
 com.google.common.collect.Multisets$2
@@ -14648,6 +14919,7 @@ com.google.android.datatransport.runtime.dagger.Subcomponent$Builder
 com.google.firebase.storage.StorageTaskManager:
     public java.util.List getUploadTasksUnder(com.google.firebase.storage.StorageReference)
     public java.util.List getDownloadTasksUnder(com.google.firebase.storage.StorageReference)
+androidx.core.content.pm.ShortcutManagerCompat$Api25Impl
 com.google.common.collect.MapMakerInternalMap$InternalEntry
 com.google.android.datatransport.cct.internal.AutoBatchedLogRequestEncoder:
     public static final int CODEGEN_VERSION
@@ -14660,6 +14932,7 @@ io.flutter.embedding.android.FlutterSurfaceView:
     public void <init>(android.content.Context,android.util.AttributeSet)
     private static final java.lang.String TAG
 androidx.legacy.coreui.R$color
+androidx.annotation.ChecksSdkIntAtLeast
 com.google.common.collect.Maps$SortedMapDifferenceImpl
 com.google.android.datatransport.runtime.dagger.internal.SingleCheck
 com.google.common.net.HostSpecifier
@@ -14685,10 +14958,12 @@ com.google.firebase.analytics.connector.internal.zzd
 com.google.android.gms.internal.common.zzi:
     public void <init>()
 com.google.protobuf.DescriptorProtos$DescriptorProtoOrBuilder
+androidx.core.widget.TextViewOnReceiveContentListener$ApiImpl
 kotlin.Lazy
 com.google.firestore.v1.Value$ValueTypeCase:
     public static com.google.firestore.v1.Value$ValueTypeCase valueOf(int)
     public int getNumber()
+androidx.core.app.NotificationChannelCompat$Builder
 com.google.common.collect.Sets$3$1
 androidx.customview.widget.ViewDragHelper$2
 com.google.firebase.storage.network.GetNetworkRequest:
@@ -14707,11 +14982,15 @@ com.google.firebase.auth.EmailAuthProvider:
     public static final java.lang.String EMAIL_PASSWORD_SIGN_IN_METHOD
 com.google.common.util.concurrent.CycleDetectingLockFactory$1
 kotlin.reflect.KTypeProjection$Companion
+androidx.core.provider.CallbackWithHandler$1
 com.google.common.util.concurrent.InterruptibleTask$1
 io.grpc.stub.ServerCalls$StreamingServerCallHandler
 com.squareup.okhttp.Dns
 androidx.media.VolumeProviderCompat$ControlType
 com.google.common.collect.Tables$ImmutableCell
+androidx.tracing.R
+io.flutter.plugin.common.BinaryMessenger:
+    public io.flutter.plugin.common.BinaryMessenger$TaskQueue makeBackgroundTaskQueue()
 io.flutter.embedding.android.FlutterFragment
 com.google.firestore.v1.TargetChange:
     private void setTargetChangeTypeValue(int)
@@ -14768,6 +15047,7 @@ com.google.common.collect.Multimaps$AsMap$EntrySet
 androidx.cursoradapter.widget.SimpleCursorAdapter$ViewBinder
 com.google.android.gms.internal.measurement.zzks:
     private void <init>()
+androidx.browser.customtabs.CustomTabsClient$2
 android.support.v4.media.session.IMediaSession:
     public abstract void sendCommand(java.lang.String,android.os.Bundle,android.support.v4.media.session.MediaSessionCompat$ResultReceiverWrapper)
     public abstract boolean sendMediaButton(android.view.KeyEvent)
@@ -14819,7 +15099,6 @@ android.support.v4.media.session.IMediaSession:
     public abstract void setShuffleModeEnabledRemoved(boolean)
     public abstract void setShuffleMode(int)
     public abstract void sendCustomAction(java.lang.String,android.os.Bundle)
-androidx.browser.customtabs.CustomTabsClient$2
 com.google.common.collect.DenseImmutableTable$ImmutableArrayMap
 io.grpc.inprocess.InProcessServerBuilder
 androidx.annotation.InspectableProperty$EnumEntry
@@ -14846,6 +15125,7 @@ androidx.media.MediaBrowserServiceCompat$MediaBrowserServiceImplApi26$1
 com.google.common.graph.ElementOrder$Type
 com.google.android.gms.common.internal.zac
 com.google.common.hash.BloomFilterStrategies$2
+androidx.core.os.ProcessCompat$Api17Impl
 com.google.android.gms.common.internal.ServiceSpecificExtraArgs
 kotlin.collections.ArraysKt___ArraysKt$asIterable$$inlined$Iterable$7
 androidx.media.AudioAttributesImpl:
@@ -14951,11 +15231,11 @@ com.google.firebase.storage.TaskListenerImpl:
     public int getListenerCount()
 io.flutter.embedding.android.FlutterView:
     public void <init>(android.content.Context)
-    public void <init>(android.content.Context,io.flutter.embedding.android.FlutterView$RenderMode)
-    public void <init>(android.content.Context,io.flutter.embedding.android.FlutterView$TransparencyMode)
+    public void <init>(android.content.Context,io.flutter.embedding.android.RenderMode)
+    public void <init>(android.content.Context,io.flutter.embedding.android.TransparencyMode)
     public void <init>(android.content.Context,io.flutter.embedding.android.FlutterImageView)
     public void <init>(android.content.Context,android.util.AttributeSet)
-    public void <init>(android.content.Context,io.flutter.embedding.android.FlutterView$RenderMode,io.flutter.embedding.android.FlutterView$TransparencyMode)
+    public void <init>(android.content.Context,io.flutter.embedding.android.RenderMode,io.flutter.embedding.android.TransparencyMode)
     private void <init>(android.content.Context,android.util.AttributeSet,io.flutter.embedding.android.FlutterImageView)
     private android.view.View findViewByAccessibilityIdRootedAtCurrentView(int,android.view.View)
     public android.view.View findViewByAccessibilityIdTraversal(int)
@@ -15364,8 +15644,8 @@ androidx.lifecycle.ReportFragment:
 com.google.type.QuaternionProto
 com.google.android.datatransport.runtime.scheduling.persistence.EventStoreModule_StoreConfigFactory$InstanceHolder:
     private void <init>()
-com.google.common.collect.MapMakerInternalMap$Segment
 com.google.common.collect.MultimapBuilder$MultimapBuilderWithKeys$5
+com.google.common.collect.MapMakerInternalMap$Segment
 io.flutter.plugins.imagepicker.ImagePickerDelegate:
     io.flutter.plugins.imagepicker.CameraDevice getCameraDevice()
     static final int REQUEST_CODE_CHOOSE_IMAGE_FROM_GALLERY
@@ -15473,7 +15753,6 @@ com.google.protobuf.DescriptorProtos$UninterpretedOption$NamePartOrBuilder
 io.flutter.plugins.firebase.auth.R$layout
 com.squareup.okhttp.internal.framed.FramedStream$FramedDataSource
 com.google.firebase.firestore.util.ByteBufferInputStream
-androidx.core.provider.FontsContractCompat$4$6
 com.google.android.gms.common.internal.GmsClientEventManager$GmsClientEventState
 org.threeten.bp.chrono.ThaiBuddhistEra:
     public java.lang.String getDisplayName(org.threeten.bp.format.TextStyle,java.util.Locale)
@@ -15535,6 +15814,16 @@ com.google.android.gms.common.api.internal.zaj:
 androidx.viewpager.R$color
 com.google.api.ContextRule$Builder
 com.google.api.HttpOrBuilder
+androidx.core.view.WindowInsetsControllerCompat$Impl20:
+    private void showForType(int)
+    private void hideForType(int)
+    void show(int)
+    void hide(int)
+    void controlWindowInsetsAnimation(int,long,android.view.animation.Interpolator,android.os.CancellationSignal,androidx.core.view.WindowInsetsAnimationControlListenerCompat)
+    void setSystemBarsBehavior(int)
+    int getSystemBarsBehavior()
+    void addOnControllableInsetsChangedListener(androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener)
+    void removeOnControllableInsetsChangedListener(androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener)
 io.grpc.internal.ManagedChannelImpl$SubchannelImpl:
     static synthetic void access$4300(io.grpc.internal.ManagedChannelImpl$SubchannelImpl,io.grpc.LoadBalancer$SubchannelStateListener)
     io.grpc.InternalInstrumented getInstrumentedInternalSubchannel()
@@ -15561,6 +15850,7 @@ io.grpc.CompressorRegistry:
     public void register(io.grpc.Compressor)
 kotlin.jvm.internal.BooleanCompanionObject
 com.google.android.datatransport.R
+androidx.core.view.OnReceiveContentListener
 com.google.firebase.auth.internal.zzx:
     public static com.google.firebase.auth.FirebaseUser zzk(com.google.firebase.FirebaseApp,com.google.firebase.auth.FirebaseUser)
 com.google.common.collect.Synchronized$SynchronizedQueue
@@ -15821,6 +16111,7 @@ com.google.api.QuotaLimit$Builder
 androidx.loader.R$color
 com.google.android.gms.internal.safetynet.zzk$zzf
 com.google.firestore.v1.UpdateDocumentRequestOrBuilder
+androidx.core.location.LocationManagerCompat$CancellableLocationListener$2
 com.google.errorprone.annotations.DoNotMock
 androidx.customview.view.AbsSavedState$2
 com.google.firebase.FirebaseApp:
@@ -15878,6 +16169,7 @@ com.flutterdogtagapp.flutterdogtagapp.R$dimen
 androidx.core.content.SharedPreferencesCompat$EditorCompat
 io.grpc.ServiceDescriptor
 com.google.firebase.analytics.connector.internal.zze
+androidx.core.view.ViewCompat$Api30Impl
 kotlin.collections.ArraysKt___ArraysKt$asSequence$$inlined$Sequence$9
 org.intellij.lang.annotations.Pattern
 androidx.slidingpanelayout.widget.SlidingPaneLayout$LayoutParams
@@ -15899,6 +16191,7 @@ com.google.android.gms.common.internal.AccountAccessor:
     public boolean equals(java.lang.Object)
 com.google.common.collect.StandardTable$Column
 com.google.android.datatransport.runtime.dagger.internal.DelegateFactory
+androidx.core.provider.FontProvider
 io.grpc.Context$1FixedContextExecutor
 com.google.firebase.messaging.CommonNotificationBuilder:
     private void <init>()
@@ -16017,6 +16310,7 @@ com.google.common.collect.AbstractMapBasedMultimap$AsMap
 com.google.common.util.concurrent.GwtFluentFutureCatchingSpecialization
 androidx.media.MediaBrowserServiceCompat$ConnectionRecord
 com.squareup.okhttp.internal.framed.Http2$Reader
+androidx.annotation.DoNotInline
 com.google.android.gms.common.internal.GmsClient:
     protected void <init>(android.content.Context,android.os.Handler,int,com.google.android.gms.common.internal.ClientSettings)
     protected void <init>(android.content.Context,android.os.Looper,int,com.google.android.gms.common.internal.ClientSettings)
@@ -16025,7 +16319,9 @@ com.google.android.gms.common.internal.GmsClient:
     protected void <init>(android.content.Context,android.os.Handler,com.google.android.gms.common.internal.GmsClientSupervisor,com.google.android.gms.common.GoogleApiAvailability,int,com.google.android.gms.common.internal.ClientSettings,com.google.android.gms.common.api.GoogleApiClient$ConnectionCallbacks,com.google.android.gms.common.api.GoogleApiClient$OnConnectionFailedListener)
     protected final com.google.android.gms.common.internal.ClientSettings getClientSettings()
     public com.google.android.gms.common.Feature[] getRequiredFeatures()
+androidx.annotation.experimental.R
 com.google.protobuf.EnumValueOrBuilder
+androidx.core.view.WindowInsetsAnimationControllerCompat$Impl
 kotlin.random.PlatformRandom
 org.intellij.lang.annotations.Subst
 kotlin.text.Regex$Companion
@@ -16036,6 +16332,7 @@ com.google.common.reflect.TypeResolver$WildcardCapturer$1
 androidx.core.widget.TintableCompoundButton
 com.google.firebase.storage.StorageException$ErrorCode
 com.google.protobuf.MutabilityOracle$1
+androidx.core.widget.CheckedTextViewCompat$Api14Impl
 io.grpc.util.TransmitStatusRuntimeExceptionInterceptor$SerializingServerCall$1
 com.google.common.reflect.TypeParameter
 com.google.firebase.encoders.json.R
@@ -16045,8 +16342,10 @@ com.squareup.okhttp.internal.http.RequestException
 com.google.firebase.installations.interop.R$integer
 io.flutter.plugin.mouse.MouseCursorPlugin$2:
     private static final long serialVersionUID
+androidx.core.view.WindowInsetsAnimationCompat$Impl21$Impl21OnApplyWindowInsetsListener$1
 io.flutter.embedding.engine.dart.DartExecutor:
     public io.flutter.plugin.common.BinaryMessenger getBinaryMessenger()
+    public io.flutter.plugin.common.BinaryMessenger$TaskQueue makeBackgroundTaskQueue()
     public int getPendingChannelResponseCount()
     public void setIsolateServiceIdListener(io.flutter.embedding.engine.dart.DartExecutor$IsolateServiceIdListener)
     private static final java.lang.String TAG
@@ -16066,6 +16365,7 @@ kotlin.collections.ArraysKt___ArraysKt$withIndex$7
 org.threeten.bp.temporal.IsoFields$Field$1:
     public org.threeten.bp.temporal.TemporalUnit getBaseUnit()
     public org.threeten.bp.temporal.TemporalUnit getRangeUnit()
+androidx.core.os.BuildCompat$PrereleaseSdkCheck
 com.google.firestore.v1.TransactionOptionsOrBuilder
 okio.GzipSink
 io.flutter.plugins.firebase.firestore.R$id
@@ -16144,7 +16444,10 @@ com.google.android.gms.internal.base.zaf
 com.google.common.collect.FilteredKeyListMultimap
 com.google.common.hash.HashCode$LongHashCode
 com.google.common.collect.Sets$3
+androidx.core.view.WindowInsetsAnimationControlListenerCompat
+androidx.core.content.pm.ShortcutInfoChangeListener
 androidx.core.widget.AutoScrollHelper$ClampedScroller
+androidx.core.widget.CheckedTextViewCompat
 com.google.firebase.firestore.core.SyncEngine:
     public java.util.Map getActiveLimboDocumentResolutions()
     public java.util.List getEnqueuedLimboDocumentResolutions()
@@ -16156,6 +16459,7 @@ com.google.common.eventbus.Subscriber$SynchronizedSubscriber
 com.google.common.collect.AbstractSequentialIterator
 com.google.common.primitives.Primitives
 com.google.cloud.audit.AuditLog
+com.google.firebase.firestore.util.package-info
 com.google.firestore.v1.StructuredQuery$Order$Builder:
     public boolean hasField()
     public com.google.firestore.v1.StructuredQuery$FieldReference getField()
@@ -16166,7 +16470,6 @@ com.google.firestore.v1.StructuredQuery$Order$Builder:
     public com.google.firestore.v1.StructuredQuery$Order$Builder setDirectionValue(int)
     public com.google.firestore.v1.StructuredQuery$Direction getDirection()
     public com.google.firestore.v1.StructuredQuery$Order$Builder clearDirection()
-com.google.firebase.firestore.util.package-info
 com.google.common.collect.TreeMultiset
 org.threeten.bp.chrono.MinguoDate:
     public static org.threeten.bp.chrono.MinguoDate now()
@@ -16185,6 +16488,7 @@ org.threeten.bp.chrono.MinguoDate:
 com.google.common.collect.StandardRowSortedTable
 com.google.android.gms.common.api.OptionalPendingResult
 org.intellij.lang.annotations.RegExp
+androidx.core.provider.CalleeHandler
 com.google.firebase.installations.interop.BuildConfig
 androidx.versionedparcelable.R
 com.google.gson.internal.LinkedHashTreeMap
@@ -16234,6 +16538,8 @@ androidx.savedstate.SavedStateRegistry:
     private androidx.savedstate.Recreator$SavedStateProvider mRecreatorProvider
     private static final java.lang.String SAVED_COMPONENTS_KEY
 com.google.common.reflect.Types$2
+io.flutter.embedding.engine.dart.DartMessenger$TaskQueueFactory:
+    public abstract io.flutter.embedding.engine.dart.DartMessenger$DartMessengerTaskQueue makeBackgroundTaskQueue()
 com.google.common.collect.Multimaps$UnmodifiableSortedSetMultimap
 com.google.gson.internal.Streams:
     private void <init>()
@@ -16690,7 +16996,8 @@ kotlin.reflect.KMutableProperty1
 com.google.common.collect.ImmutableRangeSet$Builder
 com.google.common.util.concurrent.MoreExecutors$ScheduledListeningDecorator
 kotlin.io.ConstantsKt
-androidx.core.view.ViewCompat$1
+androidx.core.view.ViewCompat$1:
+    public androidx.core.view.ContentInfoCompat onReceiveContent(androidx.core.view.ContentInfoCompat)
 androidx.media.app.NotificationCompat$MediaStyle:
     public static android.support.v4.media.session.MediaSessionCompat$Token getMediaSession(android.app.Notification)
     public void <init>(androidx.core.app.NotificationCompat$Builder)
@@ -16863,6 +17170,7 @@ com.google.firebase.firestore.local.MutationQueue:
     public abstract boolean isEmpty()
 io.grpc.internal.AbstractServerStream$TransportState$2
 com.google.thirdparty.publicsuffix.PublicSuffixType
+androidx.core.location.GnssStatusCompat$Callback
 com.google.android.gms.internal.safetynet.zzk$zzg
 com.google.android.gms.internal.firebase-auth-api.zzfs:
     static void <clinit>()
@@ -16881,7 +17189,6 @@ com.google.rpc.context.AttributeContext$RequestOrBuilder
 com.google.android.gms.common.BlockingServiceConnection:
     public android.os.IBinder getService()
 androidx.core.widget.ScrollerCompat
-androidx.core.provider.FontsContractCompat$4$7
 com.google.firebase.installations.Utils:
     private static final java.lang.String APP_ID_IDENTIFICATION_SUBSTRING
 kotlin.text.MatchResult$Destructured
@@ -17008,6 +17315,7 @@ com.google.firestore.v1.TransactionOptions$ReadWrite$Builder:
     public com.google.firestore.v1.TransactionOptions$ReadWrite$Builder clearRetryTransaction()
 com.squareup.okhttp.Challenge
 com.squareup.okhttp.Cache$Entry
+androidx.core.provider.FontRequestWorker$TypefaceResult
 com.google.api.LabelDescriptor$1
 com.google.cloud.audit.AuthenticationInfo
 kotlin.collections.unsigned.UArraysKt___UArraysJvmKt$asList$2
@@ -17100,10 +17408,12 @@ com.squareup.okhttp.Authenticator
 kotlin.LazyKt$WhenMappings
 com.google.common.collect.ImmutableSortedMultiset$SerializedForm
 com.google.android.gms.common.internal.ICancelToken$Stub$zza
+androidx.core.location.LocationManagerCompat$InlineHandlerExecutor
 com.google.common.cache.CacheStats
 com.google.protobuf.DescriptorProtos$FileDescriptorSet$Builder
 com.google.common.cache.LocalCache$WriteQueue$2
 com.google.type.DayOfWeek
+androidx.core.view.WindowCompat$Impl16
 io.grpc.internal.AbstractSubchannel:
     abstract io.grpc.InternalInstrumented getInstrumentedInternalSubchannel()
 io.flutter.plugin.common.MethodChannel:
@@ -17165,6 +17475,7 @@ javax.annotation.WillCloseWhenClosed
 com.google.api.MetricDescriptor$ValueType$ValueTypeVerifier
 com.google.android.gms.internal.safetynet.zzk$zze
 kotlin.jvm.functions.Function14
+androidx.core.view.WindowInsetsControllerCompat$Impl30$2
 kotlin.io.TextStreamsKt$readLines$1
 okio.Segment:
     static final int SIZE
@@ -17337,6 +17648,10 @@ kotlin.collections.ArraysKt___ArraysKt$asIterable$$inlined$Iterable$5
 com.google.api.Authentication$1
 androidx.annotation.DrawableRes
 com.google.common.collect.Multimaps$CustomMultimap
+androidx.core.app.NotificationCompat$BubbleMetadata$Api29Impl:
+    private void <init>()
+    static androidx.core.app.NotificationCompat$BubbleMetadata fromPlatform(android.app.Notification$BubbleMetadata)
+androidx.core.telephony.SubscriptionManagerCompat
 com.google.protobuf.WireFormat$Utf8Validation$2
 com.google.common.io.CharStreams$NullWriter
 com.google.firestore.v1.DeleteDocumentRequest$Builder
@@ -17389,6 +17704,8 @@ com.google.protobuf.CodedOutputStream$OutputStreamEncoder:
 com.google.rpc.PreconditionFailure
 com.google.common.util.concurrent.GwtFuturesCatchingSpecialization:
     void <init>()
+androidx.core.content.ContextCompat$Api26Impl:
+    private void <init>()
 com.google.common.collect.ArrayTable$Row
 com.google.protobuf.TypeProto
 com.google.android.gms.common.util.HttpUtils
@@ -17452,6 +17769,8 @@ com.google.common.collect.ImmutableRangeSet$AsSet$1
 com.google.common.cache.LocalCache$ManualSerializationProxy
 kotlin.PreconditionsKt__AssertionsJVMKt
 androidx.exifinterface.R
+io.flutter.embedding.engine.dart.DartExecutor$DefaultBinaryMessenger:
+    public io.flutter.plugin.common.BinaryMessenger$TaskQueue makeBackgroundTaskQueue()
 com.google.protobuf.DescriptorProtos$FileDescriptorProto$Builder
 com.google.firestore.v1.CreateDocumentRequest$1
 com.google.api.Quota$1
@@ -17467,6 +17786,7 @@ androidx.browser.browseractions.BrowserActionItem
 com.google.common.collect.ListMultimap
 androidx.loader.content.ModernAsyncTask$WorkerRunnable
 androidx.core.content.FileProvider:
+    public static android.net.Uri getUriForFile(android.content.Context,java.lang.String,java.io.File,java.lang.String)
     private static final java.lang.String META_DATA_FILE_PROVIDER_PATHS
     private static final java.lang.String TAG_ROOT_PATH
     private static final java.lang.String TAG_FILES_PATH
@@ -17477,6 +17797,7 @@ androidx.core.content.FileProvider:
     private static final java.lang.String TAG_EXTERNAL_MEDIA
     private static final java.lang.String ATTR_NAME
     private static final java.lang.String ATTR_PATH
+    private static final java.lang.String DISPLAYNAME_FIELD
 kotlin.text.CharDirectionality$Companion
 com.google.api.Distribution$BucketOptionsOrBuilder
 kotlin.ranges.CharProgressionIterator
@@ -17493,6 +17814,7 @@ com.google.android.gms.internal.auth-api-phone.zzt
 com.google.common.collect.TreeRangeMap$AsMapOfRanges
 androidx.core.content.ContextCompat:
     protected void <init>()
+    public static java.lang.String getAttributionTag(android.content.Context)
     public static boolean startActivities(android.content.Context,android.content.Intent[])
     public static boolean startActivities(android.content.Context,android.content.Intent[],android.os.Bundle)
     public static java.io.File getDataDir(android.content.Context)
@@ -17597,6 +17919,7 @@ com.google.android.gms.stats.CodePackage
 com.google.common.collect.FilteredKeyMultimap$AddRejectingList
 com.google.android.gms.internal.auth-api-phone.zzc
 kotlin.jvm.internal.PropertyReference2Impl
+androidx.core.location.LocationCompat
 io.grpc.InternalChannelz$ChannelTrace$Builder
 com.google.android.gms.common.server.FavaDiagnosticsEntity
 androidx.core.app.ShareCompat$IntentBuilder
@@ -17737,17 +18060,18 @@ com.google.protobuf.ByteString$LiteralByteString:
     private static final long serialVersionUID
 com.google.firebase.messaging.Constants$ScionAnalytics
 androidx.swiperefreshlayout.R$integer
+androidx.core.location.GpsStatusWrapper
 com.google.firebase.firestore.model.mutation.package-info
 androidx.annotation.Px
 androidx.media.MediaBrowserServiceCompat$ServiceBinderImpl$8
 com.google.cloud.audit.AuditLogProto
+androidx.core.net.MailTo
 com.google.common.base.CharMatcher$Ascii
 com.google.android.gms.common.internal.safeparcel.SafeParcelable$VersionField
 androidx.core.view.WindowInsetsCompat$BuilderImpl20
 javax.annotation.Signed
 org.intellij.lang.annotations.JdkConstants$PatternFlags
 com.google.type.ColorProto
-androidx.core.provider.FontsContractCompat$4$8
 com.google.common.util.concurrent.AbstractFuture$SetFuture:
     void <init>(com.google.common.util.concurrent.AbstractFuture,com.google.common.util.concurrent.ListenableFuture)
 kotlin.collections.EmptyMap
@@ -17866,9 +18190,13 @@ com.google.j2objc.annotations.RetainedWith
 androidx.core.util.Preconditions:
     public static void checkArgument(boolean)
     public static void checkArgument(boolean,java.lang.Object)
+    public static java.lang.CharSequence checkStringNotEmpty(java.lang.CharSequence)
+    public static java.lang.CharSequence checkStringNotEmpty(java.lang.CharSequence,java.lang.Object)
+    public static varargs java.lang.CharSequence checkStringNotEmpty(java.lang.CharSequence,java.lang.String,java.lang.Object[])
     public static java.lang.Object checkNotNull(java.lang.Object)
     public static void checkState(boolean,java.lang.String)
     public static void checkState(boolean)
+    public static int checkFlagsArgument(int,int)
     public static int checkArgumentNonnegative(int,java.lang.String)
     public static int checkArgumentNonnegative(int)
     public static int checkArgumentInRange(int,int,int,java.lang.String)
@@ -17982,6 +18310,7 @@ com.google.protobuf.Int32Value:
     public static com.google.protobuf.Parser parser()
     static synthetic void access$200(com.google.protobuf.Int32Value)
 com.google.common.collect.TreeRangeSet$ComplementRangesByLowerBound$2
+androidx.core.view.WindowInsetsCompat$Type
 kotlin.ExperimentalUnsignedTypes
 io.grpc.internal.OobChannel$1OobErrorPicker
 com.google.common.collect.ImmutableMultimap$2
@@ -18043,8 +18372,6 @@ com.google.firestore.v1.ListenResponse$Builder:
 com.google.android.gms.common.server.response.zag
 kotlin.jvm.JvmPackageName
 com.google.common.collect.ArrayTable$ArrayMap$2
-io.flutter.embedding.engine.plugins.activity.ActivityControlSurface:
-    public abstract void attachToActivity(android.app.Activity,androidx.lifecycle.Lifecycle)
 org.jetbrains.annotations.PropertyKey
 androidx.annotation.FractionRes
 com.google.common.reflect.Parameter
@@ -18146,6 +18473,7 @@ com.google.common.base.CharMatcher:
     private static final int DISTINCT_CHARS
 com.google.rpc.context.AttributeContext$Request$HeadersDefaultEntryHolder
 com.google.android.gms.internal.firebase-auth-api.zzrw
+androidx.core.provider.RequestExecutor$DefaultThreadFactory$ProcessPriorityThread
 kotlin.internal.PureReifiable
 androidx.media.R$id:
     private void <init>()
@@ -18232,16 +18560,14 @@ com.google.cloud.datastore.core.number.NumberComparisonHelper:
     public static final double LONG_EXCLUSIVE_UPPER_BOUND_AS_DOUBLE
     public static final long MAX_SAFE_LONG
     public static final long MIN_SAFE_LONG
-androidx.core.view.ViewCompat$4:
-    void frameworkSet(android.view.View,java.lang.CharSequence)
-    boolean shouldUpdate(java.lang.CharSequence,java.lang.CharSequence)
-    synthetic bridge void frameworkSet(android.view.View,java.lang.Object)
-    synthetic bridge boolean shouldUpdate(java.lang.Object,java.lang.Object)
+androidx.core.view.ViewCompat$4
 com.google.common.graph.Graph
 com.google.common.cache.LocalCache
 com.google.rpc.context.AttributeContext$Peer$Builder
 com.google.common.collect.AbstractMapBasedMultimap$2
 com.google.common.util.concurrent.AbstractService$HasReachedRunningGuard
+io.flutter.embedding.engine.dart.DartMessenger$DefaultTaskQueueFactory:
+    public io.flutter.embedding.engine.dart.DartMessenger$DartMessengerTaskQueue makeBackgroundTaskQueue()
 com.google.firestore.v1.StructuredQuery$CompositeFilter$Builder:
     public int getOpValue()
     public com.google.firestore.v1.StructuredQuery$CompositeFilter$Builder setOpValue(int)
@@ -18313,6 +18639,7 @@ com.google.android.gms.internal.firebase-auth-api.zzgy:
     static final synthetic int[] zza
 com.google.android.gms.common.util.Predicate
 com.google.firebase.appcheck.interop.R$id
+androidx.core.view.WindowInsetsAnimationCompat$Impl21$Impl21OnApplyWindowInsetsListener$3
 org.intellij.lang.annotations.Identifier
 com.google.protobuf.FieldSet:
     public static com.google.protobuf.FieldSet$Builder newBuilder()
@@ -18419,6 +18746,7 @@ com.google.firebase.firestore.proto.MaybeDocumentOuterClass
 kotlin.coroutines.ContinuationInterceptor
 com.google.common.collect.TreeMultiset$3
 com.google.common.collect.RangeSet
+androidx.core.view.WindowInsetsAnimationCompat$Impl21
 com.google.common.collect.SortedLists$KeyPresentBehavior$4
 kotlin.jvm.internal.PropertyReference
 com.google.android.gms.internal.measurement.zzch
@@ -18458,6 +18786,8 @@ io.grpc.InternalNotifyOnServerBuild
 kotlin.reflect.KMutableProperty$Setter
 com.google.common.io.Closer$Suppressor
 com.google.type.LatLngOrBuilder
+androidx.tracing.TraceApi18Impl:
+    private void <init>()
 androidx.annotation.InspectableProperty$ValueType
 io.grpc.stub.annotations.RpcMethod
 kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$3
@@ -18469,6 +18799,7 @@ kotlin.properties.ReadOnlyProperty
 io.flutter.plugins.firebase.auth.R$string
 kotlin.jvm.internal.ClassBasedDeclarationContainer
 com.google.android.gms.internal.safetynet.zzk$zzd
+androidx.core.view.WindowInsetsControllerCompat$Impl30$1
 com.google.common.net.MediaType$Tokenizer
 com.google.common.util.concurrent.Striped$LargeLazyStriped
 com.google.firestore.v1.StructuredQueryOrBuilder
@@ -18519,6 +18850,8 @@ com.google.protobuf.FieldInfo$1
 androidx.viewpager.R$dimen
 androidx.coordinatorlayout.widget.CoordinatorLayout$AttachedBehavior
 io.flutter.app.FlutterApplication
+androidx.core.content.ContextCompat$Api19Impl:
+    private void <init>()
 io.grpc.internal.StatsTraceContext:
     public static io.grpc.internal.StatsTraceContext newServerContext(java.util.List,java.lang.String,io.grpc.Metadata)
     public java.util.List getTracersForTest()
@@ -18537,6 +18870,7 @@ com.google.common.hash.Hashing$Sha256Holder
 androidx.core.content.res.GradientColorInflaterCompat$ColorStops
 androidx.fragment.R$integer
 com.google.firebase.storage.R$style
+androidx.core.os.ExecutorCompat$HandlerExecutor
 com.google.android.gms.internal.firebase-auth-api.zzin:
     static void <clinit>()
     static final synthetic int[] zza
@@ -18619,6 +18953,21 @@ com.google.rpc.DebugInfoOrBuilder
 com.google.common.collect.Multisets$5
 kotlin.UByteKt
 androidx.legacy.coreutils.R$string
+androidx.core.view.WindowInsetsControllerCompat:
+    private void <init>(android.view.WindowInsetsController)
+    public static androidx.core.view.WindowInsetsControllerCompat toWindowInsetsControllerCompat(android.view.WindowInsetsController)
+    public void show(int)
+    public void hide(int)
+    public boolean isAppearanceLightStatusBars()
+    public boolean isAppearanceLightNavigationBars()
+    public void controlWindowInsetsAnimation(int,long,android.view.animation.Interpolator,android.os.CancellationSignal,androidx.core.view.WindowInsetsAnimationControlListenerCompat)
+    public void setSystemBarsBehavior(int)
+    public int getSystemBarsBehavior()
+    public void addOnControllableInsetsChangedListener(androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener)
+    public void removeOnControllableInsetsChangedListener(androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener)
+    public static final int BEHAVIOR_SHOW_BARS_BY_TOUCH
+    public static final int BEHAVIOR_SHOW_BARS_BY_SWIPE
+    public static final int BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
 org.threeten.bp.format.DateTimeFormatterBuilder$LocalizedOffsetPrinterParser
 com.google.errorprone.annotations.ForOverride
 com.google.protobuf.Syntax$SyntaxVerifier
@@ -18704,6 +19053,7 @@ com.google.common.util.concurrent.ForwardingListeningExecutorService
 io.flutter.plugin.editing.InputConnectionAdaptor:
     private static int clampIndexToEditable(int,android.text.Editable)
     private static final java.lang.String TAG
+androidx.core.app.ShareCompat$Api16Impl
 com.google.rpc.context.AttributeContext$Peer$LabelsDefaultEntryHolder
 com.google.common.base.Splitter$4
 com.google.protobuf.DescriptorProtos$FieldOptions$JSType
@@ -18830,8 +19180,9 @@ com.google.protobuf.WireFormat$JavaType:
     java.lang.Object getDefaultDefault()
 com.google.common.graph.DirectedMultiNetworkConnections$1
 com.google.common.util.concurrent.AtomicLongMap$1
-com.google.api.SystemParameters$Builder
+androidx.core.view.WindowInsetsControllerCompat$OnControllableInsetsChangedListener
 com.google.api.Metric
+com.google.api.SystemParameters$Builder
 com.google.errorprone.annotations.concurrent.LazyInit
 kotlin.jvm.internal.ArrayCharIterator
 android.support.v4.media.session.MediaSessionCompat$MediaSessionImplApi18$1
@@ -18884,10 +19235,10 @@ org.threeten.bp.ZoneId:
     public static org.threeten.bp.ZoneId of(java.lang.String,java.util.Map)
     public java.lang.String getDisplayName(org.threeten.bp.format.TextStyle,java.util.Locale)
     private static final long serialVersionUID
+android.support.customtabs.ICustomTabsCallback$Stub
 com.google.android.gms.internal.measurement.zzii:
     public java.lang.Object set(int,java.lang.Object)
     public void add(int,java.lang.Object)
-android.support.customtabs.ICustomTabsCallback$Stub
 com.google.common.collect.Maps$FilteredEntryMap$EntrySet$1$1
 androidx.core.view.ViewCompat:
     private static android.graphics.Rect getEmptyTempRect()
@@ -18915,17 +19266,17 @@ androidx.core.view.ViewCompat:
     public static void postInvalidateOnAnimation(android.view.View,int,int,int,int)
     public static void postOnAnimation(android.view.View,java.lang.Runnable)
     public static void postOnAnimationDelayed(android.view.View,java.lang.Runnable,long)
-    public static int getImportantForAccessibility(android.view.View)
-    public static void setImportantForAccessibility(android.view.View,int)
     public static boolean isImportantForAccessibility(android.view.View)
     public static boolean performAccessibilityAction(android.view.View,int,android.os.Bundle)
     public static int addAccessibilityAction(android.view.View,java.lang.CharSequence,androidx.core.view.accessibility.AccessibilityViewCommand)
-    private static int getAvailableActionIdFromResources(android.view.View)
+    private static int getAvailableActionIdFromResources(android.view.View,java.lang.CharSequence)
     public static void replaceAccessibilityAction(android.view.View,androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat,java.lang.CharSequence,androidx.core.view.accessibility.AccessibilityViewCommand)
     private static void addAccessibilityAction(android.view.View,androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat)
     public static void removeAccessibilityAction(android.view.View,int)
     private static void removeActionWithId(int,android.view.View)
     private static java.util.List getActionList(android.view.View)
+    public static void setStateDescription(android.view.View,java.lang.CharSequence)
+    public static final java.lang.CharSequence getStateDescription(android.view.View)
     public static void enableAccessibleClickableSpanSupport(android.view.View)
     public static androidx.core.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(android.view.View)
     public static float getAlpha(android.view.View)
@@ -18995,6 +19346,12 @@ androidx.core.view.ViewCompat:
     public static java.util.List getSystemGestureExclusionRects(android.view.View)
     public static androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View)
     public static androidx.core.view.WindowInsetsCompat computeSystemWindowInsets(android.view.View,androidx.core.view.WindowInsetsCompat,android.graphics.Rect)
+    public static androidx.core.view.WindowInsetsControllerCompat getWindowInsetsController(android.view.View)
+    public static void setWindowInsetsAnimationCallback(android.view.View,androidx.core.view.WindowInsetsAnimationCompat$Callback)
+    public static void setOnReceiveContentListener(android.view.View,java.lang.String[],androidx.core.view.OnReceiveContentListener)
+    public static java.lang.String[] getOnReceiveContentMimeTypes(android.view.View)
+    public static androidx.core.view.ContentInfoCompat performReceiveContent(android.view.View,androidx.core.view.ContentInfoCompat)
+    private static androidx.core.view.OnReceiveContentViewBehavior getFallback(android.view.View)
     public static void setSaveFromParentEnabled(android.view.View,boolean)
     public static void setActivated(android.view.View,boolean)
     public static boolean hasOverlappingRendering(android.view.View)
@@ -19059,6 +19416,7 @@ androidx.core.view.ViewCompat:
     public static boolean isScreenReaderFocusable(android.view.View)
     private static androidx.core.view.ViewCompat$AccessibilityViewProperty screenReaderFocusableProperty()
     public static void setAccessibilityPaneTitle(android.view.View,java.lang.CharSequence)
+    private static androidx.core.view.ViewCompat$AccessibilityViewProperty stateDescriptionProperty()
     public static boolean isAccessibilityHeading(android.view.View)
     public static void setAccessibilityHeading(android.view.View,boolean)
     private static androidx.core.view.ViewCompat$AccessibilityViewProperty accessibilityHeadingProperty()
@@ -19186,6 +19544,7 @@ com.google.protobuf.RopeByteString:
     private static final long serialVersionUID
 com.google.common.util.concurrent.AbstractScheduledService
 com.google.api.BackendRule$1
+androidx.core.view.ViewCompat$CompatImplApi28$1
 com.google.android.gms.dynamic.DeferredLifecycleHelper
 kotlin.text.RegexOption
 android.support.v4.app.INotificationSideChannel$Stub$Proxy:
@@ -19243,7 +19602,6 @@ io.grpc.ManagedChannelBuilder:
     public io.grpc.ManagedChannelBuilder proxyDetector(io.grpc.ProxyDetector)
     public io.grpc.ManagedChannelBuilder defaultServiceConfig(java.util.Map)
     public io.grpc.ManagedChannelBuilder disableServiceConfigLookUp()
-androidx.core.provider.FontsContractCompat$4$9
 com.google.android.datatransport.runtime.backends.MetadataBackendRegistry:
     private static final java.lang.String TAG
     private static final java.lang.String BACKEND_KEY_PREFIX
@@ -19294,7 +19652,11 @@ org.jetbrains.annotations.Contract
 androidx.browser.R$string
 com.google.common.collect.Maps$SortedKeySet
 androidx.media.MediaBrowserServiceCompat$MediaBrowserServiceImplApi21
-androidx.core.view.ViewCompat$3
+androidx.core.view.ViewCompat$3:
+    void frameworkSet(android.view.View,java.lang.CharSequence)
+    boolean shouldUpdate(java.lang.CharSequence,java.lang.CharSequence)
+    synthetic bridge void frameworkSet(android.view.View,java.lang.Object)
+    synthetic bridge boolean shouldUpdate(java.lang.Object,java.lang.Object)
 androidx.arch.core.executor.TaskExecutor:
     public void executeOnMainThread(java.lang.Runnable)
 com.google.android.gms.internal.firebase-auth-api.zzer:
@@ -19661,6 +20023,9 @@ androidx.loader.app.LoaderManagerImpl$LoaderObserver:
     boolean hasDeliveredData()
     void reset()
     public void dump(java.lang.String,java.io.PrintWriter)
+androidx.core.view.WindowInsetsControllerCompat$Impl30:
+    final androidx.core.view.WindowInsetsControllerCompat mCompatController
+    private final androidx.collection.SimpleArrayMap mListeners
 io.grpc.internal.RetriableStream$1MaxOutboundMessageSizeEntry:
     final synthetic io.grpc.internal.RetriableStream this$0
 com.google.android.gms.internal.firebase-auth-api.zzig:
@@ -19674,11 +20039,11 @@ com.google.android.gms.dynamite.DynamiteModule:
     public static final com.google.android.gms.dynamite.DynamiteModule$VersionPolicy PREFER_HIGHEST_OR_LOCAL_VERSION
     private static final com.google.android.gms.dynamite.DynamiteModule$VersionPolicy zzjb
 androidx.core.app.NotificationCompat$BubbleMetadata:
-    public android.app.PendingIntent getIntent()
     public android.app.PendingIntent getDeleteIntent()
     public androidx.core.graphics.drawable.IconCompat getIcon()
     public int getDesiredHeight()
     public int getDesiredHeightResId()
+    public boolean getAutoExpandBubble()
     public boolean isNotificationSuppressed()
 io.grpc.okhttp.OkHttpChannelBuilder$OkHttpTransportFactory$1:
     final synthetic io.grpc.okhttp.OkHttpChannelBuilder$OkHttpTransportFactory this$0
@@ -19737,6 +20102,7 @@ io.grpc.internal.InternalSubchannel$TransportListener:
 androidx.fragment.app.FragmentTransitionCompat21$2:
     final synthetic androidx.fragment.app.FragmentTransitionCompat21 this$0
 com.google.android.gms.signin.SignInOptions$zaa
+androidx.core.view.OnReceiveContentViewBehavior
 com.google.protobuf.FieldType:
     public boolean isList()
     public boolean isMap()
@@ -20163,9 +20529,15 @@ com.google.android.gms.internal.firebase-auth-api.zzaac:
     static final java.nio.charset.Charset zzb
     public static final java.nio.ByteBuffer zzd
     public static final com.google.android.gms.internal.firebase-auth-api.zzyx zze
+io.flutter.embedding.engine.dart.DartMessenger:
+    private io.flutter.embedding.engine.dart.DartMessenger$TaskQueueFactory taskQueueFactory
 com.google.firestore.v1.StructuredQuery$UnaryFilter$Operator$1
 com.google.android.gms.common.api.internal.zaag:
     private final java.lang.String zafx
+androidx.core.content.res.ResourcesCompat:
+    private static final java.lang.ThreadLocal sTempTypedValue
+    private static final java.util.WeakHashMap sColorStateCaches
+    private static final java.lang.Object sColorStateCacheLock
 com.google.android.gms.internal.firebase-auth-api.zzuh:
     private void <init>()
     private static final java.lang.String zza
@@ -20179,6 +20551,8 @@ com.google.android.gms.internal.firebase-auth-api.zzkk:
 com.google.android.gms.internal.common.zzc
 com.google.android.gms.common.stats.ConnectionTracker:
     private static boolean zzfy
+io.flutter.view.FlutterNativeView:
+    public synthetic void setMessageHandler(java.lang.String,io.flutter.plugin.common.BinaryMessenger$BinaryMessageHandler,io.flutter.plugin.common.BinaryMessenger$TaskQueue)
 io.grpc.internal.CallTracer$1
 com.google.android.gms.signin.zab:
     private static final com.google.android.gms.common.api.Scope zar
@@ -20643,6 +21017,8 @@ io.grpc.InternalChannelz:
     private final java.util.concurrent.ConcurrentNavigableMap servers
     private final java.util.concurrent.ConcurrentMap perServerSockets
     static final synthetic boolean $assertionsDisabled
+androidx.core.view.WindowInsetsControllerCompat$Impl20:
+    private final android.view.View mView
 io.grpc.internal.ManagedChannelImpl$SubchannelImpl:
     final io.grpc.internal.ManagedChannelImpl$LbHelperImpl helper
     io.grpc.LoadBalancer$SubchannelStateListener listener
@@ -20722,6 +21098,7 @@ androidx.exifinterface.media.ExifInterface:
     private static final java.util.regex.Pattern sNonZeroTimePattern
 com.google.android.gms.internal.firebase-auth-api.zzdm:
     final com.google.android.gms.internal.firebase-auth-api.zzbf zza
+androidx.core.view.ViewCompat$1
 androidx.fragment.app.FragmentTransitionCompat21$1:
     final synthetic androidx.fragment.app.FragmentTransitionCompat21 this$0
 org.threeten.bp.DayOfWeek$1
@@ -20831,6 +21208,8 @@ com.google.firebase.storage.StreamDownloadTask:
     private long totalBytes
 io.grpc.okhttp.OkHttpChannelBuilder:
     private final boolean useGetForSafeMethods
+io.flutter.FlutterInjector$Builder$NamedThreadFactory:
+    final synthetic io.flutter.FlutterInjector$Builder this$0
 com.google.gson.internal.ConstructorConstructor$13:
     final synthetic com.google.gson.internal.ConstructorConstructor this$0
 com.google.android.gms.internal.cloudmessaging.zze:
@@ -20875,6 +21254,7 @@ androidx.core.view.ViewCompat:
     private static java.util.WeakHashMap sViewPropertyAnimatorMap
     private static boolean sAccessibilityDelegateCheckFailed
     private static final int[] ACCESSIBILITY_ACTIONS_RESOURCE_IDS
+    private static final androidx.core.view.OnReceiveContentViewBehavior NO_OP_ON_RECEIVE_CONTENT_VIEW_BEHAVIOR
     private static androidx.core.view.ViewCompat$AccessibilityPaneVisibilityManager sAccessibilityPaneVisibilityManager
 com.google.android.gms.internal.firebase-auth-api.zzz:
     final synthetic com.google.android.gms.internal.firebase-auth-api.zzp zza
@@ -20894,6 +21274,8 @@ org.threeten.bp.Duration:
 org.threeten.bp.MonthDay$1
 io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundExecutor$1:
     final synthetic io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundExecutor this$0
+androidx.core.view.ViewCompat$AccessibilityViewProperty:
+    private final int mContentChangeType
 io.grpc.internal.DelayedClientTransport$3:
     final synthetic io.grpc.internal.DelayedClientTransport this$0
 com.google.android.gms.internal.measurement.zzfq:
@@ -20909,3 +21291,4 @@ io.grpc.ClientInterceptors:
     private static final io.grpc.ClientCall NOOP_CALL
 io.flutter.plugin.platform.PlatformView$-CC
 androidx.lifecycle.DefaultLifecycleObserver$-CC
+io.flutter.plugin.common.BinaryMessenger$-CC

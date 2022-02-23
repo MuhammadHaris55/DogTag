@@ -1,7 +1,7 @@
 # compiler: R8
 # compiler_version: 2.1.62
 # min_api: 21
-# pg_map_id: 113737e
+# pg_map_id: 4c4388c
 # common_typos_disable
 android.support.v4.app.INotificationSideChannel -> android.support.v4.app.a:
     void notify(java.lang.String,int,java.lang.String,android.app.Notification) -> K0
@@ -562,7 +562,7 @@ androidx.core.R$integer -> b.d.d:
 androidx.core.R$string -> b.d.e:
     int status_bar_notification_info_overflow -> a
 androidx.core.app.ActivityCompat -> androidx.core.app.a:
-    androidx.core.app.ActivityCompat$PermissionCompatDelegate sDelegate -> a
+    androidx.core.app.ActivityCompat$PermissionCompatDelegate sDelegate -> b
     androidx.core.app.ActivityCompat$PermissionCompatDelegate getPermissionCompatDelegate() -> j
     void requestPermissions(android.app.Activity,java.lang.String[],int) -> k
 androidx.core.app.ActivityCompat$1 -> androidx.core.app.a$a:
@@ -626,69 +626,86 @@ androidx.core.app.NotificationCompat$Action -> androidx.core.app.g$a:
     java.lang.CharSequence getTitle() -> j
     boolean isContextual() -> k
 androidx.core.app.NotificationCompat$BigPictureStyle -> androidx.core.app.g$b:
-    android.graphics.Bitmap mBigLargeIcon -> f
     boolean mBigLargeIconSet -> g
     android.graphics.Bitmap mPicture -> e
+    androidx.core.graphics.drawable.IconCompat mBigLargeIcon -> f
     void apply(androidx.core.app.NotificationBuilderWithBuilderAccessor) -> b
-    androidx.core.app.NotificationCompat$BigPictureStyle bigLargeIcon(android.graphics.Bitmap) -> l
-    androidx.core.app.NotificationCompat$BigPictureStyle bigPicture(android.graphics.Bitmap) -> m
-    androidx.core.app.NotificationCompat$BigPictureStyle setBigContentTitle(java.lang.CharSequence) -> n
-    androidx.core.app.NotificationCompat$BigPictureStyle setSummaryText(java.lang.CharSequence) -> o
+    java.lang.String getClassName() -> h
+    androidx.core.app.NotificationCompat$BigPictureStyle bigLargeIcon(android.graphics.Bitmap) -> m
+    androidx.core.app.NotificationCompat$BigPictureStyle bigPicture(android.graphics.Bitmap) -> n
+    androidx.core.app.NotificationCompat$BigPictureStyle setBigContentTitle(java.lang.CharSequence) -> o
+    androidx.core.app.NotificationCompat$BigPictureStyle setSummaryText(java.lang.CharSequence) -> p
+androidx.core.app.NotificationCompat$BigPictureStyle$Api16Impl -> androidx.core.app.g$b$a:
+    void setBigLargeIcon(android.app.Notification$BigPictureStyle,android.graphics.Bitmap) -> a
+    void setSummaryText(android.app.Notification$BigPictureStyle,java.lang.CharSequence) -> b
+androidx.core.app.NotificationCompat$BigPictureStyle$Api23Impl -> androidx.core.app.g$b$b:
+    void setBigLargeIcon(android.app.Notification$BigPictureStyle,android.graphics.drawable.Icon) -> a
 androidx.core.app.NotificationCompat$BigTextStyle -> androidx.core.app.g$c:
     java.lang.CharSequence mBigText -> e
+    void addCompatExtras(android.os.Bundle) -> a
     void apply(androidx.core.app.NotificationBuilderWithBuilderAccessor) -> b
-    androidx.core.app.NotificationCompat$BigTextStyle bigText(java.lang.CharSequence) -> l
-    androidx.core.app.NotificationCompat$BigTextStyle setBigContentTitle(java.lang.CharSequence) -> m
-    androidx.core.app.NotificationCompat$BigTextStyle setSummaryText(java.lang.CharSequence) -> n
+    java.lang.String getClassName() -> h
+    androidx.core.app.NotificationCompat$BigTextStyle bigText(java.lang.CharSequence) -> m
+    androidx.core.app.NotificationCompat$BigTextStyle setBigContentTitle(java.lang.CharSequence) -> n
+    androidx.core.app.NotificationCompat$BigTextStyle setSummaryText(java.lang.CharSequence) -> o
 androidx.core.app.NotificationCompat$BubbleMetadata -> androidx.core.app.g$d:
-    boolean getAutoExpandBubble() -> a
-    android.app.Notification$BubbleMetadata toPlatform(androidx.core.app.NotificationCompat$BubbleMetadata) -> b
+    android.app.PendingIntent getIntent() -> a
+    java.lang.String getShortcutId() -> b
+    android.app.Notification$BubbleMetadata toPlatform(androidx.core.app.NotificationCompat$BubbleMetadata) -> c
+androidx.core.app.NotificationCompat$BubbleMetadata$Api29Impl -> androidx.core.app.g$d$a:
+    android.app.Notification$BubbleMetadata toPlatform(androidx.core.app.NotificationCompat$BubbleMetadata) -> a
+androidx.core.app.NotificationCompat$BubbleMetadata$Api30Impl -> androidx.core.app.g$d$b:
+    android.app.Notification$BubbleMetadata toPlatform(androidx.core.app.NotificationCompat$BubbleMetadata) -> a
 androidx.core.app.NotificationCompat$Builder -> androidx.core.app.g$e:
     android.content.Context mContext -> a
-    boolean mShowWhen -> m
-    int mPriority -> l
-    boolean mChronometerCountDown -> o
-    int mBadgeIcon -> K
-    java.lang.CharSequence mContentTitle -> d
-    android.widget.RemoteViews mTickerView -> h
-    boolean mProgressIndeterminate -> u
-    android.app.Notification mNotification -> Q
-    android.widget.RemoteViews mHeadsUpContentView -> I
-    boolean mGroupSummary -> w
-    int mVisibility -> E
-    android.widget.RemoteViews mContentView -> G
-    java.util.ArrayList mInvisibleActions -> c
-    android.app.PendingIntent mFullScreenIntent -> g
-    boolean mSilent -> R
-    java.lang.CharSequence mContentInfo -> j
-    java.lang.String mGroupKey -> v
-    java.lang.String mSortKey -> x
-    boolean mLocalOnly -> y
-    java.lang.CharSequence mSubText -> q
-    androidx.core.app.NotificationCompat$BubbleMetadata mBubbleMetadata -> P
-    androidx.core.app.NotificationCompat$Style mStyle -> p
-    boolean mColorizedSet -> A
-    int mProgressMax -> s
-    java.lang.String mCategory -> B
-    int mGroupAlertBehavior -> N
-    boolean mUseChronometer -> n
-    boolean mAllowSystemGeneratedContextualActions -> O
-    android.os.Bundle mExtras -> C
-    int mNumber -> k
-    java.lang.String mChannelId -> J
-    java.lang.String mShortcutId -> L
-    android.widget.RemoteViews mBigContentView -> H
-    java.lang.CharSequence mContentText -> e
-    java.lang.CharSequence[] mRemoteInputHistory -> r
-    int mColor -> D
+    int mNumber -> l
+    int mVisibility -> G
+    android.app.PendingIntent mContentIntent -> g
+    android.graphics.Bitmap mLargeIcon -> j
+    android.widget.RemoteViews mHeadsUpContentView -> K
+    android.app.PendingIntent mFullScreenIntent -> h
+    boolean mGroupSummary -> y
+    java.lang.String mSortKey -> z
+    int mProgressMax -> u
+    boolean mColorizedSet -> C
+    long mTimeout -> P
+    java.lang.String mCategory -> D
+    boolean mShowWhen -> n
+    int mPriority -> m
+    android.os.Bundle mExtras -> E
+    java.lang.String mChannelId -> L
+    boolean mSilent -> U
     java.util.ArrayList mActions -> b
-    android.app.PendingIntent mContentIntent -> f
-    android.graphics.Bitmap mLargeIcon -> i
-    boolean mColorized -> z
-    int mProgress -> t
-    java.util.ArrayList mPeople -> S
-    long mTimeout -> M
-    android.app.Notification mPublicVersion -> F
+    android.widget.RemoteViews mBigContentView -> J
+    androidx.core.content.LocusIdCompat mLocusId -> O
+    java.lang.CharSequence mContentInfo -> k
+    androidx.core.app.NotificationCompat$BubbleMetadata mBubbleMetadata -> S
+    int mProgress -> v
+    androidx.core.app.NotificationCompat$Style mStyle -> q
+    int mGroupAlertBehavior -> Q
+    boolean mUseChronometer -> o
+    int mBadgeIcon -> M
+    android.widget.RemoteViews mContentView -> I
+    java.lang.CharSequence mContentText -> f
+    boolean mProgressIndeterminate -> w
+    java.util.ArrayList mPersonList -> c
+    boolean mAllowSystemGeneratedContextualActions -> R
+    java.lang.String mGroupKey -> x
+    java.lang.CharSequence mSettingsText -> s
+    boolean mLocalOnly -> A
+    android.app.Notification mPublicVersion -> H
+    boolean mChronometerCountDown -> p
+    java.lang.CharSequence[] mRemoteInputHistory -> t
+    int mColor -> F
+    java.lang.CharSequence mContentTitle -> e
+    android.widget.RemoteViews mTickerView -> i
+    java.lang.String mShortcutId -> N
+    java.util.ArrayList mInvisibleActions -> d
+    android.app.Notification mNotification -> T
+    java.lang.CharSequence mSubText -> r
+    android.graphics.drawable.Icon mSmallIcon -> V
+    java.util.ArrayList mPeople -> W
+    boolean mColorized -> B
     androidx.core.app.NotificationCompat$Builder setOngoing(boolean) -> A
     androidx.core.app.NotificationCompat$Builder setOnlyAlertOnce(boolean) -> B
     androidx.core.app.NotificationCompat$Builder setPriority(int) -> C
@@ -734,24 +751,27 @@ androidx.core.app.NotificationCompat$Builder -> androidx.core.app.g$e:
 androidx.core.app.NotificationCompat$InboxStyle -> androidx.core.app.g$f:
     java.util.ArrayList mTexts -> e
     void apply(androidx.core.app.NotificationBuilderWithBuilderAccessor) -> b
-    androidx.core.app.NotificationCompat$InboxStyle addLine(java.lang.CharSequence) -> l
-    androidx.core.app.NotificationCompat$InboxStyle setBigContentTitle(java.lang.CharSequence) -> m
-    androidx.core.app.NotificationCompat$InboxStyle setSummaryText(java.lang.CharSequence) -> n
+    java.lang.String getClassName() -> h
+    androidx.core.app.NotificationCompat$InboxStyle addLine(java.lang.CharSequence) -> m
+    androidx.core.app.NotificationCompat$InboxStyle setBigContentTitle(java.lang.CharSequence) -> n
+    androidx.core.app.NotificationCompat$InboxStyle setSummaryText(java.lang.CharSequence) -> o
 androidx.core.app.NotificationCompat$MessagingStyle -> androidx.core.app.g$g:
-    java.lang.Boolean mIsGroupConversation -> h
+    java.util.List mHistoricMessages -> f
     java.util.List mMessages -> e
-    androidx.core.app.Person mUser -> f
-    java.lang.CharSequence mConversationTitle -> g
+    java.lang.Boolean mIsGroupConversation -> i
+    androidx.core.app.Person mUser -> g
+    java.lang.CharSequence mConversationTitle -> h
     void addCompatExtras(android.os.Bundle) -> a
     void apply(androidx.core.app.NotificationBuilderWithBuilderAccessor) -> b
-    androidx.core.app.NotificationCompat$MessagingStyle addMessage(androidx.core.app.NotificationCompat$MessagingStyle$Message) -> l
-    androidx.core.app.NotificationCompat$MessagingStyle$Message findLatestIncomingMessage() -> m
-    boolean hasMessagesWithoutSender() -> n
-    boolean isGroupConversation() -> o
-    android.text.style.TextAppearanceSpan makeFontColorSpan(int) -> p
-    java.lang.CharSequence makeMessageLine(androidx.core.app.NotificationCompat$MessagingStyle$Message) -> q
-    androidx.core.app.NotificationCompat$MessagingStyle setConversationTitle(java.lang.CharSequence) -> r
-    androidx.core.app.NotificationCompat$MessagingStyle setGroupConversation(boolean) -> s
+    java.lang.String getClassName() -> h
+    androidx.core.app.NotificationCompat$MessagingStyle addMessage(androidx.core.app.NotificationCompat$MessagingStyle$Message) -> m
+    androidx.core.app.NotificationCompat$MessagingStyle$Message findLatestIncomingMessage() -> n
+    boolean hasMessagesWithoutSender() -> o
+    boolean isGroupConversation() -> p
+    android.text.style.TextAppearanceSpan makeFontColorSpan(int) -> q
+    java.lang.CharSequence makeMessageLine(androidx.core.app.NotificationCompat$MessagingStyle$Message) -> r
+    androidx.core.app.NotificationCompat$MessagingStyle setConversationTitle(java.lang.CharSequence) -> s
+    androidx.core.app.NotificationCompat$MessagingStyle setGroupConversation(boolean) -> t
 androidx.core.app.NotificationCompat$MessagingStyle$Message -> androidx.core.app.g$g$a:
     android.net.Uri mDataUri -> f
     java.lang.CharSequence mText -> a
@@ -766,7 +786,8 @@ androidx.core.app.NotificationCompat$MessagingStyle$Message -> androidx.core.app
     java.lang.CharSequence getText() -> e
     long getTimestamp() -> f
     androidx.core.app.NotificationCompat$MessagingStyle$Message setData(java.lang.String,android.net.Uri) -> g
-    android.os.Bundle toBundle() -> h
+    android.app.Notification$MessagingStyle$Message toAndroidMessage() -> h
+    android.os.Bundle toBundle() -> i
 androidx.core.app.NotificationCompat$Style -> androidx.core.app.g$h:
     java.lang.CharSequence mBigContentTitle -> b
     androidx.core.app.NotificationCompat$Builder mBuilder -> a
@@ -779,24 +800,29 @@ androidx.core.app.NotificationCompat$Style -> androidx.core.app.g$h:
     android.graphics.Bitmap createColoredBitmap(int,int,int) -> e
     android.graphics.Bitmap createColoredBitmap(androidx.core.graphics.drawable.IconCompat,int,int) -> f
     android.graphics.Bitmap createIconWithBackground(int,int,int,int) -> g
-    android.widget.RemoteViews makeBigContentView(androidx.core.app.NotificationBuilderWithBuilderAccessor) -> h
-    android.widget.RemoteViews makeContentView(androidx.core.app.NotificationBuilderWithBuilderAccessor) -> i
-    android.widget.RemoteViews makeHeadsUpContentView(androidx.core.app.NotificationBuilderWithBuilderAccessor) -> j
-    void setBuilder(androidx.core.app.NotificationCompat$Builder) -> k
+    java.lang.String getClassName() -> h
+    android.widget.RemoteViews makeBigContentView(androidx.core.app.NotificationBuilderWithBuilderAccessor) -> i
+    android.widget.RemoteViews makeContentView(androidx.core.app.NotificationBuilderWithBuilderAccessor) -> j
+    android.widget.RemoteViews makeHeadsUpContentView(androidx.core.app.NotificationBuilderWithBuilderAccessor) -> k
+    void setBuilder(androidx.core.app.NotificationCompat$Builder) -> l
 androidx.core.app.NotificationCompatBuilder -> androidx.core.app.h:
-    androidx.core.app.NotificationCompat$Builder mBuilderCompat -> b
-    android.widget.RemoteViews mBigContentView -> d
-    java.util.List mActionExtrasList -> e
-    android.widget.RemoteViews mContentView -> c
-    android.widget.RemoteViews mHeadsUpContentView -> h
-    android.os.Bundle mExtras -> f
-    int mGroupAlertBehavior -> g
-    android.app.Notification$Builder mBuilder -> a
+    android.content.Context mContext -> a
+    android.widget.RemoteViews mContentView -> d
+    java.util.List mActionExtrasList -> f
+    androidx.core.app.NotificationCompat$Builder mBuilderCompat -> c
+    android.widget.RemoteViews mBigContentView -> e
+    int mGroupAlertBehavior -> h
+    android.os.Bundle mExtras -> g
+    android.widget.RemoteViews mHeadsUpContentView -> i
+    android.app.Notification$Builder mBuilder -> b
     android.app.Notification$Builder getBuilder() -> a
     void addAction(androidx.core.app.NotificationCompat$Action) -> b
     android.app.Notification build() -> c
     android.app.Notification buildInternal() -> d
-    void removeSoundAndVibration(android.app.Notification) -> e
+    java.util.List combineLists(java.util.List,java.util.List) -> e
+    android.content.Context getContext() -> f
+    java.util.List getPeople(java.util.List) -> g
+    void removeSoundAndVibration(android.app.Notification) -> h
 androidx.core.app.NotificationCompatJellybean -> androidx.core.app.i:
     java.lang.reflect.Field sExtrasField -> b
     java.lang.Object sExtrasLock -> a
@@ -877,8 +903,9 @@ androidx.core.app.Person -> androidx.core.app.k:
     java.lang.String getUri() -> d
     boolean isBot() -> e
     boolean isImportant() -> f
-    android.app.Person toAndroidPerson() -> g
-    android.os.Bundle toBundle() -> h
+    java.lang.String resolveToLegacyUri() -> g
+    android.app.Person toAndroidPerson() -> h
+    android.os.Bundle toBundle() -> i
 androidx.core.app.Person$Builder -> androidx.core.app.k$a:
     java.lang.CharSequence mName -> a
     androidx.core.graphics.drawable.IconCompat mIcon -> b
@@ -915,6 +942,7 @@ androidx.core.app.SharedElementCallback -> androidx.core.app.m:
     void onSharedElementEnd(java.util.List,java.util.List,java.util.List) -> b
     void onSharedElementStart(java.util.List,java.util.List,java.util.List) -> c
 androidx.core.content.ContextCompat -> b.d.f.a:
+    java.lang.Object sSync -> a
     int checkSelfPermission(android.content.Context,java.lang.String) -> a
     android.content.Context createDeviceProtectedStorageContext(android.content.Context) -> b
     java.io.File createFilesDir(java.io.File) -> c
@@ -924,6 +952,28 @@ androidx.core.content.ContextCompat -> b.d.f.a:
     java.io.File getNoBackupFilesDir(android.content.Context) -> g
     void startActivity(android.content.Context,android.content.Intent,android.os.Bundle) -> h
     void startForegroundService(android.content.Context,android.content.Intent) -> i
+androidx.core.content.ContextCompat$Api16Impl -> b.d.f.a$a:
+    void startActivities(android.content.Context,android.content.Intent[],android.os.Bundle) -> a
+    void startActivity(android.content.Context,android.content.Intent,android.os.Bundle) -> b
+androidx.core.content.ContextCompat$Api19Impl -> b.d.f.a$b:
+    java.io.File[] getExternalCacheDirs(android.content.Context) -> a
+    java.io.File[] getExternalFilesDirs(android.content.Context,java.lang.String) -> b
+    java.io.File[] getObbDirs(android.content.Context) -> c
+androidx.core.content.ContextCompat$Api21Impl -> b.d.f.a$c:
+    java.io.File getCodeCacheDir(android.content.Context) -> a
+    android.graphics.drawable.Drawable getDrawable(android.content.Context,int) -> b
+    java.io.File getNoBackupFilesDir(android.content.Context) -> c
+androidx.core.content.ContextCompat$Api23Impl -> b.d.f.a$d:
+    int getColor(android.content.Context,int) -> a
+    android.content.res.ColorStateList getColorStateList(android.content.Context,int) -> b
+    java.lang.Object getSystemService(android.content.Context,java.lang.Class) -> c
+    java.lang.String getSystemServiceName(android.content.Context,java.lang.Class) -> d
+androidx.core.content.ContextCompat$Api24Impl -> b.d.f.a$e:
+    android.content.Context createDeviceProtectedStorageContext(android.content.Context) -> a
+    java.io.File getDataDir(android.content.Context) -> b
+    boolean isDeviceProtectedStorage(android.content.Context) -> c
+androidx.core.content.ContextCompat$Api26Impl -> b.d.f.a$f:
+    android.content.ComponentName startForegroundService(android.content.Context,android.content.Intent) -> a
 androidx.core.content.FileProvider -> b.d.f.b:
     java.lang.String[] COLUMNS -> l
     java.util.HashMap sCache -> n
@@ -945,17 +995,20 @@ androidx.core.content.FileProvider$SimplePathStrategy -> b.d.f.b$b:
     java.io.File getFileForUri(android.net.Uri) -> a
     android.net.Uri getUriForFile(java.io.File) -> b
     void addRoot(java.lang.String,java.io.File) -> c
-androidx.core.content.PermissionChecker -> b.d.f.c:
+androidx.core.content.LocusIdCompat -> b.d.f.c:
+    android.content.LocusId toLocusId() -> a
+androidx.core.content.PermissionChecker -> b.d.f.d:
     int checkPermission(android.content.Context,java.lang.String,int,int,java.lang.String) -> a
     int checkSelfPermission(android.content.Context,java.lang.String) -> b
-androidx.core.content.res.ResourcesCompat -> b.d.f.d.a:
+androidx.core.content.res.ResourcesCompat -> b.d.f.e.a:
     android.graphics.drawable.Drawable getDrawable(android.content.res.Resources,int,android.content.res.Resources$Theme) -> a
 androidx.core.graphics.drawable.DrawableCompat -> androidx.core.graphics.drawable.a:
     void setTintList(android.graphics.drawable.Drawable,android.content.res.ColorStateList) -> a
     void setTintMode(android.graphics.drawable.Drawable,android.graphics.PorterDuff$Mode) -> b
 androidx.core.graphics.drawable.IconCompat -> androidx.core.graphics.drawable.IconCompat:
-    android.graphics.PorterDuff$Mode DEFAULT_TINT_MODE -> j
     java.lang.String mTintModeStr -> i
+    android.graphics.PorterDuff$Mode DEFAULT_TINT_MODE -> k
+    java.lang.String mString1 -> j
     android.graphics.PorterDuff$Mode mTintMode -> h
     android.os.Parcelable mParcelable -> d
     java.lang.Object mObj1 -> b
@@ -970,24 +1023,25 @@ androidx.core.graphics.drawable.IconCompat -> androidx.core.graphics.drawable.Ic
     androidx.core.graphics.drawable.IconCompat createWithContentUri(java.lang.String) -> d
     androidx.core.graphics.drawable.IconCompat createWithResource(android.content.Context,int) -> e
     androidx.core.graphics.drawable.IconCompat createWithResource(android.content.res.Resources,java.lang.String,int) -> f
-    int getResId() -> g
-    int getResId(android.graphics.drawable.Icon) -> h
-    java.lang.String getResPackage() -> i
-    java.lang.String getResPackage(android.graphics.drawable.Icon) -> j
-    android.content.res.Resources getResources(android.content.Context,java.lang.String) -> k
-    int getType() -> l
-    int getType(android.graphics.drawable.Icon) -> m
-    android.net.Uri getUri() -> n
-    android.net.Uri getUri(android.graphics.drawable.Icon) -> o
-    java.io.InputStream getUriInputStream(android.content.Context) -> p
-    android.graphics.drawable.Drawable loadDrawable(android.content.Context) -> q
-    android.graphics.drawable.Drawable loadDrawableInner(android.content.Context) -> r
-    void onPostParceling() -> s
-    void onPreParceling(boolean) -> t
-    android.os.Bundle toBundle() -> u
-    android.graphics.drawable.Icon toIcon() -> v
-    android.graphics.drawable.Icon toIcon(android.content.Context) -> w
-    java.lang.String typeToString(int) -> x
+    android.graphics.Bitmap getBitmap() -> g
+    int getResId() -> h
+    int getResId(android.graphics.drawable.Icon) -> i
+    java.lang.String getResPackage() -> j
+    java.lang.String getResPackage(android.graphics.drawable.Icon) -> k
+    android.content.res.Resources getResources(android.content.Context,java.lang.String) -> l
+    int getType() -> m
+    int getType(android.graphics.drawable.Icon) -> n
+    android.net.Uri getUri() -> o
+    android.net.Uri getUri(android.graphics.drawable.Icon) -> p
+    java.io.InputStream getUriInputStream(android.content.Context) -> q
+    android.graphics.drawable.Drawable loadDrawable(android.content.Context) -> r
+    android.graphics.drawable.Drawable loadDrawableInner(android.content.Context) -> s
+    void onPostParceling() -> t
+    void onPreParceling(boolean) -> u
+    android.os.Bundle toBundle() -> v
+    android.graphics.drawable.Icon toIcon() -> w
+    android.graphics.drawable.Icon toIcon(android.content.Context) -> x
+    java.lang.String typeToString(int) -> y
 androidx.core.graphics.drawable.TintAwareDrawable -> androidx.core.graphics.drawable.b:
     void setTintMode(android.graphics.PorterDuff$Mode) -> a
     void setTintList(android.content.res.ColorStateList) -> b
@@ -1110,12 +1164,15 @@ androidx.core.view.ViewCompat -> b.d.j.d:
     boolean dispatchUnhandledKeyEventBeforeHierarchy(android.view.View,android.view.KeyEvent) -> b
     int getAccessibilityLiveRegion(android.view.View) -> c
     java.lang.CharSequence getAccessibilityPaneTitle(android.view.View) -> d
-    java.lang.String getTransitionName(android.view.View) -> e
-    boolean isAttachedToWindow(android.view.View) -> f
-    void notifyViewAccessibilityStateChangedIfNeeded(android.view.View,int) -> g
-    androidx.core.view.ViewCompat$AccessibilityViewProperty paneTitleProperty() -> h
-    void setTransitionName(android.view.View,java.lang.String) -> i
-androidx.core.view.ViewCompat$4 -> b.d.j.d$a:
+    int getImportantForAccessibility(android.view.View) -> e
+    java.lang.String getTransitionName(android.view.View) -> f
+    boolean isAttachedToWindow(android.view.View) -> g
+    void notifyViewAccessibilityStateChangedIfNeeded(android.view.View,int) -> h
+    androidx.core.view.ViewCompat$AccessibilityViewProperty paneTitleProperty() -> i
+    void setImportantForAccessibility(android.view.View,int) -> j
+    void setTransitionName(android.view.View,java.lang.String) -> k
+    void setViewImportanceForAccessibilityIfNeeded(android.view.View) -> l
+androidx.core.view.ViewCompat$3 -> b.d.j.d$a:
     java.lang.Object frameworkGet(android.view.View) -> c
     java.lang.CharSequence frameworkGet(android.view.View) -> e
 androidx.core.view.ViewCompat$AccessibilityPaneVisibilityManager -> b.d.j.d$b:
@@ -1146,6 +1203,27 @@ androidx.core.view.ViewCompat$UnhandledKeyEventManager -> b.d.j.d$e:
     void recalcViewsWithUnhandled() -> g
 androidx.core.view.ViewGroupCompat -> b.d.j.e:
     boolean isTransitionGroup(android.view.ViewGroup) -> a
+androidx.core.view.WindowInsetsControllerCompat -> b.d.j.f:
+    androidx.core.view.WindowInsetsControllerCompat$Impl mImpl -> a
+    void setAppearanceLightNavigationBars(boolean) -> a
+    void setAppearanceLightStatusBars(boolean) -> b
+androidx.core.view.WindowInsetsControllerCompat$Impl -> b.d.j.f$e:
+    void setAppearanceLightNavigationBars(boolean) -> a
+    void setAppearanceLightStatusBars(boolean) -> b
+androidx.core.view.WindowInsetsControllerCompat$Impl20 -> b.d.j.f$a:
+    android.view.Window mWindow -> a
+    void setSystemUiFlag(int) -> c
+    void setWindowFlag(int) -> d
+    void unsetSystemUiFlag(int) -> e
+    void unsetWindowFlag(int) -> f
+androidx.core.view.WindowInsetsControllerCompat$Impl23 -> b.d.j.f$b:
+    void setAppearanceLightStatusBars(boolean) -> b
+androidx.core.view.WindowInsetsControllerCompat$Impl26 -> b.d.j.f$c:
+    void setAppearanceLightNavigationBars(boolean) -> a
+androidx.core.view.WindowInsetsControllerCompat$Impl30 -> b.d.j.f$d:
+    android.view.WindowInsetsController mInsetsController -> a
+    void setAppearanceLightNavigationBars(boolean) -> a
+    void setAppearanceLightStatusBars(boolean) -> b
 androidx.exifinterface.media.ExifInterface -> b.e.a.a:
     byte[] WEBP_CHUNK_TYPE_ANIM -> P
     int[] BITS_PER_SAMPLE_RGB -> w
@@ -2423,8 +2501,7 @@ androidx.media.AudioAttributesCompat$Builder -> androidx.media.AudioAttributesCo
     androidx.media.AudioAttributesImpl$Builder mBuilderImpl -> a
     androidx.media.AudioAttributesCompat build() -> a
     androidx.media.AudioAttributesCompat$Builder setLegacyStreamType(int) -> b
-androidx.media.AudioAttributesImpl -> androidx.media.a:
-androidx.media.AudioAttributesImpl$Builder -> androidx.media.a$a:
+androidx.media.AudioAttributesImpl$Builder -> androidx.media.AudioAttributesImpl$a:
     androidx.media.AudioAttributesImpl build() -> c
     androidx.media.AudioAttributesImpl$Builder setLegacyStreamType(int) -> d
 androidx.media.AudioAttributesImplApi21 -> androidx.media.AudioAttributesImplApi21:
@@ -2454,32 +2531,32 @@ androidx.media.AudioAttributesImplBase$Builder -> androidx.media.AudioAttributes
     androidx.media.AudioAttributesImplBase$Builder setLegacyStreamType(int) -> a
     androidx.media.AudioAttributesImpl build() -> c
     androidx.media.AudioAttributesImpl$Builder setLegacyStreamType(int) -> d
-androidx.media.R$id -> androidx.media.b:
+androidx.media.R$id -> androidx.media.a:
     int media_actions -> d
     int cancel_action -> b
     int end_padder -> c
     int action0 -> a
-androidx.media.R$integer -> androidx.media.c:
+androidx.media.R$integer -> androidx.media.b:
     int cancel_button_image_alpha -> a
-androidx.media.R$layout -> androidx.media.d:
+androidx.media.R$layout -> androidx.media.c:
     int notification_template_media -> d
     int notification_template_big_media -> b
     int notification_template_big_media_narrow -> c
     int notification_media_action -> a
-androidx.media.app.NotificationCompat$MediaStyle -> androidx.media.e.a:
+androidx.media.app.NotificationCompat$MediaStyle -> androidx.media.d.a:
     android.app.PendingIntent mCancelButtonIntent -> h
     android.support.v4.media.session.MediaSessionCompat$Token mToken -> f
     int[] mActionsToShowInCompact -> e
     boolean mShowCancelButton -> g
     void apply(androidx.core.app.NotificationBuilderWithBuilderAccessor) -> b
-    android.widget.RemoteViews makeBigContentView(androidx.core.app.NotificationBuilderWithBuilderAccessor) -> h
-    android.widget.RemoteViews makeContentView(androidx.core.app.NotificationBuilderWithBuilderAccessor) -> i
-    android.app.Notification$MediaStyle fillInMediaStyle(android.app.Notification$MediaStyle) -> l
-    android.widget.RemoteViews generateBigContentView() -> m
-    android.widget.RemoteViews generateContentView() -> n
-    android.widget.RemoteViews generateMediaActionButton(androidx.core.app.NotificationCompat$Action) -> o
-    int getBigContentViewLayoutResource(int) -> p
-    int getContentViewLayoutResource() -> q
+    android.widget.RemoteViews makeBigContentView(androidx.core.app.NotificationBuilderWithBuilderAccessor) -> i
+    android.widget.RemoteViews makeContentView(androidx.core.app.NotificationBuilderWithBuilderAccessor) -> j
+    android.app.Notification$MediaStyle fillInMediaStyle(android.app.Notification$MediaStyle) -> m
+    android.widget.RemoteViews generateBigContentView() -> n
+    android.widget.RemoteViews generateContentView() -> o
+    android.widget.RemoteViews generateMediaActionButton(androidx.core.app.NotificationCompat$Action) -> p
+    int getBigContentViewLayoutResource(int) -> q
+    int getContentViewLayoutResource() -> r
 androidx.savedstate.Recreator -> androidx.savedstate.Recreator:
     androidx.savedstate.SavedStateRegistryOwner mOwner -> k
     void onStateChanged(androidx.lifecycle.LifecycleOwner,androidx.lifecycle.Lifecycle$Event) -> d
@@ -2508,6 +2585,12 @@ androidx.savedstate.SavedStateRegistryController -> androidx.savedstate.a:
     void performSave(android.os.Bundle) -> d
 androidx.savedstate.SavedStateRegistryOwner -> androidx.savedstate.b:
     androidx.savedstate.SavedStateRegistry getSavedStateRegistry() -> j
+androidx.tracing.Trace -> b.i.a:
+    void beginSection(java.lang.String) -> a
+    void endSection() -> b
+androidx.tracing.TraceApi18Impl -> b.i.b:
+    void beginSection(java.lang.String) -> a
+    void endSection() -> b
 androidx.versionedparcelable.ParcelImpl -> androidx.versionedparcelable.ParcelImpl:
     androidx.versionedparcelable.VersionedParcelable mParcel -> k
     androidx.versionedparcelable.VersionedParcelable getVersionedParcel() -> a
@@ -26774,21 +26857,26 @@ com.squareup.okhttp.internal.http.StatusLine -> c.c.a.g.a.a:
     java.lang.String message -> c
     com.squareup.okhttp.internal.http.StatusLine parse(java.lang.String) -> a
 io.flutter.FlutterInjector -> d.a.a:
+    java.util.concurrent.ExecutorService executorService -> d
     io.flutter.embedding.engine.FlutterJNI$Factory flutterJniFactory -> c
     io.flutter.embedding.engine.loader.FlutterLoader flutterLoader -> a
+    io.flutter.FlutterInjector instance -> e
     io.flutter.embedding.engine.deferredcomponents.DeferredComponentManager deferredComponentManager -> b
-    io.flutter.FlutterInjector instance -> d
     io.flutter.embedding.engine.deferredcomponents.DeferredComponentManager deferredComponentManager() -> a
-    io.flutter.embedding.engine.loader.FlutterLoader flutterLoader() -> b
-    io.flutter.embedding.engine.FlutterJNI$Factory getFlutterJNIFactory() -> c
-    io.flutter.FlutterInjector instance() -> d
+    java.util.concurrent.ExecutorService executorService() -> b
+    io.flutter.embedding.engine.loader.FlutterLoader flutterLoader() -> c
+    io.flutter.embedding.engine.FlutterJNI$Factory getFlutterJNIFactory() -> d
+    io.flutter.FlutterInjector instance() -> e
 io.flutter.FlutterInjector$1 -> d.a.a$a:
 io.flutter.FlutterInjector$Builder -> d.a.a$b:
+    java.util.concurrent.ExecutorService executorService -> d
     io.flutter.embedding.engine.FlutterJNI$Factory flutterJniFactory -> c
     io.flutter.embedding.engine.loader.FlutterLoader flutterLoader -> a
     io.flutter.embedding.engine.deferredcomponents.DeferredComponentManager deferredComponentManager -> b
     io.flutter.FlutterInjector build() -> a
     void fillDefaults() -> b
+io.flutter.FlutterInjector$Builder$NamedThreadFactory -> d.a.a$b$a:
+    int threadId -> k
 io.flutter.Log -> d.a.b:
     void d(java.lang.String,java.lang.String) -> a
     void e(java.lang.String,java.lang.String) -> b
@@ -26868,45 +26956,48 @@ io.flutter.embedding.android.FlutterActivity -> io.flutter.embedding.android.e:
     io.flutter.embedding.android.TransparencyMode getTransparencyMode() -> y
     void onFlutterTextureViewCreated(io.flutter.embedding.android.FlutterTextureView) -> z
 io.flutter.embedding.android.FlutterActivityAndFragmentDelegate -> io.flutter.embedding.android.f:
-    io.flutter.embedding.engine.renderer.FlutterUiDisplayListener flutterUiDisplayListener -> h
     io.flutter.plugin.platform.PlatformPlugin platformPlugin -> d
     android.view.ViewTreeObserver$OnPreDrawListener activePreDrawListener -> e
     io.flutter.embedding.android.FlutterView flutterView -> c
+    io.flutter.embedding.engine.renderer.FlutterUiDisplayListener flutterUiDisplayListener -> i
     io.flutter.embedding.engine.FlutterEngine flutterEngine -> b
     boolean isFlutterEngineFromHost -> f
     boolean isFlutterUiDisplayed -> g
     io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$Host host -> a
-    void onStop() -> A
-    void onTrimMemory(int) -> B
-    void onUserLeaveHint() -> C
-    void release() -> D
-    void setupFlutterEngine() -> E
+    boolean isFirstFrameRendered -> h
+    void onStart() -> A
+    void onStop() -> B
+    void onTrimMemory(int) -> C
+    void onUserLeaveHint() -> D
+    void release() -> E
+    void setupFlutterEngine() -> F
+    void updateSystemUiOverlays() -> G
     io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$Host access$000(io.flutter.embedding.android.FlutterActivityAndFragmentDelegate) -> a
     boolean access$100(io.flutter.embedding.android.FlutterActivityAndFragmentDelegate) -> b
     boolean access$102(io.flutter.embedding.android.FlutterActivityAndFragmentDelegate,boolean) -> c
-    void delayFirstAndroidViewDraw(io.flutter.embedding.android.FlutterView) -> d
+    boolean access$202(io.flutter.embedding.android.FlutterActivityAndFragmentDelegate,boolean) -> d
     void detachFromFlutterEngine() -> e
     java.lang.Object getAppComponent() -> f
-    void doInitialFlutterViewRun() -> g
-    void ensureAlive() -> h
-    android.app.Activity getAppComponent() -> i
-    io.flutter.embedding.engine.FlutterEngine getFlutterEngine() -> j
-    boolean isFlutterEngineFromHost() -> k
-    java.lang.String maybeGetInitialRouteFromIntent(android.content.Intent) -> l
-    void onActivityResult(int,int,android.content.Intent) -> m
-    void onAttach(android.content.Context) -> n
-    void onBackPressed() -> o
-    android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle,int,boolean) -> p
-    void onDestroyView() -> q
-    void onDetach() -> r
-    void onNewIntent(android.content.Intent) -> s
-    void onPause() -> t
-    void onPostResume() -> u
-    void onRequestPermissionsResult(int,java.lang.String[],int[]) -> v
-    void onRestoreInstanceState(android.os.Bundle) -> w
-    void onResume() -> x
-    void onSaveInstanceState(android.os.Bundle) -> y
-    void onStart() -> z
+    void delayFirstAndroidViewDraw(io.flutter.embedding.android.FlutterView) -> g
+    void doInitialFlutterViewRun() -> h
+    void ensureAlive() -> i
+    android.app.Activity getAppComponent() -> j
+    io.flutter.embedding.engine.FlutterEngine getFlutterEngine() -> k
+    boolean isFlutterEngineFromHost() -> l
+    java.lang.String maybeGetInitialRouteFromIntent(android.content.Intent) -> m
+    void onActivityResult(int,int,android.content.Intent) -> n
+    void onAttach(android.content.Context) -> o
+    void onBackPressed() -> p
+    android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle,int,boolean) -> q
+    void onDestroyView() -> r
+    void onDetach() -> s
+    void onNewIntent(android.content.Intent) -> t
+    void onPause() -> u
+    void onPostResume() -> v
+    void onRequestPermissionsResult(int,java.lang.String[],int[]) -> w
+    void onRestoreInstanceState(android.os.Bundle) -> x
+    void onResume() -> y
+    void onSaveInstanceState(android.os.Bundle) -> z
 io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$1 -> io.flutter.embedding.android.f$a:
     io.flutter.embedding.android.FlutterActivityAndFragmentDelegate this$0 -> a
     void onFlutterUiNoLongerDisplayed() -> c
@@ -26957,8 +27048,9 @@ io.flutter.embedding.android.FlutterImageView -> io.flutter.embedding.android.h:
     void closeCurrentImage() -> e
     android.media.ImageReader createImageReader(int,int) -> f
     void init() -> g
-    void resizeIfNeeded(int,int) -> h
-    void updateCurrentBitmap() -> i
+    void logW(java.lang.String,java.lang.Object[]) -> h
+    void resizeIfNeeded(int,int) -> i
+    void updateCurrentBitmap() -> j
 io.flutter.embedding.android.FlutterImageView$1 -> io.flutter.embedding.android.h$a:
     int[] $SwitchMap$io$flutter$embedding$android$FlutterImageView$SurfaceKind -> a
 io.flutter.embedding.android.FlutterImageView$SurfaceKind -> io.flutter.embedding.android.h$b:
@@ -27041,10 +27133,12 @@ io.flutter.embedding.android.FlutterTextureView -> io.flutter.embedding.android.
     void access$200(io.flutter.embedding.android.FlutterTextureView) -> f
     void access$300(io.flutter.embedding.android.FlutterTextureView,int,int) -> g
     void access$400(io.flutter.embedding.android.FlutterTextureView) -> h
-    void changeSurfaceSize(int,int) -> i
-    void connectSurfaceToRenderer() -> j
-    void disconnectSurfaceFromRenderer() -> k
-    void init() -> l
+    android.view.Surface access$500(io.flutter.embedding.android.FlutterTextureView) -> i
+    android.view.Surface access$502(io.flutter.embedding.android.FlutterTextureView,android.view.Surface) -> j
+    void changeSurfaceSize(int,int) -> k
+    void connectSurfaceToRenderer() -> l
+    void disconnectSurfaceFromRenderer() -> m
+    void init() -> n
 io.flutter.embedding.android.FlutterTextureView$1 -> io.flutter.embedding.android.j$a:
     io.flutter.embedding.android.FlutterTextureView this$0 -> a
 io.flutter.embedding.android.FlutterView -> io.flutter.embedding.android.k:
@@ -27070,27 +27164,26 @@ io.flutter.embedding.android.FlutterView -> io.flutter.embedding.android.k:
     void access$000(io.flutter.embedding.android.FlutterView,boolean,boolean) -> b
     boolean access$102(io.flutter.embedding.android.FlutterView,boolean) -> c
     java.util.Set access$200(io.flutter.embedding.android.FlutterView) -> d
-    io.flutter.embedding.engine.renderer.RenderSurface access$300(io.flutter.embedding.android.FlutterView) -> e
-    io.flutter.embedding.android.FlutterImageView access$400(io.flutter.embedding.android.FlutterView) -> f
-    boolean acquireLatestImageViewFrame() -> g
-    void addFlutterEngineAttachmentListener(io.flutter.embedding.android.FlutterView$FlutterEngineAttachmentListener) -> h
-    void addOnFirstFrameRenderedListener(io.flutter.embedding.engine.renderer.FlutterUiDisplayListener) -> i
-    void attachOverlaySurfaceToRender(io.flutter.embedding.android.FlutterImageView) -> j
-    void attachToFlutterEngine(io.flutter.embedding.engine.FlutterEngine) -> k
-    io.flutter.embedding.android.FlutterView$ZeroSides calculateShouldZeroSides() -> l
-    void convertToImageView() -> m
-    io.flutter.embedding.android.FlutterImageView createImageView() -> n
-    void detachFromFlutterEngine() -> o
-    int guessBottomKeyboardInset(android.view.WindowInsets) -> p
-    boolean hasRenderedFirstFrame() -> q
-    void init() -> r
-    boolean isAttachedToFlutterEngine() -> s
-    void removeFlutterEngineAttachmentListener(io.flutter.embedding.android.FlutterView$FlutterEngineAttachmentListener) -> t
-    void removeOnFirstFrameRenderedListener(io.flutter.embedding.engine.renderer.FlutterUiDisplayListener) -> u
-    void resetWillNotDraw(boolean,boolean) -> v
-    void revertImageView(java.lang.Runnable) -> w
-    void sendUserSettingsToFlutter() -> x
-    void sendViewportMetricsToFlutter() -> y
+    io.flutter.embedding.android.FlutterImageView access$300(io.flutter.embedding.android.FlutterView) -> e
+    boolean acquireLatestImageViewFrame() -> f
+    void addFlutterEngineAttachmentListener(io.flutter.embedding.android.FlutterView$FlutterEngineAttachmentListener) -> g
+    void addOnFirstFrameRenderedListener(io.flutter.embedding.engine.renderer.FlutterUiDisplayListener) -> h
+    void attachOverlaySurfaceToRender(io.flutter.embedding.android.FlutterImageView) -> i
+    void attachToFlutterEngine(io.flutter.embedding.engine.FlutterEngine) -> j
+    io.flutter.embedding.android.FlutterView$ZeroSides calculateShouldZeroSides() -> k
+    void convertToImageView() -> l
+    io.flutter.embedding.android.FlutterImageView createImageView() -> m
+    void detachFromFlutterEngine() -> n
+    int guessBottomKeyboardInset(android.view.WindowInsets) -> o
+    boolean hasRenderedFirstFrame() -> p
+    void init() -> q
+    boolean isAttachedToFlutterEngine() -> r
+    void removeFlutterEngineAttachmentListener(io.flutter.embedding.android.FlutterView$FlutterEngineAttachmentListener) -> s
+    void removeOnFirstFrameRenderedListener(io.flutter.embedding.engine.renderer.FlutterUiDisplayListener) -> t
+    void resetWillNotDraw(boolean,boolean) -> u
+    void revertImageView(java.lang.Runnable) -> v
+    void sendUserSettingsToFlutter() -> w
+    void sendViewportMetricsToFlutter() -> x
 io.flutter.embedding.android.FlutterView$1 -> io.flutter.embedding.android.k$a:
     io.flutter.embedding.android.FlutterView this$0 -> a
     void onAccessibilityChanged(boolean,boolean) -> a
@@ -27234,23 +27327,22 @@ io.flutter.embedding.engine.FlutterEngineCache -> io.flutter.embedding.engine.c:
     void put(java.lang.String,io.flutter.embedding.engine.FlutterEngine) -> c
     void remove(java.lang.String) -> d
 io.flutter.embedding.engine.FlutterEngineConnectionRegistry -> io.flutter.embedding.engine.d:
-    io.flutter.embedding.engine.FlutterEngineConnectionRegistry$FlutterEngineBroadcastReceiverPluginBinding broadcastReceiverPluginBinding -> n
-    io.flutter.embedding.android.ExclusiveAppComponent exclusiveActivity -> f
+    android.content.BroadcastReceiver broadcastReceiver -> l
+    io.flutter.embedding.android.ExclusiveAppComponent exclusiveActivity -> e
+    io.flutter.embedding.engine.FlutterEngineConnectionRegistry$FlutterEngineBroadcastReceiverPluginBinding broadcastReceiverPluginBinding -> m
     io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterPluginBinding pluginBinding -> c
-    java.util.Map contentProviderAwarePlugins -> o
+    java.util.Map contentProviderAwarePlugins -> n
+    android.app.Service service -> i
+    io.flutter.embedding.engine.FlutterEngineConnectionRegistry$FlutterEngineContentProviderPluginBinding contentProviderPluginBinding -> p
     java.util.Map plugins -> a
-    android.app.Activity activity -> e
-    android.app.Service service -> j
-    io.flutter.embedding.engine.FlutterEngineConnectionRegistry$FlutterEngineServicePluginBinding servicePluginBinding -> k
-    io.flutter.embedding.engine.FlutterEngineConnectionRegistry$FlutterEngineContentProviderPluginBinding contentProviderPluginBinding -> q
+    io.flutter.embedding.engine.FlutterEngineConnectionRegistry$FlutterEngineServicePluginBinding servicePluginBinding -> j
     java.util.Map activityAwarePlugins -> d
-    java.util.Map serviceAwarePlugins -> i
     io.flutter.embedding.engine.FlutterEngine flutterEngine -> b
-    boolean isWaitingForActivityReattachment -> h
-    java.util.Map broadcastReceiverAwarePlugins -> l
-    android.content.ContentProvider contentProvider -> p
-    io.flutter.embedding.engine.FlutterEngineConnectionRegistry$FlutterEngineActivityPluginBinding activityPluginBinding -> g
-    android.content.BroadcastReceiver broadcastReceiver -> m
+    boolean isWaitingForActivityReattachment -> g
+    java.util.Map broadcastReceiverAwarePlugins -> k
+    android.content.ContentProvider contentProvider -> o
+    io.flutter.embedding.engine.FlutterEngineConnectionRegistry$FlutterEngineActivityPluginBinding activityPluginBinding -> f
+    java.util.Map serviceAwarePlugins -> h
     boolean onActivityResult(int,int,android.content.Intent) -> a
     void onRestoreInstanceState(android.os.Bundle) -> b
     void onSaveInstanceState(android.os.Bundle) -> c
@@ -27315,7 +27407,14 @@ io.flutter.embedding.engine.FlutterShellArgs -> io.flutter.embedding.engine.e:
     java.util.Set args -> a
     io.flutter.embedding.engine.FlutterShellArgs fromIntent(android.content.Intent) -> a
     java.lang.String[] toArray() -> b
-io.flutter.embedding.engine.dart.DartExecutor -> io.flutter.embedding.engine.f.a:
+io.flutter.embedding.engine.dart.-$$Lambda$DartMessenger$6ZD1MYkhaLxyPjtoFDxe45u43DI -> io.flutter.embedding.engine.f.a:
+    java.nio.ByteBuffer f$3 -> n
+    int f$4 -> o
+    io.flutter.embedding.engine.dart.DartMessenger$HandlerInfo f$2 -> m
+    java.lang.String f$1 -> l
+    io.flutter.embedding.engine.dart.DartMessenger f$0 -> k
+    long f$5 -> p
+io.flutter.embedding.engine.dart.DartExecutor -> io.flutter.embedding.engine.f.b:
     io.flutter.embedding.engine.FlutterJNI flutterJNI -> a
     io.flutter.embedding.engine.dart.DartExecutor$IsolateServiceIdListener isolateServiceIdListener -> g
     java.lang.String isolateServiceId -> f
@@ -27329,51 +27428,70 @@ io.flutter.embedding.engine.dart.DartExecutor -> io.flutter.embedding.engine.f.a
     void setMessageHandler(java.lang.String,io.flutter.plugin.common.BinaryMessenger$BinaryMessageHandler) -> c
     java.lang.String access$000(io.flutter.embedding.engine.dart.DartExecutor) -> d
     java.lang.String access$002(io.flutter.embedding.engine.dart.DartExecutor,java.lang.String) -> e
-    io.flutter.embedding.engine.dart.DartExecutor$IsolateServiceIdListener access$100(io.flutter.embedding.engine.dart.DartExecutor) -> f
-    void executeDartCallback(io.flutter.embedding.engine.dart.DartExecutor$DartCallback) -> g
-    void executeDartEntrypoint(io.flutter.embedding.engine.dart.DartExecutor$DartEntrypoint) -> h
-    java.lang.String getIsolateServiceId() -> i
-    boolean isExecutingDart() -> j
-    void notifyLowMemoryWarning() -> k
-    void onAttachedToJNI() -> l
-    void onDetachedFromJNI() -> m
-io.flutter.embedding.engine.dart.DartExecutor$1 -> io.flutter.embedding.engine.f.a$a:
+    void setMessageHandler(java.lang.String,io.flutter.plugin.common.BinaryMessenger$BinaryMessageHandler,io.flutter.plugin.common.BinaryMessenger$TaskQueue) -> f
+    io.flutter.embedding.engine.dart.DartExecutor$IsolateServiceIdListener access$100(io.flutter.embedding.engine.dart.DartExecutor) -> g
+    void executeDartCallback(io.flutter.embedding.engine.dart.DartExecutor$DartCallback) -> h
+    void executeDartEntrypoint(io.flutter.embedding.engine.dart.DartExecutor$DartEntrypoint) -> i
+    java.lang.String getIsolateServiceId() -> j
+    boolean isExecutingDart() -> k
+    void notifyLowMemoryWarning() -> l
+    void onAttachedToJNI() -> m
+    void onDetachedFromJNI() -> n
+io.flutter.embedding.engine.dart.DartExecutor$1 -> io.flutter.embedding.engine.f.b$a:
     io.flutter.embedding.engine.dart.DartExecutor this$0 -> a
     void onMessage(java.nio.ByteBuffer,io.flutter.plugin.common.BinaryMessenger$BinaryReply) -> a
-io.flutter.embedding.engine.dart.DartExecutor$DartCallback -> io.flutter.embedding.engine.f.a$b:
+io.flutter.embedding.engine.dart.DartExecutor$DartCallback -> io.flutter.embedding.engine.f.b$b:
     android.content.res.AssetManager androidAssetManager -> a
     io.flutter.view.FlutterCallbackInformation callbackHandle -> c
     java.lang.String pathToBundle -> b
-io.flutter.embedding.engine.dart.DartExecutor$DartEntrypoint -> io.flutter.embedding.engine.f.a$c:
+io.flutter.embedding.engine.dart.DartExecutor$DartEntrypoint -> io.flutter.embedding.engine.f.b$c:
     java.lang.String pathToBundle -> a
     java.lang.String dartEntrypointFunctionName -> c
     java.lang.String dartEntrypointLibrary -> b
-io.flutter.embedding.engine.dart.DartExecutor$DefaultBinaryMessenger -> io.flutter.embedding.engine.f.a$d:
+io.flutter.embedding.engine.dart.DartExecutor$DefaultBinaryMessenger -> io.flutter.embedding.engine.f.b$d:
     io.flutter.embedding.engine.dart.DartMessenger messenger -> a
     void send(java.lang.String,java.nio.ByteBuffer,io.flutter.plugin.common.BinaryMessenger$BinaryReply) -> a
     void send(java.lang.String,java.nio.ByteBuffer) -> b
     void setMessageHandler(java.lang.String,io.flutter.plugin.common.BinaryMessenger$BinaryMessageHandler) -> c
-io.flutter.embedding.engine.dart.DartExecutor$IsolateServiceIdListener -> io.flutter.embedding.engine.f.a$e:
+    void setMessageHandler(java.lang.String,io.flutter.plugin.common.BinaryMessenger$BinaryMessageHandler,io.flutter.plugin.common.BinaryMessenger$TaskQueue) -> f
+io.flutter.embedding.engine.dart.DartExecutor$IsolateServiceIdListener -> io.flutter.embedding.engine.f.b$e:
     void onIsolateServiceIdAvailable(java.lang.String) -> a
-io.flutter.embedding.engine.dart.DartMessenger -> io.flutter.embedding.engine.f.b:
+io.flutter.embedding.engine.dart.DartMessenger -> io.flutter.embedding.engine.f.c:
     io.flutter.embedding.engine.FlutterJNI flutterJNI -> a
-    java.util.Map messageHandlers -> b
     java.util.Map pendingReplies -> c
+    java.util.concurrent.ConcurrentHashMap messageHandlers -> b
+    io.flutter.embedding.engine.dart.DartMessenger$DartMessengerTaskQueue platformTaskQueue -> e
+    java.util.WeakHashMap createdTaskQueues -> f
     int nextReplyId -> d
     void send(java.lang.String,java.nio.ByteBuffer,io.flutter.plugin.common.BinaryMessenger$BinaryReply) -> a
     void send(java.lang.String,java.nio.ByteBuffer) -> b
     void setMessageHandler(java.lang.String,io.flutter.plugin.common.BinaryMessenger$BinaryMessageHandler) -> c
     void handlePlatformMessageResponse(int,java.nio.ByteBuffer) -> d
-    void handleMessageFromDart(java.lang.String,java.nio.ByteBuffer,int) -> e
-    void handleError(java.lang.Error) -> f
-io.flutter.embedding.engine.dart.DartMessenger$Reply -> io.flutter.embedding.engine.f.b$a:
+    void handleMessageFromDart(java.lang.String,java.nio.ByteBuffer,int,long) -> e
+    void setMessageHandler(java.lang.String,io.flutter.plugin.common.BinaryMessenger$BinaryMessageHandler,io.flutter.plugin.common.BinaryMessenger$TaskQueue) -> f
+    void handleError(java.lang.Error) -> g
+    void invokeHandler(io.flutter.embedding.engine.dart.DartMessenger$HandlerInfo,java.nio.ByteBuffer,int) -> h
+    void lambda$handleMessageFromDart$0(java.lang.String,io.flutter.embedding.engine.dart.DartMessenger$HandlerInfo,java.nio.ByteBuffer,int,long) -> i
+    void lambda$handleMessageFromDart$0$DartMessenger(java.lang.String,io.flutter.embedding.engine.dart.DartMessenger$HandlerInfo,java.nio.ByteBuffer,int,long) -> j
+io.flutter.embedding.engine.dart.DartMessenger$1 -> io.flutter.embedding.engine.f.c$a:
+io.flutter.embedding.engine.dart.DartMessenger$DartMessengerTaskQueue -> io.flutter.embedding.engine.f.c$b:
+    void dispatch(java.lang.Runnable) -> a
+io.flutter.embedding.engine.dart.DartMessenger$DefaultTaskQueueFactory -> io.flutter.embedding.engine.f.c$c:
+io.flutter.embedding.engine.dart.DartMessenger$HandlerInfo -> io.flutter.embedding.engine.f.c$d:
+    io.flutter.plugin.common.BinaryMessenger$BinaryMessageHandler handler -> a
+    io.flutter.embedding.engine.dart.DartMessenger$DartMessengerTaskQueue taskQueue -> b
+io.flutter.embedding.engine.dart.DartMessenger$Reply -> io.flutter.embedding.engine.f.c$e:
     io.flutter.embedding.engine.FlutterJNI flutterJNI -> a
     java.util.concurrent.atomic.AtomicBoolean done -> c
     int replyId -> b
     void reply(java.nio.ByteBuffer) -> a
-io.flutter.embedding.engine.dart.PlatformMessageHandler -> io.flutter.embedding.engine.f.c:
+io.flutter.embedding.engine.dart.DartMessenger$TaskQueueFactory -> io.flutter.embedding.engine.f.c$f:
+io.flutter.embedding.engine.dart.PlatformMessageHandler -> io.flutter.embedding.engine.f.d:
     void handlePlatformMessageResponse(int,java.nio.ByteBuffer) -> d
-    void handleMessageFromDart(java.lang.String,java.nio.ByteBuffer,int) -> e
+    void handleMessageFromDart(java.lang.String,java.nio.ByteBuffer,int,long) -> e
+io.flutter.embedding.engine.dart.PlatformTaskQueue -> io.flutter.embedding.engine.f.e:
+    android.os.Handler handler -> a
+    void dispatch(java.lang.Runnable) -> a
 io.flutter.embedding.engine.deferredcomponents.DeferredComponentManager -> io.flutter.embedding.engine.g.a:
     java.lang.String getDeferredComponentInstallState(int,java.lang.String) -> a
     void destroy() -> b
@@ -27381,7 +27499,21 @@ io.flutter.embedding.engine.deferredcomponents.DeferredComponentManager -> io.fl
     boolean uninstallDeferredComponent(int,java.lang.String) -> d
     void setJNI(io.flutter.embedding.engine.FlutterJNI) -> e
     void setDeferredComponentChannel(io.flutter.embedding.engine.systemchannels.DeferredComponentChannel) -> f
-io.flutter.embedding.engine.loader.ApplicationInfoLoader -> io.flutter.embedding.engine.h.a:
+io.flutter.embedding.engine.loader.-$$Lambda$FlutterLoader$1$7aDWRJH5QhLJRySlof0NX61HOhE -> io.flutter.embedding.engine.h.a:
+    io.flutter.embedding.engine.loader.FlutterLoader$1 f$0 -> k
+io.flutter.embedding.engine.loader.-$$Lambda$FlutterLoader$1o3DGCGNgQtfS4gTiR0lwER7EMI -> io.flutter.embedding.engine.h.b:
+    java.lang.String[] f$2 -> m
+    io.flutter.embedding.engine.loader.FlutterLoader f$0 -> k
+    android.content.Context f$1 -> l
+    android.os.Handler f$3 -> n
+    java.lang.Runnable f$4 -> o
+io.flutter.embedding.engine.loader.-$$Lambda$FlutterLoader$VJKGJGKUCWDMEq6zjPGcvY_vy6M -> io.flutter.embedding.engine.h.c:
+    java.lang.String[] f$2 -> m
+    io.flutter.embedding.engine.loader.FlutterLoader f$0 -> k
+    android.content.Context f$1 -> l
+    android.os.Handler f$3 -> n
+    java.lang.Runnable f$4 -> o
+io.flutter.embedding.engine.loader.ApplicationInfoLoader -> io.flutter.embedding.engine.h.d:
     java.lang.String PUBLIC_AOT_SHARED_LIBRARY_NAME -> a
     java.lang.String PUBLIC_ISOLATE_SNAPSHOT_DATA_KEY -> c
     java.lang.String PUBLIC_VM_SNAPSHOT_DATA_KEY -> b
@@ -27394,51 +27526,49 @@ io.flutter.embedding.engine.loader.ApplicationInfoLoader -> io.flutter.embedding
     void parseDomain(android.content.res.XmlResourceParser,org.json.JSONArray,boolean) -> f
     void parseDomainConfig(android.content.res.XmlResourceParser,org.json.JSONArray,boolean) -> g
     void skipTag(android.content.res.XmlResourceParser) -> h
-io.flutter.embedding.engine.loader.FlutterApplicationInfo -> io.flutter.embedding.engine.h.b:
+io.flutter.embedding.engine.loader.FlutterApplicationInfo -> io.flutter.embedding.engine.h.e:
     boolean automaticallyRegisterPlugins -> e
     java.lang.String aotSharedLibraryName -> a
     java.lang.String domainNetworkPolicy -> c
     java.lang.String flutterAssetsDir -> b
     java.lang.String nativeLibraryDir -> d
-io.flutter.embedding.engine.loader.FlutterLoader -> io.flutter.embedding.engine.h.c:
+io.flutter.embedding.engine.loader.FlutterLoader -> io.flutter.embedding.engine.h.f:
     io.flutter.embedding.engine.loader.FlutterApplicationInfo flutterApplicationInfo -> d
+    java.util.concurrent.ExecutorService executorService -> f
     long initStartTimestampMillis -> c
+    java.util.concurrent.Future initResultFuture -> g
     boolean initialized -> a
     io.flutter.embedding.engine.FlutterJNI flutterJNI -> e
-    java.util.concurrent.Future initResultFuture -> f
     io.flutter.embedding.engine.loader.FlutterLoader$Settings settings -> b
     io.flutter.embedding.engine.loader.ResourceExtractor access$000(io.flutter.embedding.engine.loader.FlutterLoader,android.content.Context) -> a
     io.flutter.embedding.engine.FlutterJNI access$100(io.flutter.embedding.engine.loader.FlutterLoader) -> b
-    boolean automaticallyRegisterPlugins() -> c
-    void ensureInitializationComplete(android.content.Context,java.lang.String[]) -> d
-    void ensureInitializationCompleteAsync(android.content.Context,java.lang.String[],android.os.Handler,java.lang.Runnable) -> e
-    java.lang.String findAppBundlePath() -> f
-    java.lang.String fullAssetPathFrom(java.lang.String) -> g
-    java.lang.String getLookupKeyForAsset(java.lang.String) -> h
-    io.flutter.embedding.engine.loader.ResourceExtractor initResources(android.content.Context) -> i
-    void startInitialization(android.content.Context) -> j
-    void startInitialization(android.content.Context,io.flutter.embedding.engine.loader.FlutterLoader$Settings) -> k
-io.flutter.embedding.engine.loader.FlutterLoader$1 -> io.flutter.embedding.engine.h.c$a:
+    java.util.concurrent.ExecutorService access$200(io.flutter.embedding.engine.loader.FlutterLoader) -> c
+    boolean automaticallyRegisterPlugins() -> d
+    void ensureInitializationComplete(android.content.Context,java.lang.String[]) -> e
+    void ensureInitializationCompleteAsync(android.content.Context,java.lang.String[],android.os.Handler,java.lang.Runnable) -> f
+    java.lang.String findAppBundlePath() -> g
+    java.lang.String fullAssetPathFrom(java.lang.String) -> h
+    java.lang.String getLookupKeyForAsset(java.lang.String) -> i
+    io.flutter.embedding.engine.loader.ResourceExtractor initResources(android.content.Context) -> j
+    void lambda$ensureInitializationCompleteAsync$0(android.content.Context,java.lang.String[],android.os.Handler,java.lang.Runnable) -> k
+    void lambda$ensureInitializationCompleteAsync$0$FlutterLoader(android.content.Context,java.lang.String[],android.os.Handler,java.lang.Runnable) -> l
+    void lambda$ensureInitializationCompleteAsync$1(android.content.Context,java.lang.String[],android.os.Handler,java.lang.Runnable) -> m
+    void lambda$ensureInitializationCompleteAsync$1$FlutterLoader(android.content.Context,java.lang.String[],android.os.Handler,java.lang.Runnable) -> n
+    void startInitialization(android.content.Context) -> o
+    void startInitialization(android.content.Context,io.flutter.embedding.engine.loader.FlutterLoader$Settings) -> p
+io.flutter.embedding.engine.loader.FlutterLoader$1 -> io.flutter.embedding.engine.h.f$a:
     android.content.Context val$appContext -> a
     io.flutter.embedding.engine.loader.FlutterLoader this$0 -> b
     io.flutter.embedding.engine.loader.FlutterLoader$InitResult call() -> a
-io.flutter.embedding.engine.loader.FlutterLoader$1$1 -> io.flutter.embedding.engine.h.c$a$a:
-    io.flutter.embedding.engine.loader.FlutterLoader$1 this$1 -> k
-io.flutter.embedding.engine.loader.FlutterLoader$2 -> io.flutter.embedding.engine.h.c$b:
-    java.lang.String[] val$args -> l
-    io.flutter.embedding.engine.loader.FlutterLoader this$0 -> o
-    android.content.Context val$applicationContext -> k
-    android.os.Handler val$callbackHandler -> m
-    java.lang.Runnable val$callback -> n
-io.flutter.embedding.engine.loader.FlutterLoader$2$1 -> io.flutter.embedding.engine.h.c$b$a:
-    io.flutter.embedding.engine.loader.FlutterLoader$2 this$1 -> k
-io.flutter.embedding.engine.loader.FlutterLoader$InitResult -> io.flutter.embedding.engine.h.c$c:
+    void lambda$call$0() -> b
+    void lambda$call$0$FlutterLoader$1() -> c
+io.flutter.embedding.engine.loader.FlutterLoader$InitResult -> io.flutter.embedding.engine.h.f$b:
     java.lang.String appStoragePath -> a
     java.lang.String engineCachesPath -> b
-io.flutter.embedding.engine.loader.FlutterLoader$Settings -> io.flutter.embedding.engine.h.c$d:
+io.flutter.embedding.engine.loader.FlutterLoader$Settings -> io.flutter.embedding.engine.h.f$c:
     java.lang.String logTag -> a
     java.lang.String getLogTag() -> a
-io.flutter.embedding.engine.loader.ResourceExtractor -> io.flutter.embedding.engine.h.d:
+io.flutter.embedding.engine.loader.ResourceExtractor -> io.flutter.embedding.engine.h.g:
     void waitForCompletion() -> a
 io.flutter.embedding.engine.mutatorsstack.FlutterMutatorView -> io.flutter.embedding.engine.mutatorsstack.a:
     float screenDensity -> l
@@ -27534,34 +27664,40 @@ io.flutter.embedding.engine.plugins.util.GeneratedPluginRegister -> io.flutter.e
     void registerGeneratedPlugins(io.flutter.embedding.engine.FlutterEngine) -> a
 io.flutter.embedding.engine.renderer.FlutterRenderer -> io.flutter.embedding.engine.renderer.a:
     io.flutter.embedding.engine.FlutterJNI flutterJNI -> a
+    android.os.Handler handler -> e
     java.util.concurrent.atomic.AtomicLong nextTextureId -> b
     android.view.Surface surface -> c
-    io.flutter.embedding.engine.renderer.FlutterUiDisplayListener flutterUiDisplayListener -> e
+    io.flutter.embedding.engine.renderer.FlutterUiDisplayListener flutterUiDisplayListener -> f
     boolean isDisplayingFlutterUi -> d
     io.flutter.view.TextureRegistry$SurfaceTextureEntry createSurfaceTexture() -> a
     boolean access$002(io.flutter.embedding.engine.renderer.FlutterRenderer,boolean) -> b
     io.flutter.embedding.engine.FlutterJNI access$200(io.flutter.embedding.engine.renderer.FlutterRenderer) -> c
     void access$400(io.flutter.embedding.engine.renderer.FlutterRenderer,long) -> d
     void access$500(io.flutter.embedding.engine.renderer.FlutterRenderer,long) -> e
-    void addIsDisplayingFlutterUiListener(io.flutter.embedding.engine.renderer.FlutterUiDisplayListener) -> f
-    void dispatchPointerDataPacket(java.nio.ByteBuffer,int) -> g
-    boolean isDisplayingFlutterUi() -> h
-    boolean isSoftwareRenderingEnabled() -> i
-    void markTextureFrameAvailable(long) -> j
-    void registerTexture(long,io.flutter.embedding.engine.renderer.SurfaceTextureWrapper) -> k
-    void removeIsDisplayingFlutterUiListener(io.flutter.embedding.engine.renderer.FlutterUiDisplayListener) -> l
-    void setSemanticsEnabled(boolean) -> m
-    void setViewportMetrics(io.flutter.embedding.engine.renderer.FlutterRenderer$ViewportMetrics) -> n
-    void startRenderingToSurface(android.view.Surface) -> o
-    void stopRenderingToSurface() -> p
-    void surfaceChanged(int,int) -> q
-    void swapSurface(android.view.Surface) -> r
-    void unregisterTexture(long) -> s
+    android.os.Handler access$600(io.flutter.embedding.engine.renderer.FlutterRenderer) -> f
+    void addIsDisplayingFlutterUiListener(io.flutter.embedding.engine.renderer.FlutterUiDisplayListener) -> g
+    void dispatchPointerDataPacket(java.nio.ByteBuffer,int) -> h
+    boolean isDisplayingFlutterUi() -> i
+    boolean isSoftwareRenderingEnabled() -> j
+    void markTextureFrameAvailable(long) -> k
+    io.flutter.view.TextureRegistry$SurfaceTextureEntry registerSurfaceTexture(android.graphics.SurfaceTexture) -> l
+    void registerTexture(long,io.flutter.embedding.engine.renderer.SurfaceTextureWrapper) -> m
+    void removeIsDisplayingFlutterUiListener(io.flutter.embedding.engine.renderer.FlutterUiDisplayListener) -> n
+    void setSemanticsEnabled(boolean) -> o
+    void setViewportMetrics(io.flutter.embedding.engine.renderer.FlutterRenderer$ViewportMetrics) -> p
+    void startRenderingToSurface(android.view.Surface) -> q
+    void stopRenderingToSurface() -> r
+    void surfaceChanged(int,int) -> s
+    void swapSurface(android.view.Surface) -> t
+    void unregisterTexture(long) -> u
 io.flutter.embedding.engine.renderer.FlutterRenderer$1 -> io.flutter.embedding.engine.renderer.a$a:
     io.flutter.embedding.engine.renderer.FlutterRenderer this$0 -> a
     void onFlutterUiNoLongerDisplayed() -> c
     void onFlutterUiDisplayed() -> f
-io.flutter.embedding.engine.renderer.FlutterRenderer$SurfaceTextureRegistryEntry -> io.flutter.embedding.engine.renderer.a$b:
+io.flutter.embedding.engine.renderer.FlutterRenderer$SurfaceTextureFinalizerRunnable -> io.flutter.embedding.engine.renderer.a$b:
+    long id -> k
+    io.flutter.embedding.engine.FlutterJNI flutterJNI -> l
+io.flutter.embedding.engine.renderer.FlutterRenderer$SurfaceTextureRegistryEntry -> io.flutter.embedding.engine.renderer.a$c:
     io.flutter.embedding.engine.renderer.FlutterRenderer this$0 -> e
     io.flutter.embedding.engine.renderer.SurfaceTextureWrapper textureWrapper -> b
     android.graphics.SurfaceTexture$OnFrameAvailableListener onFrameListener -> d
@@ -27573,9 +27709,9 @@ io.flutter.embedding.engine.renderer.FlutterRenderer$SurfaceTextureRegistryEntry
     boolean access$100(io.flutter.embedding.engine.renderer.FlutterRenderer$SurfaceTextureRegistryEntry) -> d
     long access$300(io.flutter.embedding.engine.renderer.FlutterRenderer$SurfaceTextureRegistryEntry) -> e
     io.flutter.embedding.engine.renderer.SurfaceTextureWrapper textureWrapper() -> f
-io.flutter.embedding.engine.renderer.FlutterRenderer$SurfaceTextureRegistryEntry$1 -> io.flutter.embedding.engine.renderer.a$b$a:
+io.flutter.embedding.engine.renderer.FlutterRenderer$SurfaceTextureRegistryEntry$1 -> io.flutter.embedding.engine.renderer.a$c$a:
     io.flutter.embedding.engine.renderer.FlutterRenderer$SurfaceTextureRegistryEntry this$1 -> a
-io.flutter.embedding.engine.renderer.FlutterRenderer$ViewportMetrics -> io.flutter.embedding.engine.renderer.a$c:
+io.flutter.embedding.engine.renderer.FlutterRenderer$ViewportMetrics -> io.flutter.embedding.engine.renderer.a$d:
     int systemGestureInsetBottom -> n
     int systemGestureInsetLeft -> o
     int systemGestureInsetTop -> l
@@ -27751,13 +27887,13 @@ io.flutter.embedding.engine.systemchannels.PlatformChannel$SoundType -> io.flutt
     io.flutter.embedding.engine.systemchannels.PlatformChannel$SoundType ALERT -> m
     io.flutter.embedding.engine.systemchannels.PlatformChannel$SoundType fromValue(java.lang.String) -> c
 io.flutter.embedding.engine.systemchannels.PlatformChannel$SystemChromeStyle -> io.flutter.embedding.engine.j.i$j:
+    java.lang.Boolean systemNavigationBarContrastEnforced -> g
     java.lang.Integer systemNavigationBarColor -> d
     java.lang.Integer systemNavigationBarDividerColor -> f
     io.flutter.embedding.engine.systemchannels.PlatformChannel$Brightness systemNavigationBarIconBrightness -> e
     io.flutter.embedding.engine.systemchannels.PlatformChannel$Brightness statusBarIconBrightness -> b
-    boolean systemNavigationBarContrastEnforced -> g
+    java.lang.Boolean systemStatusBarContrastEnforced -> c
     java.lang.Integer statusBarColor -> a
-    boolean systemStatusBarContrastEnforced -> c
 io.flutter.embedding.engine.systemchannels.PlatformChannel$SystemUiMode -> io.flutter.embedding.engine.j.i$k:
     io.flutter.embedding.engine.systemchannels.PlatformChannel$SystemUiMode[] $VALUES -> p
     java.lang.String encodedName -> k
@@ -27879,39 +28015,43 @@ io.flutter.embedding.engine.systemchannels.TextInputChannel -> io.flutter.embedd
     io.flutter.embedding.engine.systemchannels.TextInputChannel$TextInputMethodHandler textInputMethodHandler -> b
     io.flutter.plugin.common.MethodChannel channel -> a
     io.flutter.embedding.engine.systemchannels.TextInputChannel$TextInputMethodHandler access$000(io.flutter.embedding.engine.systemchannels.TextInputChannel) -> a
-    java.util.HashMap createEditingStateJSON(java.lang.String,int,int,int,int) -> b
-    void done(int) -> c
-    void go(int) -> d
-    void newline(int) -> e
-    void next(int) -> f
-    void performPrivateCommand(int,java.lang.String,android.os.Bundle) -> g
-    void previous(int) -> h
-    void requestExistingInputState() -> i
-    void search(int) -> j
-    void send(int) -> k
-    void setTextInputMethodHandler(io.flutter.embedding.engine.systemchannels.TextInputChannel$TextInputMethodHandler) -> l
-    void unspecifiedAction(int) -> m
-    void updateEditingState(int,java.lang.String,int,int,int,int) -> n
-    void updateEditingStateWithTag(int,java.util.HashMap) -> o
+    java.util.HashMap createEditingDeltaJSON(java.util.ArrayList) -> b
+    java.util.HashMap createEditingStateJSON(java.lang.String,int,int,int,int) -> c
+    void done(int) -> d
+    void go(int) -> e
+    void newline(int) -> f
+    void next(int) -> g
+    void performPrivateCommand(int,java.lang.String,android.os.Bundle) -> h
+    void previous(int) -> i
+    void requestExistingInputState() -> j
+    void search(int) -> k
+    void send(int) -> l
+    void setTextInputMethodHandler(io.flutter.embedding.engine.systemchannels.TextInputChannel$TextInputMethodHandler) -> m
+    void unspecifiedAction(int) -> n
+    void updateEditingState(int,java.lang.String,int,int,int,int) -> o
+    void updateEditingStateWithDeltas(int,java.util.ArrayList) -> p
+    void updateEditingStateWithTag(int,java.util.HashMap) -> q
 io.flutter.embedding.engine.systemchannels.TextInputChannel$1 -> io.flutter.embedding.engine.j.n$a:
     io.flutter.embedding.engine.systemchannels.TextInputChannel this$0 -> a
 io.flutter.embedding.engine.systemchannels.TextInputChannel$Configuration -> io.flutter.embedding.engine.j.n$b:
-    io.flutter.embedding.engine.systemchannels.TextInputChannel$Configuration[] fields -> j
-    java.lang.String actionLabel -> h
-    java.lang.Integer inputAction -> g
-    io.flutter.embedding.engine.systemchannels.TextInputChannel$Configuration$Autofill autofill -> i
-    io.flutter.embedding.engine.systemchannels.TextInputChannel$InputType inputType -> f
+    java.lang.String actionLabel -> i
+    java.lang.Integer inputAction -> h
+    io.flutter.embedding.engine.systemchannels.TextInputChannel$Configuration[] fields -> k
+    boolean enableDeltaModel -> e
+    io.flutter.embedding.engine.systemchannels.TextInputChannel$Configuration$Autofill autofill -> j
     boolean obscureText -> a
+    io.flutter.embedding.engine.systemchannels.TextInputChannel$TextCapitalization textCapitalization -> f
+    io.flutter.embedding.engine.systemchannels.TextInputChannel$InputType inputType -> g
     boolean autocorrect -> b
     boolean enableSuggestions -> c
     boolean enableIMEPersonalizedLearning -> d
-    io.flutter.embedding.engine.systemchannels.TextInputChannel$TextCapitalization textCapitalization -> e
     io.flutter.embedding.engine.systemchannels.TextInputChannel$Configuration fromJson(org.json.JSONObject) -> a
     java.lang.Integer inputActionFromTextInputAction(java.lang.String) -> b
 io.flutter.embedding.engine.systemchannels.TextInputChannel$Configuration$Autofill -> io.flutter.embedding.engine.j.n$b$a:
     io.flutter.embedding.engine.systemchannels.TextInputChannel$TextEditState editState -> c
     java.lang.String uniqueIdentifier -> a
     java.lang.String[] hints -> b
+    java.lang.String hintText -> d
     io.flutter.embedding.engine.systemchannels.TextInputChannel$Configuration$Autofill fromJson(org.json.JSONObject) -> a
     java.lang.String translateAutofillHint(java.lang.String) -> b
 io.flutter.embedding.engine.systemchannels.TextInputChannel$InputType -> io.flutter.embedding.engine.j.n$c:
@@ -27964,6 +28104,7 @@ io.flutter.embedding.engine.systemchannels.TextInputChannel$TextInputType -> io.
     io.flutter.embedding.engine.systemchannels.TextInputChannel$TextInputType fromValue(java.lang.String) -> c
 io.flutter.plugin.common.BasicMessageChannel -> d.a.c.a.a:
     io.flutter.plugin.common.MessageCodec codec -> c
+    io.flutter.plugin.common.BinaryMessenger$TaskQueue taskQueue -> d
     io.flutter.plugin.common.BinaryMessenger messenger -> a
     java.lang.String name -> b
     io.flutter.plugin.common.MessageCodec access$200(io.flutter.plugin.common.BasicMessageChannel) -> a
@@ -27992,12 +28133,15 @@ io.flutter.plugin.common.BinaryMessenger -> d.a.c.a.b:
     void send(java.lang.String,java.nio.ByteBuffer,io.flutter.plugin.common.BinaryMessenger$BinaryReply) -> a
     void send(java.lang.String,java.nio.ByteBuffer) -> b
     void setMessageHandler(java.lang.String,io.flutter.plugin.common.BinaryMessenger$BinaryMessageHandler) -> c
+    void setMessageHandler(java.lang.String,io.flutter.plugin.common.BinaryMessenger$BinaryMessageHandler,io.flutter.plugin.common.BinaryMessenger$TaskQueue) -> f
 io.flutter.plugin.common.BinaryMessenger$BinaryMessageHandler -> d.a.c.a.b$a:
     void onMessage(java.nio.ByteBuffer,io.flutter.plugin.common.BinaryMessenger$BinaryReply) -> a
 io.flutter.plugin.common.BinaryMessenger$BinaryReply -> d.a.c.a.b$b:
     void reply(java.nio.ByteBuffer) -> a
+io.flutter.plugin.common.BinaryMessenger$TaskQueue -> d.a.c.a.b$c:
 io.flutter.plugin.common.EventChannel -> d.a.c.a.c:
     io.flutter.plugin.common.MethodCodec codec -> c
+    io.flutter.plugin.common.BinaryMessenger$TaskQueue taskQueue -> d
     io.flutter.plugin.common.BinaryMessenger messenger -> a
     java.lang.String name -> b
     io.flutter.plugin.common.MethodCodec access$000(io.flutter.plugin.common.EventChannel) -> a
@@ -28054,6 +28198,7 @@ io.flutter.plugin.common.MethodCall -> d.a.c.a.i:
     java.lang.Object arguments() -> b
 io.flutter.plugin.common.MethodChannel -> d.a.c.a.j:
     io.flutter.plugin.common.MethodCodec codec -> c
+    io.flutter.plugin.common.BinaryMessenger$TaskQueue taskQueue -> d
     io.flutter.plugin.common.BinaryMessenger messenger -> a
     java.lang.String name -> b
     io.flutter.plugin.common.MethodCodec access$000(io.flutter.plugin.common.MethodChannel) -> a
@@ -28182,34 +28327,48 @@ io.flutter.plugin.editing.InputConnectionAdaptor -> io.flutter.plugin.editing.b:
     boolean handleKeyEvent(android.view.KeyEvent) -> f
     boolean handleVerticalMovement(boolean,boolean) -> g
 io.flutter.plugin.editing.ListenableEditingState -> io.flutter.plugin.editing.c:
+    java.util.ArrayList mBatchTextEditingDeltas -> o
     java.util.ArrayList mPendingListeners -> n
     int mChangeNotificationDepth -> l
     java.util.ArrayList mListeners -> m
+    android.view.inputmethod.BaseInputConnection mDummyConnection -> v
     int mBatchEditNestDepth -> k
-    android.view.inputmethod.BaseInputConnection mDummyConnection -> u
-    java.lang.String mToStringCache -> o
-    int mComposingEndWhenBeginBatchEdit -> t
-    java.lang.String mTextWhenBeginBatchEdit -> p
-    int mSelectionEndWhenBeginBatchEdit -> r
-    int mComposingStartWhenBeginBatchEdit -> s
-    int mSelectionStartWhenBeginBatchEdit -> q
+    java.lang.String mTextWhenBeginBatchEdit -> q
+    int mComposingStartWhenBeginBatchEdit -> t
+    java.lang.String mToStringCache -> p
+    int mComposingEndWhenBeginBatchEdit -> u
+    int mSelectionStartWhenBeginBatchEdit -> r
+    int mSelectionEndWhenBeginBatchEdit -> s
     void addEditingStateListener(io.flutter.plugin.editing.ListenableEditingState$EditingStateWatcher) -> a
     void beginBatchEdit() -> b
-    void endBatchEdit() -> c
-    int getComposingEnd() -> d
-    int getComposingStart() -> e
-    int getSelectionEnd() -> f
-    int getSelectionStart() -> g
-    void notifyListener(io.flutter.plugin.editing.ListenableEditingState$EditingStateWatcher,boolean,boolean,boolean) -> h
-    void notifyListenersIfNeeded(boolean,boolean,boolean) -> i
-    void removeEditingStateListener(io.flutter.plugin.editing.ListenableEditingState$EditingStateWatcher) -> j
-    void setComposingRange(int,int) -> k
-    void setEditingState(io.flutter.embedding.engine.systemchannels.TextInputChannel$TextEditState) -> l
+    void clearBatchDeltas() -> c
+    void endBatchEdit() -> d
+    java.util.ArrayList extractBatchTextEditingDeltas() -> e
+    int getComposingEnd() -> f
+    int getComposingStart() -> g
+    int getSelectionEnd() -> h
+    int getSelectionStart() -> i
+    void notifyListener(io.flutter.plugin.editing.ListenableEditingState$EditingStateWatcher,boolean,boolean,boolean) -> j
+    void notifyListenersIfNeeded(boolean,boolean,boolean) -> k
+    void removeEditingStateListener(io.flutter.plugin.editing.ListenableEditingState$EditingStateWatcher) -> l
+    void setComposingRange(int,int) -> m
+    void setEditingState(io.flutter.embedding.engine.systemchannels.TextInputChannel$TextEditState) -> n
 io.flutter.plugin.editing.ListenableEditingState$1 -> io.flutter.plugin.editing.c$a:
     android.text.Editable val$self -> a
 io.flutter.plugin.editing.ListenableEditingState$EditingStateWatcher -> io.flutter.plugin.editing.c$b:
     void didChangeEditingState(boolean,boolean,boolean) -> a
-io.flutter.plugin.editing.TextInputPlugin -> io.flutter.plugin.editing.d:
+io.flutter.plugin.editing.TextEditingDelta -> io.flutter.plugin.editing.d:
+    java.lang.CharSequence oldText -> a
+    java.lang.CharSequence deltaText -> b
+    int newComposingEnd -> h
+    int newSelectionEnd -> f
+    int newComposingStart -> g
+    int deltaEnd -> d
+    int newSelectionStart -> e
+    int deltaStart -> c
+    void setDeltas(java.lang.CharSequence,java.lang.CharSequence,int,int) -> a
+    org.json.JSONObject toJSON() -> b
+io.flutter.plugin.editing.TextInputPlugin -> io.flutter.plugin.editing.e:
     android.view.autofill.AutofillManager afm -> c
     boolean isInputConnectionLocked -> o
     io.flutter.plugin.editing.TextInputPlugin$InputTarget inputTarget -> e
@@ -28259,7 +28418,7 @@ io.flutter.plugin.editing.TextInputPlugin -> io.flutter.plugin.editing.d:
     void notifyViewEntered() -> x
     void notifyViewExited() -> y
     void onProvideAutofillVirtualStructure(android.view.ViewStructure,int) -> z
-io.flutter.plugin.editing.TextInputPlugin$1 -> io.flutter.plugin.editing.d$a:
+io.flutter.plugin.editing.TextInputPlugin$1 -> io.flutter.plugin.editing.e$a:
     io.flutter.plugin.editing.TextInputPlugin this$0 -> a
     void sendAppPrivateCommand(java.lang.String,android.os.Bundle) -> a
     void clearClient() -> b
@@ -28271,21 +28430,21 @@ io.flutter.plugin.editing.TextInputPlugin$1 -> io.flutter.plugin.editing.d$a:
     void finishAutofillContext(boolean) -> h
     void hide() -> i
     void setEditingState(io.flutter.embedding.engine.systemchannels.TextInputChannel$TextEditState) -> j
-io.flutter.plugin.editing.TextInputPlugin$2 -> io.flutter.plugin.editing.d$b:
+io.flutter.plugin.editing.TextInputPlugin$2 -> io.flutter.plugin.editing.e$b:
     double[] val$matrix -> b
     double[] val$minMax -> c
     boolean val$isAffine -> a
     void inspect(double,double) -> a
-io.flutter.plugin.editing.TextInputPlugin$InputTarget -> io.flutter.plugin.editing.d$c:
+io.flutter.plugin.editing.TextInputPlugin$InputTarget -> io.flutter.plugin.editing.e$c:
     io.flutter.plugin.editing.TextInputPlugin$InputTarget$Type type -> a
     int id -> b
-io.flutter.plugin.editing.TextInputPlugin$InputTarget$Type -> io.flutter.plugin.editing.d$c$a:
+io.flutter.plugin.editing.TextInputPlugin$InputTarget$Type -> io.flutter.plugin.editing.e$c$a:
     io.flutter.plugin.editing.TextInputPlugin$InputTarget$Type VD_PLATFORM_VIEW -> m
     io.flutter.plugin.editing.TextInputPlugin$InputTarget$Type HC_PLATFORM_VIEW -> n
     io.flutter.plugin.editing.TextInputPlugin$InputTarget$Type NO_TARGET -> k
     io.flutter.plugin.editing.TextInputPlugin$InputTarget$Type FRAMEWORK_CLIENT -> l
     io.flutter.plugin.editing.TextInputPlugin$InputTarget$Type[] $VALUES -> o
-io.flutter.plugin.editing.TextInputPlugin$MinMax -> io.flutter.plugin.editing.d$d:
+io.flutter.plugin.editing.TextInputPlugin$MinMax -> io.flutter.plugin.editing.e$d:
     void inspect(double,double) -> a
 io.flutter.plugin.localization.LocalizationPlugin -> d.a.c.b.a:
     io.flutter.embedding.engine.systemchannels.LocalizationChannel$LocalizationMessageHandler localizationMessageHandler -> c
@@ -28423,64 +28582,63 @@ io.flutter.plugin.platform.PlatformViewsController -> io.flutter.plugin.platform
     android.util.SparseArray platformViews -> k
     android.view.View flutterView -> d
     android.util.SparseArray platformViewParent -> l
-    io.flutter.embedding.engine.FlutterOverlaySurface createOverlaySurface(io.flutter.embedding.android.FlutterImageView) -> A
-    void destroyOverlaySurfaces() -> B
-    void detach() -> C
-    void detachFromView() -> D
-    void detachTextInputPlugin() -> E
-    void finishFrame(boolean) -> F
-    void flushAllViews() -> G
-    float getDisplayDensity() -> H
-    io.flutter.plugin.platform.PlatformViewRegistry getRegistry() -> I
-    void initializePlatformViewIfNeeded(int) -> J
-    void initializeRootImageViewIfNeeded() -> K
-    void lambda$initializePlatformViewIfNeeded$0(int,android.view.View,boolean) -> L
-    void lambda$initializePlatformViewIfNeeded$0$PlatformViewsController(int,android.view.View,boolean) -> M
-    void lambda$onEndFrame$1() -> N
-    void lambda$onEndFrame$1$PlatformViewsController() -> O
-    void lockInputConnection(io.flutter.plugin.platform.VirtualDisplayController) -> P
-    void onAttachedToJNI() -> Q
-    void onBeginFrame() -> R
-    void onDetachedFromJNI() -> S
-    void onDisplayOverlaySurface(int,int,int,int,int) -> T
-    void onDisplayPlatformView(int,int,int,int,int,int,int,io.flutter.embedding.engine.mutatorsstack.FlutterMutatorsStack) -> U
-    void onEndFrame() -> V
-    void onPreEngineRestart() -> W
-    android.view.MotionEvent$PointerCoords parsePointerCoords(java.lang.Object,float) -> X
-    java.util.List parsePointerCoordsList(java.lang.Object,float) -> Y
-    android.view.MotionEvent$PointerProperties parsePointerProperties(java.lang.Object) -> Z
+    void destroyOverlaySurfaces() -> A
+    void detach() -> B
+    void detachFromView() -> C
+    void detachTextInputPlugin() -> D
+    void finishFrame(boolean) -> E
+    void flushAllViews() -> F
+    float getDisplayDensity() -> G
+    io.flutter.plugin.platform.PlatformViewRegistry getRegistry() -> H
+    void initializePlatformViewIfNeeded(int) -> I
+    void initializeRootImageViewIfNeeded() -> J
+    void lambda$initializePlatformViewIfNeeded$0(int,android.view.View,boolean) -> K
+    void lambda$initializePlatformViewIfNeeded$0$PlatformViewsController(int,android.view.View,boolean) -> L
+    void lambda$onEndFrame$1() -> M
+    void lambda$onEndFrame$1$PlatformViewsController() -> N
+    void lockInputConnection(io.flutter.plugin.platform.VirtualDisplayController) -> O
+    void onAttachedToJNI() -> P
+    void onBeginFrame() -> Q
+    void onDetachedFromJNI() -> R
+    void onDisplayOverlaySurface(int,int,int,int,int) -> S
+    void onDisplayPlatformView(int,int,int,int,int,int,int,io.flutter.embedding.engine.mutatorsstack.FlutterMutatorsStack) -> T
+    void onEndFrame() -> U
+    void onPreEngineRestart() -> V
+    android.view.MotionEvent$PointerCoords parsePointerCoords(java.lang.Object,float) -> W
+    java.util.List parsePointerCoordsList(java.lang.Object,float) -> X
+    android.view.MotionEvent$PointerProperties parsePointerProperties(java.lang.Object) -> Y
+    java.util.List parsePointerPropertiesList(java.lang.Object) -> Z
     void attachAccessibilityBridge(io.flutter.view.AccessibilityBridge) -> a
-    java.util.List parsePointerPropertiesList(java.lang.Object) -> a0
+    android.view.MotionEvent toMotionEvent(float,io.flutter.embedding.engine.systemchannels.PlatformViewsChannel$PlatformViewTouch,boolean) -> a0
     void detachAccessibiltyBridge() -> b
-    android.view.MotionEvent toMotionEvent(float,io.flutter.embedding.engine.systemchannels.PlatformViewsChannel$PlatformViewTouch,boolean) -> b0
+    int toPhysicalPixels(double) -> b0
     android.view.View getPlatformViewById(java.lang.Integer) -> c
-    int toPhysicalPixels(double) -> c0
+    void unlockInputConnection(io.flutter.plugin.platform.VirtualDisplayController) -> c0
     boolean usesVirtualDisplay(java.lang.Integer) -> d
-    void unlockInputConnection(io.flutter.plugin.platform.VirtualDisplayController) -> d0
+    boolean validateDirection(int) -> d0
     boolean access$000(int) -> e
-    boolean validateDirection(int) -> e0
+    void validateVirtualDisplayDimensions(int,int) -> e0
     io.flutter.plugin.platform.PlatformViewRegistryImpl access$100(io.flutter.plugin.platform.PlatformViewsController) -> f
-    void validateVirtualDisplayDimensions(int,int) -> f0
-    java.util.HashMap access$1000(io.flutter.plugin.platform.PlatformViewsController) -> g
-    io.flutter.plugin.editing.TextInputPlugin access$1100(io.flutter.plugin.platform.PlatformViewsController) -> h
+    io.flutter.plugin.editing.TextInputPlugin access$1000(io.flutter.plugin.platform.PlatformViewsController) -> g
+    void access$1100(io.flutter.plugin.platform.PlatformViewsController,io.flutter.plugin.platform.VirtualDisplayController) -> h
     void access$1200(io.flutter.plugin.platform.PlatformViewsController,io.flutter.plugin.platform.VirtualDisplayController) -> i
-    void access$1300(io.flutter.plugin.platform.PlatformViewsController,io.flutter.plugin.platform.VirtualDisplayController) -> j
-    boolean access$1402(io.flutter.plugin.platform.PlatformViewsController,boolean) -> k
-    io.flutter.embedding.engine.systemchannels.PlatformViewsChannel access$1500(io.flutter.plugin.platform.PlatformViewsController) -> l
-    android.content.Context access$200(io.flutter.plugin.platform.PlatformViewsController) -> m
-    android.util.SparseArray access$300(io.flutter.plugin.platform.PlatformViewsController) -> n
-    android.util.SparseArray access$400(io.flutter.plugin.platform.PlatformViewsController) -> o
-    int access$500(io.flutter.plugin.platform.PlatformViewsController,double) -> p
-    void access$600(io.flutter.plugin.platform.PlatformViewsController,int,int) -> q
-    io.flutter.view.TextureRegistry access$700(io.flutter.plugin.platform.PlatformViewsController) -> r
-    io.flutter.plugin.platform.AccessibilityEventsDelegate access$800(io.flutter.plugin.platform.PlatformViewsController) -> s
-    android.view.View access$900(io.flutter.plugin.platform.PlatformViewsController) -> t
-    void attach(android.content.Context,io.flutter.view.TextureRegistry,io.flutter.embedding.engine.dart.DartExecutor) -> u
-    void attachTextInputPlugin(io.flutter.plugin.editing.TextInputPlugin) -> v
-    void attachToFlutterRenderer(io.flutter.embedding.engine.renderer.FlutterRenderer) -> w
-    void attachToView(android.view.View) -> x
-    boolean checkInputConnectionProxy(android.view.View) -> y
-    io.flutter.embedding.engine.FlutterOverlaySurface createOverlaySurface() -> z
+    boolean access$1302(io.flutter.plugin.platform.PlatformViewsController,boolean) -> j
+    io.flutter.embedding.engine.systemchannels.PlatformViewsChannel access$1400(io.flutter.plugin.platform.PlatformViewsController) -> k
+    android.content.Context access$200(io.flutter.plugin.platform.PlatformViewsController) -> l
+    android.util.SparseArray access$300(io.flutter.plugin.platform.PlatformViewsController) -> m
+    android.util.SparseArray access$400(io.flutter.plugin.platform.PlatformViewsController) -> n
+    int access$500(io.flutter.plugin.platform.PlatformViewsController,double) -> o
+    void access$600(io.flutter.plugin.platform.PlatformViewsController,int,int) -> p
+    io.flutter.view.TextureRegistry access$700(io.flutter.plugin.platform.PlatformViewsController) -> q
+    io.flutter.plugin.platform.AccessibilityEventsDelegate access$800(io.flutter.plugin.platform.PlatformViewsController) -> r
+    android.view.View access$900(io.flutter.plugin.platform.PlatformViewsController) -> s
+    void attach(android.content.Context,io.flutter.view.TextureRegistry,io.flutter.embedding.engine.dart.DartExecutor) -> t
+    void attachTextInputPlugin(io.flutter.plugin.editing.TextInputPlugin) -> u
+    void attachToFlutterRenderer(io.flutter.embedding.engine.renderer.FlutterRenderer) -> v
+    void attachToView(android.view.View) -> w
+    boolean checkInputConnectionProxy(android.view.View) -> x
+    io.flutter.embedding.engine.FlutterOverlaySurface createOverlaySurface() -> y
+    io.flutter.embedding.engine.FlutterOverlaySurface createOverlaySurface(io.flutter.embedding.android.FlutterImageView) -> z
 io.flutter.plugin.platform.PlatformViewsController$1 -> io.flutter.plugin.platform.k$a:
     io.flutter.plugin.platform.PlatformViewsController this$0 -> a
     void clearFocus(int) -> a
@@ -29785,8 +29943,9 @@ io.flutter.view.AccessibilityBridge -> io.flutter.view.c:
     int accessibilityFeatureFlags -> l
     java.util.List flutterNavigationStack -> p
     io.flutter.plugin.platform.PlatformViewsAccessibilityDelegate platformViewsAccessibilityDelegate -> e
+    int FIRST_RESOURCE_ID -> A
     io.flutter.view.AccessibilityBridge$OnAccessibilityChangeListener onAccessibilityChangeListener -> s
-    int FIRST_RESOURCE_ID -> y
+    int SCROLLABLE_ACTIONS -> y
     io.flutter.view.AccessibilityBridge$SemanticsNode lastInputFocusedSemanticsNode -> n
     android.database.ContentObserver animationScaleObserver -> x
     android.view.View rootAccessibilityView -> a
@@ -29798,6 +29957,7 @@ io.flutter.view.AccessibilityBridge -> io.flutter.view.c:
     android.view.accessibility.AccessibilityManager$TouchExplorationStateChangeListener touchExplorationStateChangeListener -> w
     boolean isReleased -> t
     io.flutter.embedding.engine.systemchannels.AccessibilityChannel$AccessibilityMessageHandler accessibilityMessageHandler -> u
+    int FOCUSABLE_FLAGS -> z
     io.flutter.view.AccessibilityBridge$SemanticsNode inputFocusedSemanticsNode -> m
     io.flutter.view.AccessibilityBridge$SemanticsNode hoveredObject -> o
     io.flutter.view.AccessibilityBridge$SemanticsNode accessibilityFocusedSemanticsNode -> i
@@ -29805,31 +29965,33 @@ io.flutter.view.AccessibilityBridge -> io.flutter.view.c:
     android.content.ContentResolver contentResolver -> f
     android.view.accessibility.AccessibilityManager$AccessibilityStateChangeListener accessibilityStateChangeListener -> v
     java.util.Map customAccessibilityActions -> h
-    boolean lambda$shouldSetCollectionInfo$0(io.flutter.view.AccessibilityBridge$SemanticsNode,io.flutter.view.AccessibilityBridge$SemanticsNode) -> A
-    boolean lambda$shouldSetCollectionInfo$1(io.flutter.view.AccessibilityBridge$SemanticsNode) -> B
-    android.view.accessibility.AccessibilityEvent obtainAccessibilityEvent(int,int) -> C
-    android.view.accessibility.AccessibilityNodeInfo obtainAccessibilityNodeInfo(android.view.View,int) -> D
-    boolean onAccessibilityHoverEvent(android.view.MotionEvent) -> E
-    void onTouchExplorationExit() -> F
-    void onWindowNameChange(io.flutter.view.AccessibilityBridge$SemanticsNode) -> G
-    boolean performCursorMoveAction(io.flutter.view.AccessibilityBridge$SemanticsNode,int,android.os.Bundle,boolean) -> H
-    boolean performSetText(io.flutter.view.AccessibilityBridge$SemanticsNode,int,android.os.Bundle) -> I
-    void predictCursorMovement(io.flutter.view.AccessibilityBridge$SemanticsNode,int,boolean,boolean) -> J
-    void release() -> K
-    void sendAccessibilityEvent(int,int) -> L
-    void sendAccessibilityEvent(android.view.accessibility.AccessibilityEvent) -> M
-    void sendLatestAccessibilityFlagsToFlutter() -> N
-    void sendWindowContentChangeEvent(int) -> O
-    void setAccessibilityPaneTitle(java.lang.String) -> P
-    void setOnAccessibilityChangeListener(io.flutter.view.AccessibilityBridge$OnAccessibilityChangeListener) -> Q
-    boolean shouldSetCollectionInfo(io.flutter.view.AccessibilityBridge$SemanticsNode) -> R
-    void updateCustomAccessibilityActions(java.nio.ByteBuffer,java.lang.String[]) -> S
-    void updateSemantics(java.nio.ByteBuffer,java.lang.String[],java.nio.ByteBuffer[]) -> T
-    void willRemoveSemanticsNode(io.flutter.view.AccessibilityBridge$SemanticsNode) -> U
+    boolean isAccessibilityEnabled() -> A
+    boolean isTouchExplorationEnabled() -> B
+    boolean lambda$shouldSetCollectionInfo$0(io.flutter.view.AccessibilityBridge$SemanticsNode,io.flutter.view.AccessibilityBridge$SemanticsNode) -> C
+    boolean lambda$shouldSetCollectionInfo$1(io.flutter.view.AccessibilityBridge$SemanticsNode) -> D
+    android.view.accessibility.AccessibilityEvent obtainAccessibilityEvent(int,int) -> E
+    android.view.accessibility.AccessibilityNodeInfo obtainAccessibilityNodeInfo(android.view.View,int) -> F
+    boolean onAccessibilityHoverEvent(android.view.MotionEvent) -> G
+    void onTouchExplorationExit() -> H
+    void onWindowNameChange(io.flutter.view.AccessibilityBridge$SemanticsNode) -> I
+    boolean performCursorMoveAction(io.flutter.view.AccessibilityBridge$SemanticsNode,int,android.os.Bundle,boolean) -> J
+    boolean performSetText(io.flutter.view.AccessibilityBridge$SemanticsNode,int,android.os.Bundle) -> K
+    void predictCursorMovement(io.flutter.view.AccessibilityBridge$SemanticsNode,int,boolean,boolean) -> L
+    void release() -> M
+    void sendAccessibilityEvent(int,int) -> N
+    void sendAccessibilityEvent(android.view.accessibility.AccessibilityEvent) -> O
+    void sendLatestAccessibilityFlagsToFlutter() -> P
+    void sendWindowContentChangeEvent(int) -> Q
+    void setAccessibilityPaneTitle(java.lang.String) -> R
+    void setOnAccessibilityChangeListener(io.flutter.view.AccessibilityBridge$OnAccessibilityChangeListener) -> S
+    boolean shouldSetCollectionInfo(io.flutter.view.AccessibilityBridge$SemanticsNode) -> T
+    void updateCustomAccessibilityActions(java.nio.ByteBuffer,java.lang.String[]) -> U
+    void updateSemantics(java.nio.ByteBuffer,java.lang.String[],java.nio.ByteBuffer[]) -> V
+    void willRemoveSemanticsNode(io.flutter.view.AccessibilityBridge$SemanticsNode) -> W
     android.view.View access$100(io.flutter.view.AccessibilityBridge) -> a
     android.content.ContentResolver access$1000(io.flutter.view.AccessibilityBridge) -> b
-    int access$1100(io.flutter.view.AccessibilityBridge) -> c
-    int access$1102(io.flutter.view.AccessibilityBridge,int) -> d
+    int access$1172(io.flutter.view.AccessibilityBridge,int) -> c
+    int access$1176(io.flutter.view.AccessibilityBridge,int) -> d
     void access$1200(io.flutter.view.AccessibilityBridge) -> e
     void access$1300(io.flutter.view.AccessibilityBridge) -> f
     void access$200(io.flutter.view.AccessibilityBridge,int,int) -> g
@@ -29837,21 +29999,21 @@ io.flutter.view.AccessibilityBridge -> io.flutter.view.c:
     void access$400(io.flutter.view.AccessibilityBridge,android.view.accessibility.AccessibilityEvent) -> i
     boolean access$500(io.flutter.view.AccessibilityBridge) -> j
     io.flutter.embedding.engine.systemchannels.AccessibilityChannel$AccessibilityMessageHandler access$600(io.flutter.view.AccessibilityBridge) -> k
-    io.flutter.view.AccessibilityBridge$SemanticsNode access$6500(io.flutter.view.AccessibilityBridge,int) -> l
-    io.flutter.view.AccessibilityBridge$CustomAccessibilityAction access$6600(io.flutter.view.AccessibilityBridge,int) -> m
+    io.flutter.view.AccessibilityBridge$SemanticsNode access$6600(io.flutter.view.AccessibilityBridge,int) -> l
+    io.flutter.view.AccessibilityBridge$CustomAccessibilityAction access$6700(io.flutter.view.AccessibilityBridge,int) -> m
     io.flutter.embedding.engine.systemchannels.AccessibilityChannel access$700(io.flutter.view.AccessibilityBridge) -> n
-    io.flutter.view.AccessibilityBridge$OnAccessibilityChangeListener access$800(io.flutter.view.AccessibilityBridge) -> o
-    android.view.accessibility.AccessibilityManager access$900(io.flutter.view.AccessibilityBridge) -> p
-    android.view.accessibility.AccessibilityEvent createTextChangedEvent(int,java.lang.String,java.lang.String) -> q
-    boolean doesLayoutInDisplayCutoutModeRequireLeftInset() -> r
-    boolean externalViewRequestSendAccessibilityEvent(android.view.View,android.view.View,android.view.accessibility.AccessibilityEvent) -> s
-    android.graphics.Rect getBoundsInScreen(android.graphics.Rect) -> t
-    io.flutter.view.AccessibilityBridge$CustomAccessibilityAction getOrCreateAccessibilityAction(int) -> u
-    io.flutter.view.AccessibilityBridge$SemanticsNode getOrCreateSemanticsNode(int) -> v
-    io.flutter.view.AccessibilityBridge$SemanticsNode getRootSemanticsNode() -> w
-    void handleTouchExploration(float,float) -> x
-    boolean isAccessibilityEnabled() -> y
-    boolean isTouchExplorationEnabled() -> z
+    int access$7000() -> o
+    int access$7100() -> p
+    io.flutter.view.AccessibilityBridge$OnAccessibilityChangeListener access$800(io.flutter.view.AccessibilityBridge) -> q
+    android.view.accessibility.AccessibilityManager access$900(io.flutter.view.AccessibilityBridge) -> r
+    android.view.accessibility.AccessibilityEvent createTextChangedEvent(int,java.lang.String,java.lang.String) -> s
+    boolean doesLayoutInDisplayCutoutModeRequireLeftInset() -> t
+    boolean externalViewRequestSendAccessibilityEvent(android.view.View,android.view.View,android.view.accessibility.AccessibilityEvent) -> u
+    android.graphics.Rect getBoundsInScreen(android.graphics.Rect) -> v
+    io.flutter.view.AccessibilityBridge$CustomAccessibilityAction getOrCreateAccessibilityAction(int) -> w
+    io.flutter.view.AccessibilityBridge$SemanticsNode getOrCreateSemanticsNode(int) -> x
+    io.flutter.view.AccessibilityBridge$SemanticsNode getRootSemanticsNode() -> y
+    void handleTouchExploration(float,float) -> z
 io.flutter.view.AccessibilityBridge$1 -> io.flutter.view.c$a:
     io.flutter.view.AccessibilityBridge this$0 -> a
     void updateSemantics(java.nio.ByteBuffer,java.lang.String[],java.nio.ByteBuffer[]) -> a
@@ -29908,14 +30070,14 @@ io.flutter.view.AccessibilityBridge$CustomAccessibilityAction -> io.flutter.view
     java.lang.String label -> d
     java.lang.String access$2900(io.flutter.view.AccessibilityBridge$CustomAccessibilityAction) -> a
     java.lang.String access$2902(io.flutter.view.AccessibilityBridge$CustomAccessibilityAction,java.lang.String) -> b
-    int access$3300(io.flutter.view.AccessibilityBridge$CustomAccessibilityAction) -> c
-    int access$3302(io.flutter.view.AccessibilityBridge$CustomAccessibilityAction,int) -> d
-    java.lang.String access$3400(io.flutter.view.AccessibilityBridge$CustomAccessibilityAction) -> e
-    java.lang.String access$3402(io.flutter.view.AccessibilityBridge$CustomAccessibilityAction,java.lang.String) -> f
-    int access$4100(io.flutter.view.AccessibilityBridge$CustomAccessibilityAction) -> g
-    int access$4102(io.flutter.view.AccessibilityBridge$CustomAccessibilityAction,int) -> h
-    int access$4300(io.flutter.view.AccessibilityBridge$CustomAccessibilityAction) -> i
-    int access$4302(io.flutter.view.AccessibilityBridge$CustomAccessibilityAction,int) -> j
+    int access$3400(io.flutter.view.AccessibilityBridge$CustomAccessibilityAction) -> c
+    int access$3402(io.flutter.view.AccessibilityBridge$CustomAccessibilityAction,int) -> d
+    java.lang.String access$3500(io.flutter.view.AccessibilityBridge$CustomAccessibilityAction) -> e
+    java.lang.String access$3502(io.flutter.view.AccessibilityBridge$CustomAccessibilityAction,java.lang.String) -> f
+    int access$4200(io.flutter.view.AccessibilityBridge$CustomAccessibilityAction) -> g
+    int access$4202(io.flutter.view.AccessibilityBridge$CustomAccessibilityAction,int) -> h
+    int access$4400(io.flutter.view.AccessibilityBridge$CustomAccessibilityAction) -> i
+    int access$4402(io.flutter.view.AccessibilityBridge$CustomAccessibilityAction,int) -> j
 io.flutter.view.AccessibilityBridge$Flag -> io.flutter.view.c$i:
     io.flutter.view.AccessibilityBridge$Flag IS_BUTTON -> o
     io.flutter.view.AccessibilityBridge$Flag IS_CHECKED -> m
@@ -29949,127 +30111,131 @@ io.flutter.view.AccessibilityBridge$OnAccessibilityChangeListener -> io.flutter.
     void onAccessibilityChanged(boolean,boolean) -> a
 io.flutter.view.AccessibilityBridge$SemanticsNode -> io.flutter.view.c$l:
     java.util.List labelAttributes -> p
-    float right -> J
-    java.util.List childrenInHitTestOrder -> O
+    float top -> J
+    java.util.List childrenInTraversalOrder -> O
     int textSelectionExtent -> h
     java.util.List increasedValueAttributes -> t
+    float previousScrollPosition -> F
     int actions -> d
     java.util.List hintAttributes -> x
-    int previousTextSelectionBase -> C
-    io.flutter.view.AccessibilityBridge$SemanticsNode parent -> M
-    int previousNodeId -> y
-    android.graphics.Rect globalRect -> W
-    io.flutter.view.AccessibilityBridge$CustomAccessibilityAction onTapOverride -> Q
+    int previousActions -> C
+    boolean inverseTransformDirty -> T
+    float[] globalTransform -> W
     float scrollPosition -> l
-    float bottom -> K
-    float[] transform -> L
+    float right -> K
+    java.lang.String previousLabel -> H
     int platformViewId -> i
-    boolean globalGeometryDirty -> U
     java.lang.String value -> q
-    int previousTextSelectionExtent -> D
+    int previousTextSelectionBase -> D
     int maxValueLength -> e
     java.lang.String decreasedValue -> u
-    boolean hadPreviousConfig -> z
-    float[] inverseTransform -> T
-    java.util.List childrenInTraversalOrder -> N
+    java.lang.String tooltip -> y
+    int previousNodeId -> z
+    io.flutter.view.AccessibilityBridge$SemanticsNode parent -> N
+    android.graphics.Rect globalRect -> X
     java.util.List valueAttributes -> r
-    java.lang.String previousLabel -> G
+    java.lang.String previousValue -> G
+    float bottom -> L
+    float[] transform -> M
+    java.util.List customAccessibilityActions -> Q
     int scrollChildren -> j
     java.util.List decreasedValueAttributes -> v
-    float left -> H
     int currentValueLength -> f
+    boolean globalGeometryDirty -> V
+    int previousTextSelectionExtent -> E
     int id -> b
-    int previousFlags -> A
+    float[] inverseTransform -> U
+    boolean hadPreviousConfig -> A
+    io.flutter.view.AccessibilityBridge$CustomAccessibilityAction onLongPressOverride -> S
     float scrollExtentMax -> m
-    java.lang.String previousValue -> F
-    java.util.List customAccessibilityActions -> P
-    float top -> I
+    java.util.List childrenInHitTestOrder -> P
+    float left -> I
     int scrollIndex -> k
-    float previousScrollPosition -> E
     java.lang.String label -> o
     int textSelectionBase -> g
     io.flutter.view.AccessibilityBridge accessibilityBridge -> a
     java.lang.String increasedValue -> s
-    int previousActions -> B
+    int previousFlags -> B
     int flags -> c
-    boolean inverseTransformDirty -> S
     java.lang.String hint -> w
-    float[] globalTransform -> V
-    io.flutter.view.AccessibilityBridge$CustomAccessibilityAction onLongPressOverride -> R
+    io.flutter.view.AccessibilityBridge$CustomAccessibilityAction onTapOverride -> R
     float scrollExtentMin -> n
-    java.util.List access$3702(io.flutter.view.AccessibilityBridge$SemanticsNode,java.util.List) -> A
-    java.util.List access$3800(io.flutter.view.AccessibilityBridge$SemanticsNode) -> B
-    java.lang.String access$3900(io.flutter.view.AccessibilityBridge$SemanticsNode) -> C
-    java.util.List access$4000(io.flutter.view.AccessibilityBridge$SemanticsNode) -> D
-    io.flutter.view.AccessibilityBridge$SemanticsNode access$4200(io.flutter.view.AccessibilityBridge$SemanticsNode,float[]) -> E
-    void access$4400(io.flutter.view.AccessibilityBridge$SemanticsNode,java.nio.ByteBuffer,java.lang.String[],java.nio.ByteBuffer[]) -> F
-    boolean access$4500(io.flutter.view.AccessibilityBridge$SemanticsNode) -> G
-    boolean access$4602(io.flutter.view.AccessibilityBridge$SemanticsNode,boolean) -> H
-    boolean access$4702(io.flutter.view.AccessibilityBridge$SemanticsNode,boolean) -> I
-    void access$4800(io.flutter.view.AccessibilityBridge$SemanticsNode,float[],java.util.Set,boolean) -> J
-    void access$4900(io.flutter.view.AccessibilityBridge$SemanticsNode,java.util.List) -> K
-    boolean access$5000(io.flutter.view.AccessibilityBridge$SemanticsNode) -> L
-    float access$5100(io.flutter.view.AccessibilityBridge$SemanticsNode) -> M
-    float access$5200(io.flutter.view.AccessibilityBridge$SemanticsNode) -> N
-    float access$5300(io.flutter.view.AccessibilityBridge$SemanticsNode) -> O
-    boolean access$5400(io.flutter.view.AccessibilityBridge$SemanticsNode,io.flutter.view.AccessibilityBridge$Action) -> P
-    int access$5500(io.flutter.view.AccessibilityBridge$SemanticsNode) -> Q
-    java.util.List access$5600(io.flutter.view.AccessibilityBridge$SemanticsNode) -> R
-    boolean access$5700(io.flutter.view.AccessibilityBridge$SemanticsNode) -> S
-    boolean access$5800(io.flutter.view.AccessibilityBridge$SemanticsNode,io.flutter.view.AccessibilityBridge$Flag) -> T
-    java.lang.String access$5900(io.flutter.view.AccessibilityBridge$SemanticsNode) -> U
-    java.lang.String access$6000(io.flutter.view.AccessibilityBridge$SemanticsNode) -> V
-    int access$6100(io.flutter.view.AccessibilityBridge$SemanticsNode) -> W
-    int access$6200(io.flutter.view.AccessibilityBridge$SemanticsNode) -> X
-    java.lang.String access$6300(io.flutter.view.AccessibilityBridge$SemanticsNode) -> Y
-    void collectRoutes(java.util.List) -> Z
+    java.util.List access$3300(io.flutter.view.AccessibilityBridge$SemanticsNode) -> A
+    java.util.List access$3600(io.flutter.view.AccessibilityBridge$SemanticsNode) -> B
+    java.lang.String access$3700(io.flutter.view.AccessibilityBridge$SemanticsNode) -> C
+    java.util.List access$3802(io.flutter.view.AccessibilityBridge$SemanticsNode,java.util.List) -> D
+    java.util.List access$3900(io.flutter.view.AccessibilityBridge$SemanticsNode) -> E
+    java.lang.String access$4000(io.flutter.view.AccessibilityBridge$SemanticsNode) -> F
+    java.util.List access$4100(io.flutter.view.AccessibilityBridge$SemanticsNode) -> G
+    io.flutter.view.AccessibilityBridge$SemanticsNode access$4300(io.flutter.view.AccessibilityBridge$SemanticsNode,float[]) -> H
+    void access$4500(io.flutter.view.AccessibilityBridge$SemanticsNode,java.nio.ByteBuffer,java.lang.String[],java.nio.ByteBuffer[]) -> I
+    boolean access$4600(io.flutter.view.AccessibilityBridge$SemanticsNode) -> J
+    boolean access$4702(io.flutter.view.AccessibilityBridge$SemanticsNode,boolean) -> K
+    boolean access$4802(io.flutter.view.AccessibilityBridge$SemanticsNode,boolean) -> L
+    void access$4900(io.flutter.view.AccessibilityBridge$SemanticsNode,float[],java.util.Set,boolean) -> M
+    void access$5000(io.flutter.view.AccessibilityBridge$SemanticsNode,java.util.List) -> N
+    boolean access$5100(io.flutter.view.AccessibilityBridge$SemanticsNode) -> O
+    float access$5200(io.flutter.view.AccessibilityBridge$SemanticsNode) -> P
+    float access$5300(io.flutter.view.AccessibilityBridge$SemanticsNode) -> Q
+    float access$5400(io.flutter.view.AccessibilityBridge$SemanticsNode) -> R
+    boolean access$5500(io.flutter.view.AccessibilityBridge$SemanticsNode,io.flutter.view.AccessibilityBridge$Action) -> S
+    int access$5600(io.flutter.view.AccessibilityBridge$SemanticsNode) -> T
+    java.util.List access$5700(io.flutter.view.AccessibilityBridge$SemanticsNode) -> U
+    boolean access$5800(io.flutter.view.AccessibilityBridge$SemanticsNode) -> V
+    boolean access$5900(io.flutter.view.AccessibilityBridge$SemanticsNode,io.flutter.view.AccessibilityBridge$Flag) -> W
+    java.lang.String access$6000(io.flutter.view.AccessibilityBridge$SemanticsNode) -> X
+    java.lang.String access$6100(io.flutter.view.AccessibilityBridge$SemanticsNode) -> Y
+    int access$6200(io.flutter.view.AccessibilityBridge$SemanticsNode) -> Z
     int access$000(io.flutter.view.AccessibilityBridge$SemanticsNode) -> a
-    android.text.SpannableString createSpannableString(java.lang.String,java.util.List) -> a0
+    int access$6300(io.flutter.view.AccessibilityBridge$SemanticsNode) -> a0
     int access$002(io.flutter.view.AccessibilityBridge$SemanticsNode,int) -> b
-    boolean didChangeLabel() -> b0
+    java.lang.String access$6400(io.flutter.view.AccessibilityBridge$SemanticsNode) -> b0
     int access$1400(io.flutter.view.AccessibilityBridge$SemanticsNode) -> c
-    boolean didScroll() -> c0
+    void collectRoutes(java.util.List) -> c0
     boolean access$1500(io.flutter.view.AccessibilityBridge$SemanticsNode,io.flutter.util.Predicate) -> d
-    void ensureInverseTransform() -> d0
+    android.text.SpannableString createSpannableString(java.lang.String,java.util.List) -> d0
     int access$1600(io.flutter.view.AccessibilityBridge$SemanticsNode) -> e
-    io.flutter.view.AccessibilityBridge$SemanticsNode getAncestor(io.flutter.util.Predicate) -> e0
+    boolean didChangeLabel() -> e0
     android.graphics.Rect access$1700(io.flutter.view.AccessibilityBridge$SemanticsNode) -> f
-    android.graphics.Rect getGlobalRect() -> f0
+    boolean didScroll() -> f0
     boolean access$1800(io.flutter.view.AccessibilityBridge$SemanticsNode) -> g
-    java.lang.String getRouteName() -> g0
+    void ensureInverseTransform() -> g0
     boolean access$1900(io.flutter.view.AccessibilityBridge$SemanticsNode,io.flutter.view.AccessibilityBridge$Flag) -> h
-    java.util.List getStringAttributesFromBuffer(java.nio.ByteBuffer,java.nio.ByteBuffer[]) -> h0
+    io.flutter.view.AccessibilityBridge$SemanticsNode getAncestor(io.flutter.util.Predicate) -> h0
     int access$2000(io.flutter.view.AccessibilityBridge$SemanticsNode) -> i
-    java.lang.CharSequence getValueLabelHint() -> i0
+    android.graphics.Rect getGlobalRect() -> i0
     int access$2002(io.flutter.view.AccessibilityBridge$SemanticsNode,int) -> j
-    boolean hadAction(io.flutter.view.AccessibilityBridge$Action) -> j0
+    java.lang.String getRouteName() -> j0
     int access$2100(io.flutter.view.AccessibilityBridge$SemanticsNode) -> k
-    boolean hadFlag(io.flutter.view.AccessibilityBridge$Flag) -> k0
+    java.util.List getStringAttributesFromBuffer(java.nio.ByteBuffer,java.nio.ByteBuffer[]) -> k0
     int access$2102(io.flutter.view.AccessibilityBridge$SemanticsNode,int) -> l
-    boolean hasAction(io.flutter.view.AccessibilityBridge$Action) -> l0
-    boolean access$2200(io.flutter.view.AccessibilityBridge$SemanticsNode,io.flutter.view.AccessibilityBridge$Action) -> m
-    boolean hasFlag(io.flutter.view.AccessibilityBridge$Flag) -> m0
-    int access$2300(io.flutter.view.AccessibilityBridge$SemanticsNode) -> n
-    io.flutter.view.AccessibilityBridge$SemanticsNode hitTest(float[]) -> n0
-    java.lang.String access$2400(io.flutter.view.AccessibilityBridge$SemanticsNode) -> o
-    boolean isFocusable() -> o0
-    java.lang.String access$2402(io.flutter.view.AccessibilityBridge$SemanticsNode,java.lang.String) -> p
-    float max(float,float,float,float) -> p0
-    int access$2500(io.flutter.view.AccessibilityBridge$SemanticsNode) -> q
-    float min(float,float,float,float) -> q0
-    io.flutter.view.AccessibilityBridge$SemanticsNode access$2600(io.flutter.view.AccessibilityBridge$SemanticsNode) -> r
-    boolean nullableHasAncestor(io.flutter.view.AccessibilityBridge$SemanticsNode,io.flutter.util.Predicate) -> r0
-    io.flutter.view.AccessibilityBridge$SemanticsNode access$2602(io.flutter.view.AccessibilityBridge$SemanticsNode,io.flutter.view.AccessibilityBridge$SemanticsNode) -> s
-    void transformPoint(float[],float[],float[]) -> s0
-    int access$2700(io.flutter.view.AccessibilityBridge$SemanticsNode) -> t
-    void updateRecursively(float[],java.util.Set,boolean) -> t0
-    io.flutter.view.AccessibilityBridge$CustomAccessibilityAction access$2800(io.flutter.view.AccessibilityBridge$SemanticsNode) -> u
-    void updateWith(java.nio.ByteBuffer,java.lang.String[],java.nio.ByteBuffer[]) -> u0
-    io.flutter.view.AccessibilityBridge$CustomAccessibilityAction access$3000(io.flutter.view.AccessibilityBridge$SemanticsNode) -> v
-    java.lang.CharSequence access$3100(io.flutter.view.AccessibilityBridge$SemanticsNode) -> w
-    java.util.List access$3200(io.flutter.view.AccessibilityBridge$SemanticsNode) -> x
-    java.util.List access$3500(io.flutter.view.AccessibilityBridge$SemanticsNode) -> y
-    java.lang.String access$3600(io.flutter.view.AccessibilityBridge$SemanticsNode) -> z
+    java.lang.CharSequence getValueLabelHint() -> l0
+    int access$2112(io.flutter.view.AccessibilityBridge$SemanticsNode,int) -> m
+    boolean hadAction(io.flutter.view.AccessibilityBridge$Action) -> m0
+    int access$2120(io.flutter.view.AccessibilityBridge$SemanticsNode,int) -> n
+    boolean hadFlag(io.flutter.view.AccessibilityBridge$Flag) -> n0
+    boolean access$2200(io.flutter.view.AccessibilityBridge$SemanticsNode,io.flutter.view.AccessibilityBridge$Action) -> o
+    boolean hasAction(io.flutter.view.AccessibilityBridge$Action) -> o0
+    int access$2300(io.flutter.view.AccessibilityBridge$SemanticsNode) -> p
+    boolean hasFlag(io.flutter.view.AccessibilityBridge$Flag) -> p0
+    java.lang.String access$2400(io.flutter.view.AccessibilityBridge$SemanticsNode) -> q
+    io.flutter.view.AccessibilityBridge$SemanticsNode hitTest(float[]) -> q0
+    java.lang.String access$2402(io.flutter.view.AccessibilityBridge$SemanticsNode,java.lang.String) -> r
+    boolean isFocusable() -> r0
+    int access$2500(io.flutter.view.AccessibilityBridge$SemanticsNode) -> s
+    float max(float,float,float,float) -> s0
+    io.flutter.view.AccessibilityBridge$SemanticsNode access$2600(io.flutter.view.AccessibilityBridge$SemanticsNode) -> t
+    float min(float,float,float,float) -> t0
+    io.flutter.view.AccessibilityBridge$SemanticsNode access$2602(io.flutter.view.AccessibilityBridge$SemanticsNode,io.flutter.view.AccessibilityBridge$SemanticsNode) -> u
+    boolean nullableHasAncestor(io.flutter.view.AccessibilityBridge$SemanticsNode,io.flutter.util.Predicate) -> u0
+    int access$2700(io.flutter.view.AccessibilityBridge$SemanticsNode) -> v
+    void transformPoint(float[],float[],float[]) -> v0
+    io.flutter.view.AccessibilityBridge$CustomAccessibilityAction access$2800(io.flutter.view.AccessibilityBridge$SemanticsNode) -> w
+    void updateRecursively(float[],java.util.Set,boolean) -> w0
+    io.flutter.view.AccessibilityBridge$CustomAccessibilityAction access$3000(io.flutter.view.AccessibilityBridge$SemanticsNode) -> x
+    void updateWith(java.nio.ByteBuffer,java.lang.String[],java.nio.ByteBuffer[]) -> x0
+    java.lang.CharSequence access$3100(io.flutter.view.AccessibilityBridge$SemanticsNode) -> y
+    java.lang.String access$3200(io.flutter.view.AccessibilityBridge$SemanticsNode) -> z
 io.flutter.view.AccessibilityBridge$SpellOutStringAttribute -> io.flutter.view.c$m:
 io.flutter.view.AccessibilityBridge$StringAttribute -> io.flutter.view.c$n:
     io.flutter.view.AccessibilityBridge$StringAttributeType type -> c
@@ -30120,11 +30286,12 @@ io.flutter.view.TextureRegistry$SurfaceTextureEntry -> io.flutter.view.f$a:
     long id() -> b
     android.graphics.SurfaceTexture surfaceTexture() -> c
 io.flutter.view.VsyncWaiter -> io.flutter.view.g:
-    android.view.WindowManager windowManager -> a
-    io.flutter.view.VsyncWaiter instance -> c
-    io.flutter.embedding.engine.FlutterJNI$AsyncWaitForVsyncDelegate asyncWaitForVsyncDelegate -> b
-    android.view.WindowManager access$000(io.flutter.view.VsyncWaiter) -> a
-    io.flutter.view.VsyncWaiter getInstance(android.view.WindowManager) -> b
+    long refreshPeriodNanos -> b
+    float fps -> a
+    io.flutter.embedding.engine.FlutterJNI$AsyncWaitForVsyncDelegate asyncWaitForVsyncDelegate -> c
+    io.flutter.view.VsyncWaiter instance -> d
+    long access$000(io.flutter.view.VsyncWaiter) -> a
+    io.flutter.view.VsyncWaiter getInstance(float) -> b
     void init() -> c
 io.flutter.view.VsyncWaiter$1 -> io.flutter.view.g$a:
     io.flutter.view.VsyncWaiter this$0 -> a

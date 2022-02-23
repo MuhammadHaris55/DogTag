@@ -1,10 +1,10 @@
 import 'dart:io';
 
+import 'package:flutter/material.dart';
 import 'package:flutterdogtagapp/screens/appColors.dart';
 import 'package:flutterdogtagapp/screens/login.dart';
 import 'package:flutterdogtagapp/screens/register.dart';
 import 'package:flutterdogtagapp/stylingWidgets/button.dart';
-import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class Welcome extends StatefulWidget {
@@ -16,9 +16,6 @@ class _WelcomeState extends State<Welcome> {
   @override
   void initState() {}
   Future<bool> _onBackPressed() {
-    // return showDialog(context: context, builder: (BuildContext context) {});
-    // return Navigator.push(
-    //     context, MaterialPageRoute(builder: (context) => Register()));
     return showDialog(
         context: context,
         builder: (BuildContext context) {
@@ -126,23 +123,38 @@ class _WelcomeState extends State<Welcome> {
                                   style: GoogleFonts.poppins(
                                     color: themeColor,
                                     fontSize:
-                                        MediaQuery.of(context).size.width / 10,
+                                        MediaQuery.of(context).size.width / 13,
                                     fontWeight: FontWeight.bold,
                                   ),
                                 ),
-                                SizedBox(height: 5),
+                                SizedBox(height: 2),
                                 Text(
                                   "Lets get Started",
                                   style: GoogleFonts.poppins(
                                     fontWeight: FontWeight.bold,
                                     fontSize:
-                                        MediaQuery.of(context).size.width / 19,
+                                        MediaQuery.of(context).size.width / 20,
                                   ),
                                 ),
                                 SizedBox(height: 10),
-                                Text(
-                                  "Dog tag is the warden patrolling over your pet anytime, anywhere.",
-                                  style: GoogleFonts.poppins(),
+                                RichText(
+                                  text: TextSpan(
+                                    text: 'Dog tag:',
+                                    style: GoogleFonts.poppins(
+                                      color: Colors.black,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                    children: [
+                                      TextSpan(
+                                        text:
+                                            '  a community based rescue effort to help find your lost dog.',
+                                        style: GoogleFonts.poppins(
+                                          color: Colors.black,
+                                          fontWeight: FontWeight.normal,
+                                        ),
+                                      )
+                                    ],
+                                  ),
                                 ),
                               ],
                             ),
@@ -161,14 +173,15 @@ class _WelcomeState extends State<Welcome> {
                             MaterialPageRoute(builder: (context) => Login()));
                       },
                     ),
-                    SizedBox(height: 5),
-                    Text(
-                      "or",
-                      style: GoogleFonts.poppins(
-                        fontWeight: FontWeight.bold,
+                    Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 2.0),
+                      child: Text(
+                        "or",
+                        style: GoogleFonts.poppins(
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                     ),
-                    SizedBox(height: 5),
                     ElevatedButton(
                       style: buttonDesign,
                       child: button_design(screen, "SIGN UP"),

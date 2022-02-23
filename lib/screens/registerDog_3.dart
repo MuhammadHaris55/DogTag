@@ -1,9 +1,9 @@
 import 'dart:io';
 
+import 'package:flutter/material.dart';
 import 'package:flutterdogtagapp/screens/appColors.dart';
 import 'package:flutterdogtagapp/screens/dogConfirmation.dart';
 import 'package:flutterdogtagapp/stylingWidgets/button.dart';
-import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 
 class registerDog_3 extends StatefulWidget {
@@ -111,7 +111,12 @@ class _registerDog_3State extends State<registerDog_3> {
                         ),
                       ],
                     ),
-                    IconButton(icon: Icon(Icons.help), onPressed: () {})
+                    IconButton(
+                        icon: Icon(
+                          Icons.help,
+                          color: Colors.white,
+                        ),
+                        onPressed: () {})
                   ],
                 ),
               ),
@@ -121,12 +126,16 @@ class _registerDog_3State extends State<registerDog_3> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
-                      'Show us what tom \n looks like',
-                      overflow: TextOverflow.clip,
-                      style: TextStyle(
-                        fontSize: screen.width / 18,
-                        fontWeight: FontWeight.bold,
+                    Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 10.0),
+                      child: Text(
+                        // 'Show us what tom \n looks like',
+                        'Show me your dog',
+                        overflow: TextOverflow.clip,
+                        style: TextStyle(
+                          fontSize: screen.width / 18,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                     ),
                     SizedBox(height: 20.0),
@@ -242,7 +251,9 @@ class _registerDog_3State extends State<registerDog_3> {
                             ),
                           );
                         } else {
-                          final snackBar = SnackBar(content: Text('Warning!, Please select the image'));
+                          final snackBar = SnackBar(
+                              content:
+                                  Text('Warning!, Please select the image'));
                           ScaffoldMessenger.of(context).showSnackBar(snackBar);
                         }
                       },
